@@ -1,3 +1,18 @@
+<template>
+  <el-cascader
+    v-model="value"
+    placeholder="请选择"
+    :options="industryList"
+    :props="{ checkStrictly: true }"
+    clearable
+    filterable
+ 
+    style="width:400px !important"
+    @change="handleChange">
+  ></el-cascader>
+</template>
+
+<script>
 export default {
     data() {
       return {
@@ -7882,3 +7897,4 @@ export default {
       }
     }
   };
+</script>
