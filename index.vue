@@ -8,6 +8,7 @@
     filterable
     size="large"
     style="width:400px !important"
+    @change="handleChange">
   ></el-cascader>
 </template>
 
