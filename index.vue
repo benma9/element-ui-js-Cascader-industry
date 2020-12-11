@@ -2,8 +2,7879 @@ export default {
     data() {
       return {
 	        value: [],
-	        industryList: [{"label": "A: \u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4e1a", "value": "A", "children": [{"label": "01: \u519c\u4e1a", "value": "01", "children": [{"label": "011: \u8c37\u7269\u79cd\u690d", "value": "011", "children": [{"label": "0111: \u7a3b\u8c37\u79cd\u690d", "value": "0111"}, {"label": "0112: \u5c0f\u9ea6\u79cd\u690d", "value": "0112"}, {"label": "0113: \u7389\u7c73\u79cd\u690d", "value": "0113"}, {"label": "0119: \u5176\u4ed6\u8c37\u7269\u79cd\u690d", "value": "0119"}]}, {"label": "012: \u8c46\u7c7b\u3001\u6cb9\u6599\u548c\u85af\u7c7b\u79cd\u690d", "value": "012", "children": [{"label": "0121: \u8c46\u7c7b\u79cd\u690d", "value": "0121"}, {"label": "0122: \u6cb9\u6599\u79cd\u690d", "value": "0122"}, {"label": "0123: \u85af\u7c7b\u79cd\u690d", "value": "0123"}]}, {"label": "013: \u68c9\u3001\u9ebb\u3001\u7cd6\u3001\u70df\u8349\u79cd\u690d", "value": "013", "children": [{"label": "0131: \u68c9\u82b1\u79cd\u690d", "value": "0131"}, {"label": "0132: \u9ebb\u7c7b\u79cd\u690d", "value": "0132"}, {"label": "0133: \u7cd6\u6599\u79cd\u690d", "value": "0133"}, {"label": "0134: \u70df\u8349\u79cd\u690d", "value": "0134"}]}, {"label": "014: \u852c\u83dc\u3001\u98df\u7528\u83cc\u53ca\u56ed\u827a\u4f5c\u7269\u79cd\u690d", "value": "014", "children": [{"label": "0141: \u852c\u83dc\u79cd\u690d", "value": "0141"}, {"label": "0142: \u98df\u7528\u83cc\u79cd\u690d", "value": "0142"}, {"label": "0143: \u82b1\u5349\u79cd\u690d", "value": "0143"}, {"label": "0149: \u5176\u4ed6\u56ed\u827a\u4f5c\u7269\u79cd\u690d", "value": "0149"}]}, {"label": "015: \u6c34\u679c\u79cd\u690d", "value": "015", "children": [{"label": "0151: \u4ec1\u679c\u7c7b\u548c\u6838\u679c\u7c7b\u6c34\u679c\u79cd\u690d", "value": "0151"}, {"label": "0152: \u8461\u8404\u79cd\u690d", "value": "0152"}, {"label": "0153: \u67d1\u6a58\u7c7b\u79cd\u690d", "value": "0153"}, {"label": "0154: \u9999\u8549\u7b49\u4e9a\u70ed\u5e26\u6c34\u679c\u79cd\u690d", "value": "0154"}, {"label": "0159: \u5176\u4ed6\u6c34\u679c\u79cd\u690d", "value": "0159"}]}, {"label": "016: \u575a\u679c\u3001\u542b\u6cb9\u679c\u3001\u9999\u6599\u548c\u996e\u6599\u4f5c\u7269\u79cd\u690d", "value": "016", "children": [{"label": "0161: \u575a\u679c\u79cd\u690d", "value": "0161"}, {"label": "0162: \u542b\u6cb9\u679c\u79cd\u690d", "value": "0162"}, {"label": "0163: \u9999\u6599\u4f5c\u7269\u79cd\u690d", "value": "0163"}, {"label": "0164: \u8336\u53f6\u79cd\u690d", "value": "0164"}, {"label": "0169: \u5176\u4ed6\u996e\u6599\u4f5c\u7269\u79cd\u690d", "value": "0169"}]}, {"label": "017: \u4e2d\u836f\u6750\u79cd\u690d", "value": "017", "children": [{"label": "0171: \u4e2d\u8349\u836f\u79cd\u690d", "value": "0171"}, {"label": "0179: \u5176\u4ed6\u4e2d\u836f\u6750\u79cd\u690d", "value": "0179"}]}, {"label": "018: \u8349\u79cd\u690d\u53ca\u5272\u8349", "value": "018", "children": [{"label": "0181: \u8349\u79cd\u690d", "value": "0181"}, {"label": "0182: \u5929\u7136\u8349\u539f\u5272\u8349", "value": "0182"}]}, {"label": "0190: \u5176\u4ed6\u519c\u4e1a", "value": "0190"}]}, {"label": "02: \u6797\u4e1a", "value": "02", "children": [{"label": "021: \u6797\u6728\u80b2\u79cd\u548c\u80b2\u82d7", "value": "021", "children": [{"label": "0211: \u6797\u6728\u80b2\u79cd", "value": "0211"}, {"label": "0212: \u6797\u6728\u80b2\u82d7", "value": "0212"}]}, {"label": "0220: \u9020\u6797\u548c\u66f4\u65b0", "value": "0220"}, {"label": "023: \u68ee\u6797\u7ecf\u8425\u3001\u7ba1\u62a4\u548c\u6539\u57f9", "value": "023", "children": [{"label": "0231: \u68ee\u6797\u7ecf\u8425\u548c\u7ba1\u62a4", "value": "0231"}, {"label": "0232: \u68ee\u6797\u6539\u57f9", "value": "0232"}]}, {"label": "024: \u6728\u6750\u548c\u7af9\u6750\u91c7\u8fd0", "value": "024", "children": [{"label": "0241: \u6728\u6750\u91c7\u8fd0", "value": "0241"}, {"label": "0242: \u7af9\u6750\u91c7\u8fd0", "value": "0242"}]}, {"label": "025: \u6797\u4ea7\u54c1\u91c7\u96c6", "value": "025", "children": [{"label": "0251: \u6728\u7af9\u6750\u6797\u4ea7\u54c1\u91c7\u96c6", "value": "0251"}, {"label": "0252: \u975e\u6728\u7af9\u6750\u6797\u4ea7\u54c1\u91c7\u96c6", "value": "0252"}]}]}, {"label": "03: \u755c\u7267\u4e1a", "value": "03", "children": [{"label": "031: \u7272\u755c\u9972\u517b", "value": "031", "children": [{"label": "0311: \u725b\u7684\u9972\u517b", "value": "0311"}, {"label": "0312: \u9a6c\u7684\u9972\u517b", "value": "0312"}, {"label": "0313: \u732a\u7684\u9972\u517b", "value": "0313"}, {"label": "0314: \u7f8a\u7684\u9972\u517b", "value": "0314"}, {"label": "0315: \u9a86\u9a7c\u9972\u517b", "value": "0315"}, {"label": "0319: \u5176\u4ed6\u7272\u755c\u9972\u517b", "value": "0319"}]}, {"label": "032: \u5bb6\u79bd\u9972\u517b", "value": "032", "children": [{"label": "0321: \u9e21\u7684\u9972\u517b", "value": "0321"}, {"label": "0322: \u9e2d\u7684\u9972\u517b", "value": "0322"}, {"label": "0323: \u9e45\u7684\u9972\u517b", "value": "0323"}, {"label": "0329: \u5176\u4ed6\u5bb6\u79bd\u9972\u517b", "value": "0329"}]}, {"label": "0330: \u72e9\u730e\u548c\u6355\u6349\u52a8\u7269", "value": "0330"}, {"label": "039: \u5176\u4ed6\u755c\u7267\u4e1a", "value": "039", "children": [{"label": "0391: \u5154\u7684\u9972\u517b", "value": "0391"}, {"label": "0392: \u871c\u8702\u9972\u517b", "value": "0392"}, {"label": "0399: \u5176\u4ed6\u672a\u5217\u660e\u755c\u7267\u4e1a", "value": "0399"}]}]}, {"label": "04: \u6e14\u4e1a", "value": "04", "children": [{"label": "041: \u6c34\u4ea7\u517b\u6b96", "value": "041", "children": [{"label": "0411: \u6d77\u6c34\u517b\u6b96", "value": "0411"}, {"label": "0412: \u5185\u9646\u517b\u6b96", "value": "0412"}]}, {"label": "042: \u6c34\u4ea7\u6355\u635e", "value": "042", "children": [{"label": "0421: \u6d77\u6c34\u6355\u635e", "value": "0421"}, {"label": "0422: \u5185\u9646\u6355\u635e", "value": "0422"}]}]}, {"label": "05: \u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "05", "children": [{"label": "051: \u519c\u4e1a\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "051", "children": [{"label": "0511: \u79cd\u5b50\u79cd\u82d7\u57f9\u80b2\u6d3b\u52a8", "value": "0511"}, {"label": "0512: \u519c\u4e1a\u673a\u68b0\u6d3b\u52a8", "value": "0512"}, {"label": "0513: \u704c\u6e89\u6d3b\u52a8", "value": "0513"}, {"label": "0514: \u519c\u4ea7\u54c1\u521d\u52a0\u5de5\u6d3b\u52a8", "value": "0514"}, {"label": "0515: \u519c\u4f5c\u7269\u75c5\u866b\u5bb3\u9632\u6cbb\u6d3b\u52a8", "value": "0515"}, {"label": "0519: \u5176\u4ed6\u519c\u4e1a\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "0519"}]}, {"label": "052: \u6797\u4e1a\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "052", "children": [{"label": "0521: \u6797\u4e1a\u6709\u5bb3\u751f\u7269\u9632\u6cbb\u6d3b\u52a8", "value": "0521"}, {"label": "0522: \u68ee\u6797\u9632\u706b\u6d3b\u52a8", "value": "0522"}, {"label": "0523: \u6797\u4ea7\u54c1\u521d\u7ea7\u52a0\u5de5\u6d3b\u52a8", "value": "0523"}, {"label": "0529: \u5176\u4ed6\u6797\u4e1a\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "0529"}]}, {"label": "053: \u755c\u7267\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "053", "children": [{"label": "0531: \u755c\u7267\u826f\u79cd\u7e41\u6b96\u6d3b\u52a8", "value": "0531"}, {"label": "0532: \u755c\u79bd\u7caa\u6c61\u5904\u7406\u6d3b\u52a8", "value": "0532"}, {"label": "0539: \u5176\u4ed6\u755c\u7267\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "0539"}]}, {"label": "054: \u6e14\u4e1a\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "054", "children": [{"label": "0541: \u9c7c\u82d7\u53ca\u9c7c\u79cd\u573a\u6d3b\u52a8", "value": "0541"}, {"label": "0549: \u5176\u4ed6\u6e14\u4e1a\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "0549"}]}]}]}, {"label": "B: \u91c7\u77ff\u4e1a", "value": "B", "children": [{"label": "06: \u7164\u70ad\u5f00\u91c7\u548c\u6d17\u9009\u4e1a", "value": "06", "children": [{"label": "0610: \u70df\u7164\u548c\u65e0\u70df\u7164\u5f00\u91c7\u6d17\u9009", "value": "0610"}, {"label": "0620: \u8910\u7164\u5f00\u91c7\u6d17\u9009", "value": "0620"}, {"label": "0690: \u5176\u4ed6\u7164\u70ad\u91c7\u9009", "value": "0690"}]}, {"label": "07: \u77f3\u6cb9\u548c\u5929\u7136\u6c14\u5f00\u91c7\u4e1a", "value": "07", "children": [{"label": "071: \u77f3\u6cb9\u5f00\u91c7", "value": "071", "children": [{"label": "0711: \u9646\u5730\u77f3\u6cb9\u5f00\u91c7", "value": "0711"}, {"label": "0712: \u6d77\u6d0b\u77f3\u6cb9\u5f00\u91c7", "value": "0712"}]}, {"label": "072: \u5929\u7136\u6c14\u5f00\u91c7", "value": "072", "children": [{"label": "0721: \u9646\u5730\u5929\u7136\u6c14\u5f00\u91c7", "value": "0721"}, {"label": "0722: \u6d77\u6d0b\u5929\u7136\u6c14\u53ca\u53ef\u71c3\u51b0\u5f00\u91c7", "value": "0722"}]}]}, {"label": "08: \u9ed1\u8272\u91d1\u5c5e\u77ff\u91c7\u9009\u4e1a", "value": "08", "children": [{"label": "0810: \u94c1\u77ff\u91c7\u9009", "value": "0810"}, {"label": "0820: \u9530\u77ff\u3001\u94ec\u77ff\u91c7\u9009", "value": "0820"}, {"label": "0890: \u5176\u4ed6\u9ed1\u8272\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "0890"}]}, {"label": "09: \u6709\u8272\u91d1\u5c5e\u77ff\u91c7\u9009\u4e1a", "value": "09", "children": [{"label": "091: \u5e38\u7528\u6709\u8272\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "091", "children": [{"label": "0911: \u94dc\u77ff\u91c7\u9009", "value": "0911"}, {"label": "0912: \u94c5\u950c\u77ff\u91c7\u9009", "value": "0912"}, {"label": "0913: \u954d\u94b4\u77ff\u91c7\u9009", "value": "0913"}, {"label": "0914: \u9521\u77ff\u91c7\u9009", "value": "0914"}, {"label": "0915: \u9511\u77ff\u91c7\u9009", "value": "0915"}, {"label": "0916: \u94dd\u77ff\u91c7\u9009", "value": "0916"}, {"label": "0917: \u9541\u77ff\u91c7\u9009", "value": "0917"}, {"label": "0919: \u5176\u4ed6\u5e38\u7528\u6709\u8272\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "0919"}]}, {"label": "092: \u8d35\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "092", "children": [{"label": "0921: \u91d1\u77ff\u91c7\u9009", "value": "0921"}, {"label": "0922: \u94f6\u77ff\u91c7\u9009", "value": "0922"}, {"label": "0929: \u5176\u4ed6\u8d35\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "0929"}]}, {"label": "093: \u7a00\u6709\u7a00\u571f\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "093", "children": [{"label": "0931: \u94a8\u94bc\u77ff\u91c7\u9009", "value": "0931"}, {"label": "0932: \u7a00\u571f\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "0932"}, {"label": "0933: \u653e\u5c04\u6027\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "0933"}, {"label": "0939: \u5176\u4ed6\u7a00\u6709\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "0939"}]}]}, {"label": "10: \u975e\u91d1\u5c5e\u77ff\u91c7\u9009\u4e1a", "value": "10", "children": [{"label": "101: \u571f\u7802\u77f3\u5f00\u91c7", "value": "101", "children": [{"label": "1011: \u77f3\u7070\u77f3\u3001\u77f3\u818f\u5f00\u91c7", "value": "1011"}, {"label": "1012: \u5efa\u7b51\u88c5\u9970\u7528\u77f3\u5f00\u91c7", "value": "1012"}, {"label": "1013: \u8010\u706b\u571f\u77f3\u5f00\u91c7", "value": "1013"}, {"label": "1019: \u7c98\u571f\u53ca\u5176\u4ed6\u571f\u7802\u77f3\u5f00\u91c7", "value": "1019"}]}, {"label": "1020: \u5316\u5b66\u77ff\u5f00\u91c7", "value": "1020"}, {"label": "1030: \u91c7\u76d0", "value": "1030"}, {"label": "109: \u77f3\u68c9\u53ca\u5176\u4ed6\u975e\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "109", "children": [{"label": "1091: \u77f3\u68c9\u3001\u4e91\u6bcd\u77ff\u91c7\u9009", "value": "1091"}, {"label": "1092: \u77f3\u58a8\u3001\u6ed1\u77f3\u91c7\u9009", "value": "1092"}, {"label": "1093: \u5b9d\u77f3\u3001\u7389\u77f3\u91c7\u9009", "value": "1093"}, {"label": "1099: \u5176\u4ed6\u672a\u5217\u660e\u975e\u91d1\u5c5e\u77ff\u91c7\u9009", "value": "1099"}]}]}, {"label": "11: \u5f00\u91c7\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "11", "children": [{"label": "1110: \u7164\u70ad\u5f00\u91c7\u548c\u6d17\u9009\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "1110"}, {"label": "1120: \u77f3\u6cb9\u548c\u5929\u7136\u6c14\u5f00\u91c7\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "1120"}, {"label": "1190: \u5176\u4ed6\u5f00\u91c7\u4e13\u4e1a\u53ca\u8f85\u52a9\u6027\u6d3b\u52a8", "value": "1190"}]}, {"label": "12: \u5176\u4ed6\u91c7\u77ff\u4e1a", "value": "12", "children": [{"label": "1200: \u5176\u4ed6\u91c7\u77ff\u4e1a", "value": "1200"}]}]}, {"label": "C: \u5236\u9020\u4e1a", "value": "C", "children": [{"label": "13: \u519c\u526f\u98df\u54c1\u52a0\u5de5\u4e1a", "value": "13", "children": [{"label": "131: \u8c37\u7269\u78e8\u5236", "value": "131", "children": [{"label": "1311: \u7a3b\u8c37\u52a0\u5de5", "value": "1311"}, {"label": "1312: \u5c0f\u9ea6\u52a0\u5de5", "value": "1312"}, {"label": "1313: \u7389\u7c73\u52a0\u5de5", "value": "1313"}, {"label": "1314: \u6742\u7cae\u52a0\u5de5", "value": "1314"}, {"label": "1319: \u5176\u4ed6\u8c37\u7269\u78e8\u5236", "value": "1319"}]}, {"label": "132: \u9972\u6599\u52a0\u5de5 ", "value": "132", "children": [{"label": "1321: \u5ba0\u7269\u9972\u6599\u52a0\u5de5", "value": "1321"}, {"label": "1329: \u5176\u4ed6\u9972\u6599\u52a0\u5de5", "value": "1329"}]}, {"label": "133: \u690d\u7269\u6cb9\u52a0\u5de5", "value": "133", "children": [{"label": "1331: \u98df\u7528\u690d\u7269\u6cb9\u52a0\u5de5", "value": "1331"}, {"label": "1332: \u975e\u98df\u7528\u690d\u7269\u6cb9\u52a0\u5de5", "value": "1332"}]}, {"label": "1340: \u5236\u7cd6\u4e1a", "value": "1340"}, {"label": "135: \u5c60\u5bb0\u53ca\u8089\u7c7b\u52a0\u5de5", "value": "135", "children": [{"label": "1351: \u7272\u755c\u5c60\u5bb0", "value": "1351"}, {"label": "1352: \u79bd\u7c7b\u5c60\u5bb0", "value": "1352"}, {"label": "1353: \u8089\u5236\u54c1\u53ca\u526f\u4ea7\u54c1\u52a0\u5de5", "value": "1353"}]}, {"label": "136: \u6c34\u4ea7\u54c1\u52a0\u5de5", "value": "136", "children": [{"label": "1361: \u6c34\u4ea7\u54c1\u51b7\u51bb\u52a0\u5de5", "value": "1361"}, {"label": "1362: \u9c7c\u7cdc\u5236\u54c1\u53ca\u6c34\u4ea7\u54c1\u5e72\u814c\u5236\u52a0\u5de5", "value": "1362"}, {"label": "1363: \u9c7c\u6cb9\u63d0\u53d6\u53ca\u5236\u54c1\u5236\u9020", "value": "1363"}, {"label": "1369: \u5176\u4ed6\u6c34\u4ea7\u54c1\u52a0\u5de5", "value": "1369"}]}, {"label": "137: \u852c\u83dc\u3001\u83cc\u7c7b\u3001\u6c34\u679c\u548c\u575a\u679c\u52a0\u5de5", "value": "137", "children": [{"label": "1371: \u852c\u83dc\u52a0\u5de5", "value": "1371"}, {"label": "1372: \u98df\u7528\u83cc\u52a0\u5de5", "value": "1372"}, {"label": "1373: \u6c34\u679c\u548c\u575a\u679c\u52a0\u5de5", "value": "1373"}]}, {"label": "139: \u5176\u4ed6\u519c\u526f\u98df\u54c1\u52a0\u5de5", "value": "139", "children": [{"label": "1391: \u6dc0\u7c89\u53ca\u6dc0\u7c89\u5236\u54c1\u5236\u9020", "value": "1391"}, {"label": "1392: \u8c46\u5236\u54c1\u5236\u9020", "value": "1392"}, {"label": "1393: \u86cb\u54c1\u52a0\u5de5", "value": "1393"}, {"label": "1399: \u5176\u4ed6\u672a\u5217\u660e\u519c\u526f\u98df\u54c1\u52a0\u5de5", "value": "1399"}]}]}, {"label": "14: \u98df\u54c1\u5236\u9020\u4e1a", "value": "14", "children": [{"label": "141: \u7119\u70e4\u98df\u54c1\u5236\u9020", "value": "141", "children": [{"label": "1411: \u7cd5\u70b9\u3001\u9762\u5305\u5236\u9020", "value": "1411"}, {"label": "1419: \u997c\u5e72\u53ca\u5176\u4ed6\u7119\u70e4\u98df\u54c1\u5236\u9020", "value": "1419"}]}, {"label": "142: \u7cd6\u679c\u3001\u5de7\u514b\u529b\u53ca\u871c\u996f\u5236\u9020", "value": "142", "children": [{"label": "1421: \u7cd6\u679c\u3001\u5de7\u514b\u529b\u5236\u9020", "value": "1421"}, {"label": "1422: \u871c\u996f\u5236\u4f5c", "value": "1422"}]}, {"label": "143: \u65b9\u4fbf\u98df\u54c1\u5236\u9020", "value": "143", "children": [{"label": "1431: \u7c73\u3001\u9762\u5236\u54c1\u5236\u9020", "value": "1431"}, {"label": "1432: \u901f\u51bb\u98df\u54c1\u5236\u9020", "value": "1432"}, {"label": "1433: \u65b9\u4fbf\u9762\u5236\u9020", "value": "1433"}, {"label": "1439: \u5176\u4ed6\u65b9\u4fbf\u98df\u54c1\u5236\u9020", "value": "1439"}]}, {"label": "144: \u4e73\u5236\u54c1\u5236\u9020", "value": "144", "children": [{"label": "1441: \u6db2\u4f53\u4e73\u5236\u9020", "value": "1441"}, {"label": "1442: \u4e73\u7c89\u5236\u9020", "value": "1442"}, {"label": "1449: \u5176\u4ed6\u4e73\u5236\u54c1\u5236\u9020", "value": "1449"}]}, {"label": "145: \u7f50\u5934\u98df\u54c1\u5236\u9020", "value": "145", "children": [{"label": "1451: \u8089\u3001\u79bd\u7c7b\u7f50\u5934\u5236\u9020", "value": "1451"}, {"label": "1452: \u6c34\u4ea7\u54c1\u7f50\u5934\u5236\u9020", "value": "1452"}, {"label": "1453: \u852c\u83dc\u3001\u6c34\u679c\u7f50\u5934\u5236\u9020", "value": "1453"}, {"label": "1459: \u5176\u4ed6\u7f50\u5934\u98df\u54c1\u5236\u9020", "value": "1459"}]}, {"label": "146: \u8c03\u5473\u54c1\u3001\u53d1\u9175\u5236\u54c1\u5236\u9020", "value": "146", "children": [{"label": "1461: \u5473\u7cbe\u5236\u9020", "value": "1461"}, {"label": "1462: \u9171\u6cb9\u3001\u98df\u918b\u53ca\u7c7b\u4f3c\u5236\u54c1\u5236\u9020", "value": "1462"}, {"label": "1469: \u5176\u4ed6\u8c03\u5473\u54c1\u3001\u53d1\u9175\u5236\u54c1\u5236\u9020", "value": "1469"}]}, {"label": "149: \u5176\u4ed6\u98df\u54c1\u5236\u9020", "value": "149", "children": [{"label": "1491: \u8425\u517b\u98df\u54c1\u5236\u9020", "value": "1491"}, {"label": "1492: \u4fdd\u5065\u98df\u54c1\u5236\u9020", "value": "1492"}, {"label": "1493: \u51b7\u51bb\u996e\u54c1\u53ca\u98df\u7528\u51b0\u5236\u9020", "value": "1493"}, {"label": "1494: \u76d0\u52a0\u5de5 ", "value": "1494"}, {"label": "1495: \u98df\u54c1\u53ca\u9972\u6599\u6dfb\u52a0\u5242\u5236\u9020", "value": "1495"}, {"label": "1499: \u5176\u4ed6\u672a\u5217\u660e\u98df\u54c1\u5236\u9020", "value": "1499"}]}]}, {"label": "15: \u9152\u3001\u996e\u6599\u53ca\u7cbe\u5236\u8336\u5236\u9020\u4e1a", "value": "15", "children": [{"label": "151: \u9152\u7684\u5236\u9020", "value": "151", "children": [{"label": "1511: \u9152\u7cbe\u5236\u9020", "value": "1511"}, {"label": "1512: \u767d\u9152\u5236\u9020", "value": "1512"}, {"label": "1513: \u5564\u9152\u5236\u9020", "value": "1513"}, {"label": "1514: \u9ec4\u9152\u5236\u9020", "value": "1514"}, {"label": "1515: \u8461\u8404\u9152\u5236\u9020", "value": "1515"}, {"label": "1519: \u5176\u4ed6\u9152\u5236\u9020", "value": "1519"}]}, {"label": "152: \u996e\u6599\u5236\u9020", "value": "152", "children": [{"label": "1521: \u78b3\u9178\u996e\u6599\u5236\u9020", "value": "1521"}, {"label": "1522: \u74f6\uff08\u7f50\uff09\u88c5\u996e\u7528\u6c34\u5236\u9020", "value": "1522"}, {"label": "1523: \u679c\u83dc\u6c41\u53ca\u679c\u83dc\u6c41\u996e\u6599\u5236\u9020", "value": "1523"}, {"label": "1524: \u542b\u4e73\u996e\u6599\u548c\u690d\u7269\u86cb\u767d\u996e\u6599\u5236\u9020", "value": "1524"}, {"label": "1525: \u56fa\u4f53\u996e\u6599\u5236\u9020", "value": "1525"}, {"label": "1529: \u8336\u996e\u6599\u53ca\u5176\u4ed6\u996e\u6599\u5236\u9020", "value": "1529"}]}, {"label": "1530: \u7cbe\u5236\u8336\u52a0\u5de5", "value": "1530"}]}, {"label": "16: \u70df\u8349\u5236\u54c1\u4e1a ", "value": "16", "children": [{"label": "1610: \u70df\u53f6\u590d\u70e4", "value": "1610"}, {"label": "1620: \u5377\u70df\u5236\u9020", "value": "1620"}, {"label": "1690: \u5176\u4ed6\u70df\u8349\u5236\u54c1\u5236\u9020", "value": "1690"}]}, {"label": "17: \u7eba\u7ec7\u4e1a", "value": "17", "children": [{"label": "171: \u68c9\u7eba\u7ec7\u53ca\u5370\u67d3\u7cbe\u52a0\u5de5", "value": "171", "children": [{"label": "1711: \u68c9\u7eba\u7eb1\u52a0\u5de5", "value": "1711"}, {"label": "1712: \u68c9\u7ec7\u9020\u52a0\u5de5", "value": "1712"}, {"label": "1713: \u68c9\u5370\u67d3\u7cbe\u52a0\u5de5", "value": "1713"}]}, {"label": "172: \u6bdb\u7eba\u7ec7\u53ca\u67d3\u6574\u7cbe\u52a0\u5de5", "value": "172", "children": [{"label": "1721: \u6bdb\u6761\u548c\u6bdb\u7eb1\u7ebf\u52a0\u5de5", "value": "1721"}, {"label": "1722: \u6bdb\u7ec7\u9020\u52a0\u5de5", "value": "1722"}, {"label": "1723: \u6bdb\u67d3\u6574\u7cbe\u52a0\u5de5", "value": "1723"}]}, {"label": "173: \u9ebb\u7eba\u7ec7\u53ca\u67d3\u6574\u7cbe\u52a0\u5de5", "value": "173", "children": [{"label": "1731: \u9ebb\u7ea4\u7ef4\u7eba\u524d\u52a0\u5de5\u548c\u7eba\u7eb1", "value": "1731"}, {"label": "1732: \u9ebb\u7ec7\u9020\u52a0\u5de5", "value": "1732"}, {"label": "1733: \u9ebb\u67d3\u6574\u7cbe\u52a0\u5de5", "value": "1733"}]}, {"label": "174: \u4e1d\u7ee2\u7eba\u7ec7\u53ca\u5370\u67d3\u7cbe\u52a0\u5de5", "value": "174", "children": [{"label": "1741: \u7f2b\u4e1d\u52a0\u5de5", "value": "1741"}, {"label": "1742: \u7ee2\u7eba\u548c\u4e1d\u7ec7\u52a0\u5de5", "value": "1742"}, {"label": "1743: \u4e1d\u5370\u67d3\u7cbe\u52a0\u5de5", "value": "1743"}]}, {"label": "175: \u5316\u7ea4\u7ec7\u9020\u53ca\u5370\u67d3\u7cbe\u52a0\u5de5", "value": "175", "children": [{"label": "1751: \u5316\u7ea4\u7ec7\u9020\u52a0\u5de5", "value": "1751"}, {"label": "1752: \u5316\u7ea4\u7ec7\u7269\u67d3\u6574\u7cbe\u52a0\u5de5", "value": "1752"}]}, {"label": "176: \u9488\u7ec7\u6216\u94a9\u9488\u7f16\u7ec7\u7269\u53ca\u5176\u5236\u54c1\u5236\u9020", "value": "176", "children": [{"label": "1761: \u9488\u7ec7\u6216\u94a9\u9488\u7f16\u7ec7\u7269\u7ec7\u9020", "value": "1761"}, {"label": "1762: \u9488\u7ec7\u6216\u94a9\u9488\u7f16\u7ec7\u7269\u5370\u67d3\u7cbe\u52a0\u5de5", "value": "1762"}, {"label": "1763: \u9488\u7ec7\u6216\u94a9\u9488\u7f16\u7ec7\u54c1\u5236\u9020", "value": "1763"}]}, {"label": "177: \u5bb6\u7528\u7eba\u7ec7\u5236\u6210\u54c1\u5236\u9020", "value": "177", "children": [{"label": "1771: \u5e8a\u4e0a\u7528\u54c1\u5236\u9020", "value": "1771"}, {"label": "1772: \u6bdb\u5dfe\u7c7b\u5236\u54c1\u5236\u9020", "value": "1772"}, {"label": "1773: \u7a97\u5e18\u3001\u5e03\u827a\u7c7b\u4ea7\u54c1\u5236\u9020", "value": "1773"}, {"label": "1779: \u5176\u4ed6\u5bb6\u7528\u7eba\u7ec7\u5236\u6210\u54c1\u5236\u9020", "value": "1779"}]}, {"label": "178: \u4ea7\u4e1a\u7528\u7eba\u7ec7\u5236\u6210\u54c1\u5236\u9020", "value": "178", "children": [{"label": "1781: \u975e\u7ec7\u9020\u5e03\u5236\u9020", "value": "1781"}, {"label": "1782: \u7ef3\u3001\u7d22\u3001\u7f06\u5236\u9020", "value": "1782"}, {"label": "1783: \u7eba\u7ec7\u5e26\u548c\u5e18\u5b50\u5e03\u5236\u9020", "value": "1783"}, {"label": "1784: \u7bf7\u3001\u5e06\u5e03\u5236\u9020", "value": "1784"}, {"label": "1789: \u5176\u4ed6\u4ea7\u4e1a\u7528\u7eba\u7ec7\u5236\u6210\u54c1\u5236\u9020", "value": "1789"}]}]}, {"label": "18: \u7eba\u7ec7\u670d\u88c5\u3001\u670d\u9970\u4e1a", "value": "18", "children": [{"label": "181: \u673a\u7ec7\u670d\u88c5\u5236\u9020", "value": "181", "children": [{"label": "1811: \u8fd0\u52a8\u673a\u7ec7\u670d\u88c5\u5236\u9020", "value": "1811"}, {"label": "1819: \u5176\u4ed6\u673a\u7ec7\u670d\u88c5\u5236\u9020", "value": "1819"}]}, {"label": "182: \u9488\u7ec7\u6216\u94a9\u9488\u7f16\u7ec7\u670d\u88c5\u5236\u9020", "value": "182", "children": [{"label": "1821: \u8fd0\u52a8\u4f11\u95f2\u9488\u7ec7\u670d\u88c5\u5236\u9020", "value": "1821"}, {"label": "1829: \u5176\u4ed6\u9488\u7ec7\u6216\u94a9\u9488\u7f16\u7ec7\u670d\u88c5\u5236\u9020", "value": "1829"}]}, {"label": "1830: \u670d\u9970\u5236\u9020", "value": "1830"}]}, {"label": "19: \u76ae\u9769\u3001\u6bdb\u76ae\u3001\u7fbd\u6bdb\u53ca\u5176\u5236\u54c1\u548c\u5236\u978b\u4e1a", "value": "19", "children": [{"label": "1910: \u76ae\u9769\u97a3\u5236\u52a0\u5de5", "value": "1910"}, {"label": "192: \u76ae\u9769\u5236\u54c1\u5236\u9020", "value": "192", "children": [{"label": "1921: \u76ae\u9769\u670d\u88c5\u5236\u9020", "value": "1921"}, {"label": "1922: \u76ae\u7bb1\u3001\u5305(\u888b)\u5236\u9020", "value": "1922"}, {"label": "1923: \u76ae\u624b\u5957\u53ca\u76ae\u88c5\u9970\u5236\u54c1\u5236\u9020 ", "value": "1923"}, {"label": "1929: \u5176\u4ed6\u76ae\u9769\u5236\u54c1\u5236\u9020", "value": "1929"}]}, {"label": "193: \u6bdb\u76ae\u97a3\u5236\u53ca\u5236\u54c1\u52a0\u5de5", "value": "193", "children": [{"label": "1931: \u6bdb\u76ae\u97a3\u5236\u52a0\u5de5", "value": "1931"}, {"label": "1932: \u6bdb\u76ae\u670d\u88c5\u52a0\u5de5", "value": "1932"}, {"label": "1939: \u5176\u4ed6\u6bdb\u76ae\u5236\u54c1\u52a0\u5de5", "value": "1939"}]}, {"label": "194: \u7fbd\u6bdb(\u7ed2)\u52a0\u5de5\u53ca\u5236\u54c1\u5236\u9020", "value": "194", "children": [{"label": "1941: \u7fbd\u6bdb(\u7ed2)\u52a0\u5de5", "value": "1941"}, {"label": "1942: \u7fbd\u6bdb(\u7ed2)\u5236\u54c1\u52a0\u5de5", "value": "1942"}]}, {"label": "195: \u5236\u978b\u4e1a", "value": "195", "children": [{"label": "1951: \u7eba\u7ec7\u9762\u6599\u978b\u5236\u9020", "value": "1951"}, {"label": "1952: \u76ae\u978b\u5236\u9020", "value": "1952"}, {"label": "1953: \u5851\u6599\u978b\u5236\u9020", "value": "1953"}, {"label": "1954: \u6a61\u80f6\u978b\u5236\u9020", "value": "1954"}, {"label": "1959: \u5176\u4ed6\u5236\u978b\u4e1a", "value": "1959"}]}]}, {"label": "20: \u6728\u6750\u52a0\u5de5\u548c\u6728\u3001\u7af9\u3001\u85e4\u3001\u68d5\u3001\u8349\u5236\u54c1\u4e1a", "value": "20", "children": [{"label": "201: \u6728\u6750\u52a0\u5de5", "value": "201", "children": [{"label": "2011: \u952f\u6750\u52a0\u5de5", "value": "2011"}, {"label": "2012: \u6728\u7247\u52a0\u5de5", "value": "2012"}, {"label": "2013: \u5355\u677f\u52a0\u5de5", "value": "2013"}, {"label": "2019: \u5176\u4ed6\u6728\u6750\u52a0\u5de5", "value": "2019"}]}, {"label": "202: \u4eba\u9020\u677f\u5236\u9020", "value": "202", "children": [{"label": "2021: \u80f6\u5408\u677f\u5236\u9020", "value": "2021"}, {"label": "2022: \u7ea4\u7ef4\u677f\u5236\u9020", "value": "2022"}, {"label": "2023: \u5228\u82b1\u677f\u5236\u9020", "value": "2023"}, {"label": "2029: \u5176\u4ed6\u4eba\u9020\u677f\u5236\u9020", "value": "2029"}]}, {"label": "203: \u6728\u5236\u54c1\u5236\u9020", "value": "203", "children": [{"label": "2031: \u5efa\u7b51\u7528\u6728\u6599\u53ca\u6728\u6750\u7ec4\u4ef6\u52a0\u5de5", "value": "2031"}, {"label": "2032: \u6728\u95e8\u7a97\u5236\u9020", "value": "2032"}, {"label": "2033: \u6728\u697c\u68af\u5236\u9020", "value": "2033"}, {"label": "2034: \u6728\u5730\u677f\u5236\u9020", "value": "2034"}, {"label": "2035: \u6728\u5236\u5bb9\u5668\u5236\u9020", "value": "2035"}, {"label": "2039: \u8f6f\u6728\u5236\u54c1\u53ca\u5176\u4ed6\u6728\u5236\u54c1\u5236\u9020", "value": "2039"}]}, {"label": "204: \u7af9\u3001\u85e4\u3001\u68d5\u3001\u8349\u5236\u54c1\u5236\u9020", "value": "204", "children": [{"label": "2041: \u7af9\u5236\u54c1\u5236\u9020", "value": "2041"}, {"label": "2042: \u85e4\u5236\u54c1\u5236\u9020", "value": "2042"}, {"label": "2043: \u68d5\u5236\u54c1\u5236\u9020", "value": "2043"}, {"label": "2049: \u8349\u53ca\u5176\u4ed6\u5236\u54c1\u5236\u9020", "value": "2049"}]}]}, {"label": "21: \u5bb6\u5177\u5236\u9020\u4e1a ", "value": "21", "children": [{"label": "2110: \u6728\u8d28\u5bb6\u5177\u5236\u9020", "value": "2110"}, {"label": "2120: \u7af9\u3001\u85e4\u5bb6\u5177\u5236\u9020", "value": "2120"}, {"label": "2130: \u91d1\u5c5e\u5bb6\u5177\u5236\u9020", "value": "2130"}, {"label": "2140: \u5851\u6599\u5bb6\u5177\u5236\u9020", "value": "2140"}, {"label": "2190: \u5176\u4ed6\u5bb6\u5177\u5236\u9020", "value": "2190"}]}, {"label": "22: \u9020\u7eb8\u548c\u7eb8\u5236\u54c1\u4e1a ", "value": "22", "children": [{"label": "221: \u7eb8\u6d46\u5236\u9020", "value": "221", "children": [{"label": "2211: \u6728\u7af9\u6d46\u5236\u9020", "value": "2211"}, {"label": "2212: \u975e\u6728\u7af9\u6d46\u5236\u9020", "value": "2212"}]}, {"label": "222: \u9020\u7eb8", "value": "222", "children": [{"label": "2221: \u673a\u5236\u7eb8\u53ca\u7eb8\u677f\u5236\u9020", "value": "2221"}, {"label": "2222: \u624b\u5de5\u7eb8\u5236\u9020", "value": "2222"}, {"label": "2223: \u52a0\u5de5\u7eb8\u5236\u9020", "value": "2223"}]}, {"label": "223: \u7eb8\u5236\u54c1\u5236\u9020", "value": "223", "children": [{"label": "2231: \u7eb8\u548c\u7eb8\u677f\u5bb9\u5668\u5236\u9020", "value": "2231"}, {"label": "2239: \u5176\u4ed6\u7eb8\u5236\u54c1\u5236\u9020", "value": "2239"}]}]}, {"label": "23: \u5370\u5237\u548c\u8bb0\u5f55\u5a92\u4ecb\u590d\u5236\u4e1a", "value": "23", "children": [{"label": "231: \u5370\u5237", "value": "231", "children": [{"label": "2311: \u4e66\u3001\u62a5\u520a\u5370\u5237", "value": "2311"}, {"label": "2312: \u672c\u518c\u5370\u5236", "value": "2312"}, {"label": "2319: \u5305\u88c5\u88c5\u6f62\u53ca\u5176\u4ed6\u5370\u5237", "value": "2319"}]}, {"label": "2320: \u88c5\u8ba2\u53ca\u5370\u5237\u76f8\u5173\u670d\u52a1", "value": "2320"}, {"label": "2330: \u8bb0\u5f55\u5a92\u4ecb\u590d\u5236", "value": "2330"}]}, {"label": "24: \u6587\u6559\u3001\u5de5\u7f8e\u3001\u4f53\u80b2\u548c\u5a31\u4e50\u7528\u54c1\u5236\u9020\u4e1a", "value": "24", "children": [{"label": "241: \u6587\u6559\u529e\u516c\u7528\u54c1\u5236\u9020", "value": "241", "children": [{"label": "2411: \u6587\u5177\u5236\u9020", "value": "2411"}, {"label": "2412: \u7b14\u7684\u5236\u9020", "value": "2412"}, {"label": "2413: \u6559\u5b66\u7528\u6a21\u578b\u53ca\u6559\u5177\u5236\u9020", "value": "2413"}, {"label": "2414: \u58a8\u6c34\u3001\u58a8\u6c41\u5236\u9020", "value": "2414"}, {"label": "2419: \u5176\u4ed6\u6587\u6559\u529e\u516c\u7528\u54c1\u5236\u9020", "value": "2419"}]}, {"label": "242: \u4e50\u5668\u5236\u9020", "value": "242", "children": [{"label": "2421: \u4e2d\u4e50\u5668\u5236\u9020", "value": "2421"}, {"label": "2422: \u897f\u4e50\u5668\u5236\u9020", "value": "2422"}, {"label": "2423: \u7535\u5b50\u4e50\u5668\u5236\u9020", "value": "2423"}, {"label": "2429: \u5176\u4ed6\u4e50\u5668\u53ca\u96f6\u4ef6\u5236\u9020", "value": "2429"}]}, {"label": "243: \u5de5\u827a\u7f8e\u672f\u53ca\u793c\u4eea\u7528\u54c1\u5236\u9020", "value": "243", "children": [{"label": "2431: \u96d5\u5851\u5de5\u827a\u54c1\u5236\u9020", "value": "2431"}, {"label": "2432: \u91d1\u5c5e\u5de5\u827a\u54c1\u5236\u9020", "value": "2432"}, {"label": "2433: \u6f06\u5668\u5de5\u827a\u54c1\u5236\u9020", "value": "2433"}, {"label": "2434: \u82b1\u753b\u5de5\u827a\u54c1\u5236\u9020", "value": "2434"}, {"label": "2435: \u5929\u7136\u690d\u7269\u7ea4\u7ef4\u7f16\u7ec7\u5de5\u827a\u54c1\u5236\u9020", "value": "2435"}, {"label": "2436: \u62bd\u7eb1\u523a\u7ee3\u5de5\u827a\u54c1\u5236\u9020", "value": "2436"}, {"label": "2437: \u5730\u6bef\u3001\u6302\u6bef\u5236\u9020", "value": "2437"}, {"label": "2438: \u73e0\u5b9d\u9996\u9970\u53ca\u6709\u5173\u7269\u54c1\u5236\u9020", "value": "2438"}, {"label": "2439: \u5176\u4ed6\u5de5\u827a\u7f8e\u672f\u53ca\u793c\u4eea\u7528\u54c1\u5236\u9020", "value": "2439"}]}, {"label": "244: \u4f53\u80b2\u7528\u54c1\u5236\u9020", "value": "244", "children": [{"label": "2441: \u7403\u7c7b\u5236\u9020", "value": "2441"}, {"label": "2442: \u4e13\u9879\u8fd0\u52a8\u5668\u6750\u53ca\u914d\u4ef6\u5236\u9020", "value": "2442"}, {"label": "2443: \u5065\u8eab\u5668\u6750\u5236\u9020", "value": "2443"}, {"label": "2444: \u8fd0\u52a8\u9632\u62a4\u7528\u5177\u5236\u9020", "value": "2444"}, {"label": "2449: \u5176\u4ed6\u4f53\u80b2\u7528\u54c1\u5236\u9020", "value": "2449"}]}, {"label": "245: \u73a9\u5177\u5236\u9020", "value": "245", "children": [{"label": "2451: \u7535\u73a9\u5177\u5236\u9020", "value": "2451"}, {"label": "2452: \u5851\u80f6\u73a9\u5177\u5236\u9020", "value": "2452"}, {"label": "2453: \u91d1\u5c5e\u73a9\u5177\u5236\u9020", "value": "2453"}, {"label": "2454: \u5f39\u5c04\u73a9\u5177\u5236\u9020", "value": "2454"}, {"label": "2455: \u5a03\u5a03\u73a9\u5177\u5236\u9020", "value": "2455"}, {"label": "2456: \u513f\u7ae5\u4e58\u9a91\u73a9\u800d\u7684\u7ae5\u8f66\u7c7b\u4ea7\u54c1\u5236\u9020", "value": "2456"}, {"label": "2459: \u5176\u4ed6\u73a9\u5177\u5236\u9020", "value": "2459"}]}, {"label": "246: \u6e38\u827a\u5668\u6750\u53ca\u5a31\u4e50\u7528\u54c1\u5236\u9020", "value": "246", "children": [{"label": "2461: \u9732\u5929\u6e38\u4e50\u573a\u6240\u6e38\u4e50\u8bbe\u5907\u5236\u9020", "value": "2461"}, {"label": "2462: \u6e38\u827a\u7528\u54c1\u53ca\u5ba4\u5185\u6e38\u827a\u5668\u6750\u5236\u9020", "value": "2462"}, {"label": "2469: \u5176\u4ed6\u5a31\u4e50\u7528\u54c1\u5236\u9020", "value": "2469"}]}]}, {"label": "25: \u77f3\u6cb9\u3001\u7164\u70ad\u53ca\u5176\u4ed6\u71c3\u6599\u52a0\u5de5\u4e1a ", "value": "25", "children": [{"label": "251: \u7cbe\u70bc\u77f3\u6cb9\u4ea7\u54c1\u5236\u9020", "value": "251", "children": [{"label": "2511: \u539f\u6cb9\u52a0\u5de5\u53ca\u77f3\u6cb9\u5236\u54c1\u5236\u9020", "value": "2511"}, {"label": "2519: \u5176\u4ed6\u539f\u6cb9\u5236\u9020", "value": "2519"}]}, {"label": "252: \u7164\u70ad\u52a0\u5de5", "value": "252", "children": [{"label": "2521: \u70bc\u7126", "value": "2521"}, {"label": "2522: \u7164\u5236\u5408\u6210\u6c14\u751f\u4ea7", "value": "2522"}, {"label": "2523: \u7164\u5236\u6db2\u4f53\u71c3\u6599\u751f\u4ea7", "value": "2523"}, {"label": "2524: \u7164\u5236\u54c1\u5236\u9020", "value": "2524"}, {"label": "2529: \u5176\u4ed6\u7164\u70ad\u52a0\u5de5", "value": "2529"}]}, {"label": "2530: \u6838\u71c3\u6599\u52a0\u5de5", "value": "2530"}, {"label": "254: \u751f\u7269\u8d28\u71c3\u6599\u52a0\u5de5", "value": "254", "children": [{"label": "2541: \u751f\u7269\u8d28\u6db2\u4f53\u71c3\u6599\u751f\u4ea7", "value": "2541"}, {"label": "2542: \u751f\u7269\u8d28\u81f4\u5bc6\u6210\u578b\u71c3\u6599\u52a0\u5de5", "value": "2542"}]}]}, {"label": "26: \u5316\u5b66\u539f\u6599\u548c\u5316\u5b66\u5236\u54c1\u5236\u9020\u4e1a", "value": "26", "children": [{"label": "261: \u57fa\u7840\u5316\u5b66\u539f\u6599\u5236\u9020", "value": "261", "children": [{"label": "2611: \u65e0\u673a\u9178\u5236\u9020", "value": "2611"}, {"label": "2612: \u65e0\u673a\u78b1\u5236\u9020", "value": "2612"}, {"label": "2613: \u65e0\u673a\u76d0\u5236\u9020", "value": "2613"}, {"label": "2614: \u6709\u673a\u5316\u5b66\u539f\u6599\u5236\u9020", "value": "2614"}, {"label": "2619: \u5176\u4ed6\u57fa\u7840\u5316\u5b66\u539f\u6599\u5236\u9020", "value": "2619"}]}, {"label": "262: \u80a5\u6599\u5236\u9020", "value": "262", "children": [{"label": "2621: \u6c2e\u80a5\u5236\u9020", "value": "2621"}, {"label": "2622: \u78f7\u80a5\u5236\u9020", "value": "2622"}, {"label": "2623: \u94be\u80a5\u5236\u9020", "value": "2623"}, {"label": "2624: \u590d\u6df7\u80a5\u6599\u5236\u9020", "value": "2624"}, {"label": "2625: \u6709\u673a\u80a5\u6599\u53ca\u5fae\u751f\u7269\u80a5\u6599\u5236\u9020", "value": "2625"}, {"label": "2629: \u5176\u4ed6\u80a5\u6599\u5236\u9020", "value": "2629"}]}, {"label": "263: \u519c\u836f\u5236\u9020", "value": "263", "children": [{"label": "2631: \u5316\u5b66\u519c\u836f\u5236\u9020", "value": "2631"}, {"label": "2632: \u751f\u7269\u5316\u5b66\u519c\u836f\u53ca\u5fae\u751f\u7269\u519c\u836f\u5236\u9020", "value": "2632"}]}, {"label": "264: \u6d82\u6599\u3001\u6cb9\u58a8\u3001\u989c\u6599\u53ca\u7c7b\u4f3c\u4ea7\u54c1\u5236\u9020", "value": "264", "children": [{"label": "2641: \u6d82\u6599\u5236\u9020", "value": "2641"}, {"label": "2642: \u6cb9\u58a8\u53ca\u7c7b\u4f3c\u4ea7\u54c1\u5236\u9020", "value": "2642"}, {"label": "2643: \u5de5\u4e1a\u989c\u6599\u5236\u9020", "value": "2643"}, {"label": "2644: \u5de5\u827a\u7f8e\u672f\u989c\u6599\u5236\u9020", "value": "2644"}, {"label": "2645: \u67d3\u6599\u5236\u9020", "value": "2645"}, {"label": "2646: \u5bc6\u5c01\u7528\u586b\u6599\u53ca\u7c7b\u4f3c\u54c1\u5236\u9020", "value": "2646"}]}, {"label": "265: \u5408\u6210\u6750\u6599\u5236\u9020", "value": "265", "children": [{"label": "2651: \u521d\u7ea7\u5f62\u6001\u5851\u6599\u53ca\u5408\u6210\u6811\u8102\u5236\u9020", "value": "2651"}, {"label": "2652: \u5408\u6210\u6a61\u80f6\u5236\u9020", "value": "2652"}, {"label": "2653: \u5408\u6210\u7ea4\u7ef4\u5355(\u805a\u5408)\u4f53\u5236\u9020", "value": "2653"}, {"label": "2659: \u5176\u4ed6\u5408\u6210\u6750\u6599\u5236\u9020", "value": "2659"}]}, {"label": "266: \u4e13\u7528\u5316\u5b66\u4ea7\u54c1\u5236\u9020", "value": "266", "children": [{"label": "2661: \u5316\u5b66\u8bd5\u5242\u548c\u52a9\u5242\u5236\u9020", "value": "2661"}, {"label": "2662: \u4e13\u9879\u5316\u5b66\u7528\u54c1\u5236\u9020", "value": "2662"}, {"label": "2663: \u6797\u4ea7\u5316\u5b66\u4ea7\u54c1\u5236\u9020", "value": "2663"}, {"label": "2664: \u6587\u5316\u7528\u4fe1\u606f\u5316\u5b66\u54c1\u5236\u9020", "value": "2664"}, {"label": "2665: \u533b\u5b66\u751f\u4ea7\u7528\u4fe1\u606f\u5316\u5b66\u54c1\u5236\u9020", "value": "2665"}, {"label": "2666: \u73af\u5883\u6c61\u67d3\u5904\u7406\u4e13\u7528\u836f\u5242\u6750\u6599\u5236\u9020", "value": "2666"}, {"label": "2667: \u52a8\u7269\u80f6\u5236\u9020", "value": "2667"}, {"label": "2669: \u5176\u4ed6\u4e13\u7528\u5316\u5b66\u4ea7\u54c1\u5236\u9020", "value": "2669"}]}, {"label": "267: \u70b8\u836f\u3001\u706b\u5de5\u53ca\u7130\u706b\u4ea7\u54c1\u5236\u9020", "value": "267", "children": [{"label": "2671: \u70b8\u836f\u53ca\u706b\u5de5\u4ea7\u54c1\u5236\u9020", "value": "2671"}, {"label": "2672: \u7130\u706b\u3001\u97ad\u70ae\u4ea7\u54c1\u5236\u9020 ", "value": "2672"}]}, {"label": "268: \u65e5\u7528\u5316\u5b66\u4ea7\u54c1\u5236\u9020", "value": "268", "children": [{"label": "2681: \u80a5\u7682\u53ca\u6d17\u6da4\u5242\u5236\u9020", "value": "2681"}, {"label": "2682: \u5316\u5986\u54c1\u5236\u9020", "value": "2682"}, {"label": "2683: \u53e3\u8154\u6e05\u6d01\u7528\u54c1\u5236\u9020", "value": "2683"}, {"label": "2684: \u9999\u6599\u3001\u9999\u7cbe\u5236\u9020", "value": "2684"}, {"label": "2689: \u5176\u4ed6\u65e5\u7528\u5316\u5b66\u4ea7\u54c1\u5236\u9020", "value": "2689"}]}]}, {"label": "27: \u533b\u836f\u5236\u9020\u4e1a ", "value": "27", "children": [{"label": "2710: \u5316\u5b66\u836f\u54c1\u539f\u6599\u836f\u5236\u9020", "value": "2710"}, {"label": "2720: \u5316\u5b66\u836f\u54c1\u5236\u5242\u5236\u9020", "value": "2720"}, {"label": "2730: \u4e2d\u836f\u996e\u7247\u52a0\u5de5", "value": "2730"}, {"label": "2740: \u4e2d\u6210\u836f\u751f\u4ea7", "value": "2740"}, {"label": "2750: \u517d\u7528\u836f\u54c1\u5236\u9020", "value": "2750"}, {"label": "276: \u751f\u7269\u836f\u54c1\u5236\u54c1\u5236\u9020", "value": "276", "children": [{"label": "2761: \u751f\u7269\u836f\u54c1\u5236\u9020", "value": "2761"}, {"label": "2762: \u57fa\u56e0\u5de5\u7a0b\u836f\u7269\u548c\u75ab\u82d7\u5236\u9020", "value": "2762"}]}, {"label": "2770: \u536b\u751f\u6750\u6599\u53ca\u533b\u836f\u7528\u54c1\u5236\u9020", "value": "2770"}, {"label": "2780: \u836f\u7528\u8f85\u6599\u53ca\u5305\u88c5\u6750\u6599", "value": "2780"}]}, {"label": "28: \u5316\u5b66\u7ea4\u7ef4\u5236\u9020\u4e1a", "value": "28", "children": [{"label": "281: \u7ea4\u7ef4\u7d20\u7ea4\u7ef4\u539f\u6599\u53ca\u7ea4\u7ef4\u5236\u9020", "value": "281", "children": [{"label": "2811: \u5316\u7ea4\u6d46\u7c95\u5236\u9020", "value": "2811"}, {"label": "2812: \u4eba\u9020\u7ea4\u7ef4\uff08\u7ea4\u7ef4\u7d20\u7ea4\u7ef4\uff09\u5236\u9020", "value": "2812"}]}, {"label": "282: \u5408\u6210\u7ea4\u7ef4\u5236\u9020", "value": "282", "children": [{"label": "2821: \u9526\u7eb6\u7ea4\u7ef4\u5236\u9020", "value": "2821"}, {"label": "2822: \u6da4\u7eb6\u7ea4\u7ef4\u5236\u9020", "value": "2822"}, {"label": "2823: \u8148\u7eb6\u7ea4\u7ef4\u5236\u9020", "value": "2823"}, {"label": "2824: \u7ef4\u7eb6\u7ea4\u7ef4\u5236\u9020", "value": "2824"}, {"label": "2825: \u4e19\u7eb6\u7ea4\u7ef4\u5236\u9020", "value": "2825"}, {"label": "2826: \u6c28\u7eb6\u7ea4\u7ef4\u5236\u9020", "value": "2826"}, {"label": "2829: \u5176\u4ed6\u5408\u6210\u7ea4\u7ef4\u5236\u9020", "value": "2829"}]}, {"label": "283: \u751f\u7269\u57fa\u6750\u6599\u5236\u9020", "value": "283", "children": [{"label": "2831: \u751f\u7269\u57fa\u5316\u5b66\u7ea4\u7ef4\u5236\u9020", "value": "2831"}, {"label": "2832: \u751f\u7269\u57fa\u3001\u6dc0\u7c89\u57fa\u65b0\u6750\u6599\u5236\u9020", "value": "2832"}]}]}, {"label": "29: \u6a61\u80f6\u548c\u5851\u6599\u5236\u54c1\u4e1a", "value": "29", "children": [{"label": "291: \u6a61\u80f6\u5236\u54c1\u4e1a", "value": "291", "children": [{"label": "2911: \u8f6e\u80ce\u5236\u9020", "value": "2911"}, {"label": "2912: \u6a61\u80f6\u677f\u3001\u7ba1\u3001\u5e26\u5236\u9020", "value": "2912"}, {"label": "2913: \u6a61\u80f6\u96f6\u4ef6\u5236\u9020", "value": "2913"}, {"label": "2914: \u518d\u751f\u6a61\u80f6\u5236\u9020", "value": "2914"}, {"label": "2915: \u65e5\u7528\u53ca\u533b\u7528\u6a61\u80f6\u5236\u54c1\u5236\u9020", "value": "2915"}, {"label": "2916: \u8fd0\u52a8\u573a\u5730\u7528\u5851\u80f6\u5236\u9020", "value": "2916"}, {"label": "2919: \u5176\u4ed6\u6a61\u80f6\u5236\u54c1\u5236\u9020", "value": "2919"}]}, {"label": "292: \u5851\u6599\u5236\u54c1\u4e1a", "value": "292", "children": [{"label": "2921: \u5851\u6599\u8584\u819c\u5236\u9020", "value": "2921"}, {"label": "2922: \u5851\u6599\u677f\u3001\u7ba1\u3001\u578b\u6750\u5236\u9020", "value": "2922"}, {"label": "2923: \u5851\u6599\u4e1d\u3001\u7ef3\u53ca\u7f16\u7ec7\u54c1\u5236\u9020", "value": "2923"}, {"label": "2924: \u6ce1\u6cab\u5851\u6599\u5236\u9020", "value": "2924"}, {"label": "2925: \u5851\u6599\u4eba\u9020\u9769\u3001\u5408\u6210\u9769\u5236\u9020", "value": "2925"}, {"label": "2926: \u5851\u6599\u5305\u88c5\u7bb1\u53ca\u5bb9\u5668\u5236\u9020", "value": "2926"}, {"label": "2927: \u65e5\u7528\u5851\u6599\u5236\u54c1\u5236\u9020", "value": "2927"}, {"label": "2928: \u4eba\u9020\u8349\u576a\u5236\u9020", "value": "2928"}, {"label": "2929: \u5851\u6599\u96f6\u4ef6\u53ca\u5176\u4ed6\u5851\u6599\u5236\u54c1\u5236\u9020", "value": "2929"}]}]}, {"label": "30: \u975e\u91d1\u5c5e\u77ff\u7269\u5236\u54c1\u4e1a", "value": "30", "children": [{"label": "301: \u6c34\u6ce5\u3001\u77f3\u7070\u548c\u77f3\u818f\u5236\u9020", "value": "301", "children": [{"label": "3011: \u6c34\u6ce5\u5236\u9020", "value": "3011"}, {"label": "3012: \u77f3\u7070\u548c\u77f3\u818f\u5236\u9020", "value": "3012"}]}, {"label": "302: \u77f3\u818f\u3001\u6c34\u6ce5\u5236\u54c1\u53ca\u7c7b\u4f3c\u5236\u54c1\u5236\u9020", "value": "302", "children": [{"label": "3021: \u6c34\u6ce5\u5236\u54c1\u5236\u9020", "value": "3021"}, {"label": "3022: \u783c\u7ed3\u6784\u6784\u4ef6\u5236\u9020", "value": "3022"}, {"label": "3023: \u77f3\u68c9\u6c34\u6ce5\u5236\u54c1\u5236\u9020", "value": "3023"}, {"label": "3024: \u8f7b\u8d28\u5efa\u7b51\u6750\u6599\u5236\u9020", "value": "3024"}, {"label": "3029: \u5176\u4ed6\u6c34\u6ce5\u7c7b\u4f3c\u5236\u54c1\u5236\u9020", "value": "3029"}]}, {"label": "303: \u7816\u74e6\u3001\u77f3\u6750\u7b49\u5efa\u7b51\u6750\u6599\u5236\u9020", "value": "303", "children": [{"label": "3031: \u7c98\u571f\u7816\u74e6\u53ca\u5efa\u7b51\u780c\u5757\u5236\u9020", "value": "3031"}, {"label": "3032: \u5efa\u7b51\u7528\u77f3\u52a0\u5de5", "value": "3032"}, {"label": "3033: \u9632\u6c34\u5efa\u7b51\u6750\u6599\u5236\u9020", "value": "3033"}, {"label": "3034: \u9694\u70ed\u548c\u9694\u97f3\u6750\u6599\u5236\u9020", "value": "3034"}, {"label": "3039: \u5176\u4ed6\u5efa\u7b51\u6750\u6599\u5236\u9020", "value": "3039"}]}, {"label": "304: \u73bb\u7483\u5236\u9020", "value": "304", "children": [{"label": "3041: \u5e73\u677f\u73bb\u7483\u5236\u9020", "value": "3041"}, {"label": "3042: \u7279\u79cd\u73bb\u7483\u5236\u9020", "value": "3042"}, {"label": "3049: \u5176\u4ed6\u73bb\u7483\u5236\u9020", "value": "3049"}]}, {"label": "305: \u73bb\u7483\u5236\u54c1\u5236\u9020", "value": "305", "children": [{"label": "3051: \u6280\u672f\u73bb\u7483\u5236\u54c1\u5236\u9020", "value": "3051"}, {"label": "3052: \u5149\u5b66\u73bb\u7483\u5236\u9020", "value": "3052"}, {"label": "3053: \u73bb\u7483\u4eea\u5668\u5236\u9020", "value": "3053"}, {"label": "3054: \u65e5\u7528\u73bb\u7483\u5236\u54c1\u5236\u9020", "value": "3054"}, {"label": "3055: \u73bb\u7483\u5305\u88c5\u5bb9\u5668\u5236\u9020", "value": "3055"}, {"label": "3056: \u73bb\u7483\u4fdd\u6e29\u5bb9\u5668\u5236\u9020", "value": "3056"}, {"label": "3057: \u5236\u955c\u53ca\u7c7b\u4f3c\u54c1\u52a0\u5de5", "value": "3057"}, {"label": "3059: \u5176\u4ed6\u73bb\u7483\u5236\u54c1\u5236\u9020", "value": "3059"}]}, {"label": "306: \u73bb\u7483\u7ea4\u7ef4\u548c\u73bb\u7483\u7ea4\u7ef4\u589e\u5f3a\u5851\u6599\u5236\u54c1\u5236\u9020", "value": "306", "children": [{"label": "3061: \u73bb\u7483\u7ea4\u7ef4\u53ca\u5236\u54c1\u5236\u9020", "value": "3061"}, {"label": "3062: \u73bb\u7483\u7ea4\u7ef4\u589e\u5f3a\u5851\u6599\u5236\u54c1\u5236\u9020", "value": "3062"}]}, {"label": "307: \u9676\u74f7\u5236\u54c1\u5236\u9020", "value": "307", "children": [{"label": "3071: \u5efa\u7b51\u9676\u74f7\u5236\u54c1\u5236\u9020", "value": "3071"}, {"label": "3072: \u536b\u751f\u9676\u74f7\u5236\u54c1\u5236\u9020", "value": "3072"}, {"label": "3073: \u7279\u79cd\u9676\u74f7\u5236\u54c1\u5236\u9020", "value": "3073"}, {"label": "3074: \u65e5\u7528\u9676\u74f7\u5236\u54c1\u5236\u9020", "value": "3074"}, {"label": "3075: \u9648\u8bbe\u827a\u672f\u9676\u74f7\u5236\u9020", "value": "3075"}, {"label": "3076: \u56ed\u827a\u9676\u74f7\u5236\u9020", "value": "3076"}, {"label": "3079: \u5176\u4ed6\u9676\u74f7\u5236\u54c1\u5236\u9020", "value": "3079"}]}, {"label": "308: \u8010\u706b\u6750\u6599\u5236\u54c1\u5236\u9020", "value": "308", "children": [{"label": "3081: \u77f3\u68c9\u5236\u54c1\u5236\u9020", "value": "3081"}, {"label": "3082: \u4e91\u6bcd\u5236\u54c1\u5236\u9020", "value": "3082"}, {"label": "3089: \u8010\u706b\u9676\u74f7\u5236\u54c1\u53ca\u5176\u4ed6\u8010\u706b\u6750\u6599\u5236\u9020", "value": "3089"}]}, {"label": "309: \u77f3\u58a8\u53ca\u5176\u4ed6\u975e\u91d1\u5c5e\u77ff\u7269\u5236\u54c1\u5236\u9020", "value": "309", "children": [{"label": "3091: \u77f3\u58a8\u53ca\u78b3\u7d20\u5236\u54c1\u5236\u9020", "value": "3091"}, {"label": "3099: \u5176\u4ed6\u975e\u91d1\u5c5e\u77ff\u7269\u5236\u54c1\u5236\u9020", "value": "3099"}]}]}, {"label": "31: \u9ed1\u8272\u91d1\u5c5e\u51b6\u70bc\u548c\u538b\u5ef6\u52a0\u5de5\u4e1a ", "value": "31", "children": [{"label": "3110: \u70bc\u94c1", "value": "3110"}, {"label": "3120: \u70bc\u94a2", "value": "3120"}, {"label": "3130: \u94a2\u538b\u5ef6\u52a0\u5de5", "value": "3130"}, {"label": "3140: \u94c1\u5408\u91d1\u51b6\u70bc", "value": "3140"}]}, {"label": "32: \u6709\u8272\u91d1\u5c5e\u51b6\u70bc\u548c\u538b\u5ef6\u52a0\u5de5\u4e1a ", "value": "32", "children": [{"label": "321: \u5e38\u7528\u6709\u8272\u91d1\u5c5e\u51b6\u70bc", "value": "321", "children": [{"label": "3211: \u94dc\u51b6\u70bc", "value": "3211"}, {"label": "3212: \u94c5\u950c\u51b6\u70bc", "value": "3212"}, {"label": "3213: \u954d\u94b4\u51b6\u70bc", "value": "3213"}, {"label": "3214: \u9521\u51b6\u70bc", "value": "3214"}, {"label": "3215: \u9511\u51b6\u70bc", "value": "3215"}, {"label": "3216: \u94dd\u51b6\u70bc", "value": "3216"}, {"label": "3217: \u9541\u51b6\u70bc", "value": "3217"}, {"label": "3218: \u7845\u51b6\u70bc", "value": "3218"}, {"label": "3219: \u5176\u4ed6\u5e38\u7528\u6709\u8272\u91d1\u5c5e\u51b6\u70bc", "value": "3219"}]}, {"label": "322: \u8d35\u91d1\u5c5e\u51b6\u70bc", "value": "322", "children": [{"label": "3221: \u91d1\u51b6\u70bc", "value": "3221"}, {"label": "3222: \u94f6\u51b6\u70bc", "value": "3222"}, {"label": "3229: \u5176\u4ed6\u8d35\u91d1\u5c5e\u51b6\u70bc", "value": "3229"}]}, {"label": "323: \u7a00\u6709\u7a00\u571f\u91d1\u5c5e\u51b6\u70bc", "value": "323", "children": [{"label": "3231: \u94a8\u94bc\u51b6\u70bc", "value": "3231"}, {"label": "3232: \u7a00\u571f\u91d1\u5c5e\u51b6\u70bc", "value": "3232"}, {"label": "3239: \u5176\u4ed6\u7a00\u6709\u91d1\u5c5e\u51b6\u70bc", "value": "3239"}]}, {"label": "3240: \u6709\u8272\u91d1\u5c5e\u5408\u91d1\u5236\u9020", "value": "3240"}, {"label": "325: \u6709\u8272\u91d1\u5c5e\u538b\u5ef6\u52a0\u5de5", "value": "325", "children": [{"label": "3251: \u94dc\u538b\u5ef6\u52a0\u5de5", "value": "3251"}, {"label": "3252: \u94dd\u538b\u5ef6\u52a0\u5de5", "value": "3252"}, {"label": "3253: \u8d35\u91d1\u5c5e\u538b\u5ef6\u52a0\u5de5", "value": "3253"}, {"label": "3254: \u7a00\u6709\u7a00\u571f\u91d1\u5c5e\u538b\u5ef6\u52a0\u5de5", "value": "3254"}, {"label": "3259: \u5176\u4ed6\u6709\u8272\u91d1\u5c5e\u538b\u5ef6\u52a0\u5de5", "value": "3259"}]}]}, {"label": "33: \u91d1\u5c5e\u5236\u54c1\u4e1a ", "value": "33", "children": [{"label": "331: \u7ed3\u6784\u6027\u91d1\u5c5e\u5236\u54c1\u5236\u9020", "value": "331", "children": [{"label": "3311: \u91d1\u5c5e\u7ed3\u6784\u5236\u9020", "value": "3311"}, {"label": "3312: \u91d1\u5c5e\u95e8\u7a97\u5236\u9020", "value": "3312"}]}, {"label": "332: \u91d1\u5c5e\u5de5\u5177\u5236\u9020", "value": "332", "children": [{"label": "3321: \u5207\u524a\u5de5\u5177\u5236\u9020", "value": "3321"}, {"label": "3322: \u624b\u5de5\u5177\u5236\u9020", "value": "3322"}, {"label": "3323: \u519c\u7528\u53ca\u56ed\u6797\u7528\u91d1\u5c5e\u5de5\u5177\u5236\u9020", "value": "3323"}, {"label": "3324: \u5200\u526a\u53ca\u7c7b\u4f3c\u65e5\u7528\u91d1\u5c5e\u5de5\u5177\u5236\u9020", "value": "3324"}, {"label": "3329: \u5176\u4ed6\u91d1\u5c5e\u5de5\u5177\u5236\u9020", "value": "3329"}]}, {"label": "333: \u96c6\u88c5\u7bb1\u53ca\u91d1\u5c5e\u5305\u88c5\u5bb9\u5668\u5236\u9020", "value": "333", "children": [{"label": "3331: \u96c6\u88c5\u7bb1\u5236\u9020", "value": "3331"}, {"label": "3332: \u91d1\u5c5e\u538b\u529b\u5bb9\u5668\u5236\u9020", "value": "3332"}, {"label": "3333: \u91d1\u5c5e\u5305\u88c5\u5bb9\u5668\u53ca\u6750\u6599\u5236\u9020", "value": "3333"}]}, {"label": "3340: \u91d1\u5c5e\u4e1d\u7ef3\u53ca\u5176\u5236\u54c1\u5236\u9020", "value": "3340"}, {"label": "335: \u5efa\u7b51\u3001\u5b89\u5168\u7528\u91d1\u5c5e\u5236\u54c1\u5236\u9020", "value": "335", "children": [{"label": "3351: \u5efa\u7b51\u3001\u5bb6\u5177\u7528\u91d1\u5c5e\u914d\u4ef6\u5236\u9020", "value": "3351"}, {"label": "3352: \u5efa\u7b51\u88c5\u9970\u53ca\u6c34\u6696\u7ba1\u9053\u96f6\u4ef6\u5236\u9020", "value": "3352"}, {"label": "3353: \u5b89\u5168\u3001\u6d88\u9632\u7528\u91d1\u5c5e\u5236\u54c1\u5236\u9020", "value": "3353"}, {"label": "3359: \u5176\u4ed6\u5efa\u7b51\u3001\u5b89\u5168\u7528\u91d1\u5c5e\u5236\u54c1\u5236\u9020", "value": "3359"}]}, {"label": "3360: \u91d1\u5c5e\u8868\u9762\u5904\u7406\u53ca\u70ed\u5904\u7406\u52a0\u5de5", "value": "3360"}, {"label": "337: \u642a\u74f7\u5236\u54c1\u5236\u9020", "value": "337", "children": [{"label": "3371: \u751f\u4ea7\u4e13\u7528\u642a\u74f7\u5236\u54c1\u5236\u9020", "value": "3371"}, {"label": "3372: \u5efa\u7b51\u88c5\u9970\u642a\u74f7\u5236\u54c1\u5236\u9020", "value": "3372"}, {"label": "3373: \u642a\u74f7\u536b\u751f\u6d01\u5177\u5236\u9020", "value": "3373"}, {"label": "3379: \u642a\u74f7\u65e5\u7528\u54c1\u53ca\u5176\u4ed6\u642a\u74f7\u5236\u54c1\u5236\u9020", "value": "3379"}]}, {"label": "338: \u91d1\u5c5e\u5236\u65e5\u7528\u54c1\u5236\u9020", "value": "338", "children": [{"label": "3381: \u91d1\u5c5e\u5236\u53a8\u623f\u7528\u5668\u5177\u5236\u9020", "value": "3381"}, {"label": "3382: \u91d1\u5c5e\u5236\u9910\u5177\u548c\u5668\u76bf\u5236\u9020", "value": "3382"}, {"label": "3383: \u91d1\u5c5e\u5236\u536b\u751f\u5668\u5177\u5236\u9020", "value": "3383"}, {"label": "3389: \u5176\u4ed6\u91d1\u5c5e\u5236\u65e5\u7528\u54c1\u5236\u9020", "value": "3389"}]}, {"label": "339: \u5176\u4ed6\u91d1\u5c5e\u5236\u54c1\u5236\u9020", "value": "339", "children": [{"label": "3391: \u9ed1\u8272\u91d1\u5c5e\u94f8\u9020", "value": "3391"}, {"label": "3392: \u6709\u8272\u91d1\u5c5e\u94f8\u9020", "value": "3392"}, {"label": "3393: \u953b\u4ef6\u53ca\u7c89\u672b\u51b6\u91d1\u5236\u54c1\u5236\u9020", "value": "3393"}, {"label": "3394: \u4ea4\u901a\u53ca\u516c\u5171\u7ba1\u7406\u7528\u91d1\u5c5e\u6807\u724c\u5236\u9020", "value": "3394"}, {"label": "3399: \u5176\u4ed6\u672a\u5217\u660e\u91d1\u5c5e\u5236\u54c1\u5236\u9020", "value": "3399"}]}]}, {"label": "34: \u901a\u7528\u8bbe\u5907\u5236\u9020\u4e1a", "value": "34", "children": [{"label": "341: \u9505\u7089\u53ca\u539f\u52a8\u8bbe\u5907\u5236\u9020", "value": "341", "children": [{"label": "3411: \u9505\u7089\u53ca\u8f85\u52a9\u8bbe\u5907\u5236\u9020", "value": "3411"}, {"label": "3412: \u5185\u71c3\u673a\u53ca\u914d\u4ef6\u5236\u9020", "value": "3412"}, {"label": "3413: \u6c7d\u8f6e\u673a\u53ca\u8f85\u673a\u5236\u9020", "value": "3413"}, {"label": "3414: \u6c34\u8f6e\u673a\u53ca\u8f85\u673a\u5236\u9020", "value": "3414"}, {"label": "3415: \u98ce\u80fd\u539f\u52a8\u8bbe\u5907\u5236\u9020", "value": "3415"}, {"label": "3419: \u5176\u4ed6\u539f\u52a8\u8bbe\u5907\u5236\u9020", "value": "3419"}]}, {"label": "342: \u91d1\u5c5e\u52a0\u5de5\u673a\u68b0\u5236\u9020", "value": "342", "children": [{"label": "3421: \u91d1\u5c5e\u5207\u524a\u673a\u5e8a\u5236\u9020", "value": "3421"}, {"label": "3422: \u91d1\u5c5e\u6210\u5f62\u673a\u5e8a\u5236\u9020", "value": "3422"}, {"label": "3423: \u94f8\u9020\u673a\u68b0\u5236\u9020", "value": "3423"}, {"label": "3424: \u91d1\u5c5e\u5207\u5272\u53ca\u710a\u63a5\u8bbe\u5907\u5236\u9020", "value": "3424"}, {"label": "3425: \u673a\u5e8a\u529f\u80fd\u90e8\u4ef6\u53ca\u9644\u4ef6\u5236\u9020", "value": "3425"}, {"label": "3429: \u5176\u4ed6\u91d1\u5c5e\u52a0\u5de5\u673a\u68b0\u5236\u9020", "value": "3429"}]}, {"label": "343: \u7269\u6599\u642c\u8fd0\u8bbe\u5907\u5236\u9020", "value": "343", "children": [{"label": "3431: \u8f7b\u5c0f\u578b\u8d77\u91cd\u8bbe\u5907\u5236\u9020", "value": "3431"}, {"label": "3432: \u751f\u4ea7\u4e13\u7528\u8d77\u91cd\u673a\u5236\u9020", "value": "3432"}, {"label": "3433: \u751f\u4ea7\u4e13\u7528\u8f66\u8f86\u5236\u9020", "value": "3433"}, {"label": "3434: \u8fde\u7eed\u642c\u8fd0\u8bbe\u5907\u5236\u9020", "value": "3434"}, {"label": "3435: \u7535\u68af\u3001\u81ea\u52a8\u6276\u68af\u53ca\u5347\u964d\u673a\u5236\u9020", "value": "3435"}, {"label": "3436: \u5ba2\u8fd0\u7d22\u9053\u5236\u9020", "value": "3436"}, {"label": "3437: \u673a\u68b0\u5f0f\u505c\u8f66\u8bbe\u5907\u5236\u9020", "value": "3437"}, {"label": "3439: \u5176\u4ed6\u7269\u6599\u642c\u8fd0\u8bbe\u5907\u5236\u9020", "value": "3439"}]}, {"label": "344: \u6cf5\u3001\u9600\u95e8\u3001\u538b\u7f29\u673a\u53ca\u7c7b\u4f3c\u673a\u68b0\u5236\u9020", "value": "344", "children": [{"label": "3441: \u6cf5\u53ca\u771f\u7a7a\u8bbe\u5907\u5236\u9020", "value": "3441"}, {"label": "3442: \u6c14\u4f53\u538b\u7f29\u673a\u68b0\u5236\u9020", "value": "3442"}, {"label": "3443: \u9600\u95e8\u548c\u65cb\u585e\u5236\u9020", "value": "3443"}, {"label": "3444: \u6db2\u538b\u52a8\u529b\u673a\u68b0\u53ca\u5143\u4ef6\u5236\u9020", "value": "3444"}, {"label": "3445: \u6db2\u529b\u52a8\u529b\u673a\u68b0\u5143\u4ef6\u5236\u9020", "value": "3445"}, {"label": "3446:  \u6c14\u538b\u52a8\u529b\u673a\u68b0\u53ca\u5143\u4ef6\u5236\u9020", "value": "3446"}]}, {"label": "345: \u8f74\u627f\u3001\u9f7f\u8f6e\u548c\u4f20\u52a8\u90e8\u4ef6\u5236\u9020", "value": "345", "children": [{"label": "3451: \u6eda\u52a8\u8f74\u627f\u5236\u9020", "value": "3451"}, {"label": "3452: \u6ed1\u52a8\u8f74\u627f\u5236\u9020", "value": "3452"}, {"label": "3453: \u9f7f\u8f6e\u53ca\u9f7f\u8f6e\u51cf\u3001\u53d8\u901f\u7bb1\u5236\u9020", "value": "3453"}, {"label": "3459: \u5176\u4ed6\u4f20\u52a8\u90e8\u4ef6\u5236\u9020", "value": "3459"}]}, {"label": "346: \u70d8\u7089\u3001\u98ce\u673a\u3001\u5305\u88c5\u7b49\u8bbe\u5907\u5236\u9020", "value": "346", "children": [{"label": "3461: \u70d8\u7089\u3001\u7194\u7089\u53ca\u7535\u7089\u5236\u9020", "value": "3461"}, {"label": "3462: \u98ce\u673a\u3001\u98ce\u6247\u5236\u9020", "value": "3462"}, {"label": "3463: \u6c14\u4f53\u3001\u6db2\u4f53\u5206\u79bb\u53ca\u7eaf\u51c0\u8bbe\u5907\u5236\u9020", "value": "3463"}, {"label": "3464: \u5236\u51b7\u3001\u7a7a\u8c03\u8bbe\u5907\u5236\u9020", "value": "3464"}, {"label": "3465: \u98ce\u52a8\u548c\u7535\u52a8\u5de5\u5177\u5236\u9020", "value": "3465"}, {"label": "3466: \u55b7\u67aa\u53ca\u7c7b\u4f3c\u5668\u5177\u5236\u9020 ", "value": "3466"}, {"label": "3467: \u5305\u88c5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3467"}]}, {"label": "347: \u6587\u5316\u3001\u529e\u516c\u7528\u673a\u68b0\u5236\u9020", "value": "347", "children": [{"label": "3471: \u7535\u5f71\u673a\u68b0\u5236\u9020", "value": "3471"}, {"label": "3472: \u5e7b\u706f\u53ca\u6295\u5f71\u8bbe\u5907\u5236\u9020", "value": "3472"}, {"label": "3473: \u7167\u76f8\u673a\u53ca\u5668\u6750\u5236\u9020", "value": "3473"}, {"label": "3474: \u590d\u5370\u548c\u80f6\u5370\u8bbe\u5907\u5236\u9020", "value": "3474"}, {"label": "3475: \u8ba1\u7b97\u5668\u53ca\u8d27\u5e01\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3475"}, {"label": "3479: \u5176\u4ed6\u6587\u5316\u3001\u529e\u516c\u7528\u673a\u68b0\u5236\u9020", "value": "3479"}]}, {"label": "348: \u901a\u7528\u96f6\u90e8\u4ef6\u5236\u9020", "value": "348", "children": [{"label": "3481: \u91d1\u5c5e\u5bc6\u5c01\u4ef6\u5236\u9020", "value": "3481"}, {"label": "3482: \u7d27\u56fa\u4ef6\u5236\u9020", "value": "3482"}, {"label": "3483: \u5f39\u7c27\u5236\u9020", "value": "3483"}, {"label": "3484: \u673a\u68b0\u96f6\u90e8\u4ef6\u52a0\u5de5", "value": "3484"}, {"label": "3489: \u5176\u4ed6\u901a\u7528\u96f6\u90e8\u4ef6\u5236\u9020", "value": "3489"}]}, {"label": "349: \u5176\u4ed6\u901a\u7528\u8bbe\u5907\u5236\u9020", "value": "349", "children": [{"label": "3491: \u5de5\u4e1a\u673a\u5668\u4eba\u5236\u9020", "value": "3491"}, {"label": "3492: \u7279\u6b8a\u4f5c\u4e1a\u673a\u5668\u4eba\u5236\u9020", "value": "3492"}, {"label": "3493: \u589e\u6750\u5236\u9020\u88c5\u5907\u5236\u9020", "value": "3493"}, {"label": "3499: \u5176\u4ed6\u672a\u5217\u660e\u901a\u7528\u8bbe\u5907\u5236\u9020\u4e1a", "value": "3499"}]}]}, {"label": "35: \u4e13\u7528\u8bbe\u5907\u5236\u9020\u4e1a ", "value": "35", "children": [{"label": "351: \u91c7\u77ff\u3001\u51b6\u91d1\u3001\u5efa\u7b51\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "351", "children": [{"label": "3511: \u77ff\u5c71\u673a\u68b0\u5236\u9020", "value": "3511"}, {"label": "3512: \u77f3\u6cb9\u94bb\u91c7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3512"}, {"label": "3513: \u6df1\u6d77\u77f3\u6cb9\u94bb\u63a2\u8bbe\u5907\u5236\u9020", "value": "3513"}, {"label": "3514: \u5efa\u7b51\u5de5\u7a0b\u7528\u673a\u68b0\u5236\u9020", "value": "3514"}, {"label": "3515: \u5efa\u7b51\u6750\u6599\u751f\u4ea7\u4e13\u7528\u673a\u68b0\u5236\u9020", "value": "3515"}, {"label": "3516: \u51b6\u91d1\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3516"}, {"label": "3517: \u96a7\u9053\u65bd\u5de5\u4e13\u7528\u673a\u68b0\u5236\u9020", "value": "3517"}]}, {"label": "352: \u5316\u5de5\u3001\u6728\u6750\u3001\u975e\u91d1\u5c5e\u52a0\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "352", "children": [{"label": "3521: \u70bc\u6cb9\u3001\u5316\u5de5\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3521"}, {"label": "3522: \u6a61\u80f6\u52a0\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3522"}, {"label": "3523: \u5851\u6599\u52a0\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3523"}, {"label": "3524: \u6728\u7af9\u6750\u52a0\u5de5\u673a\u68b0\u5236\u9020", "value": "3524"}, {"label": "3525: \u6a21\u5177\u5236\u9020", "value": "3525"}, {"label": "3529: \u5176\u4ed6\u975e\u91d1\u5c5e\u52a0\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3529"}]}, {"label": "353: \u98df\u54c1\u3001\u996e\u6599\u3001\u70df\u8349\u53ca\u9972\u6599\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020\u3000\u3000\u3000", "value": "353", "children": [{"label": "3531: \u98df\u54c1\u3001\u9152\u3001\u996e\u6599\u53ca\u8336\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3531"}, {"label": "3532: \u519c\u526f\u98df\u54c1\u52a0\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3532"}, {"label": "3533: \u70df\u8349\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3533"}, {"label": "3534: \u9972\u6599\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3534"}]}, {"label": "354: \u5370\u5237\u3001\u5236\u836f\u3001\u65e5\u5316\u53ca\u65e5\u7528\u54c1\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "354", "children": [{"label": "3541: \u5236\u6d46\u548c\u9020\u7eb8\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3541"}, {"label": "3542: \u5370\u5237\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3542"}, {"label": "3543: \u65e5\u7528\u5316\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3543"}, {"label": "3544: \u5236\u836f\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3544"}, {"label": "3545: \u7167\u660e\u5668\u5177\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3545"}, {"label": "3546: \u73bb\u7483\u3001\u9676\u74f7\u548c\u642a\u74f7\u5236\u54c1\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3546"}, {"label": "3549: \u5176\u4ed6\u65e5\u7528\u54c1\u751f\u4ea7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3549"}]}, {"label": "355: \u7eba\u7ec7\u3001\u670d\u88c5\u548c\u76ae\u9769\u52a0\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "355", "children": [{"label": "3551: \u7eba\u7ec7\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3551"}, {"label": "3552: \u76ae\u9769\u3001\u6bdb\u76ae\u53ca\u5176\u5236\u54c1\u52a0\u5de5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3552"}, {"label": "3553: \u7f1d\u5236\u673a\u68b0\u5236\u9020", "value": "3553"}, {"label": "3554: \u6d17\u6da4\u673a\u68b0\u5236\u9020", "value": "3554"}]}, {"label": "356: \u7535\u5b50\u548c\u7535\u5de5\u673a\u68b0\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "356", "children": [{"label": "3561: \u7535\u5de5\u673a\u68b0\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3561"}, {"label": "3562: \u534a\u5bfc\u4f53\u5668\u4ef6\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3562"}, {"label": "3563: \u7535\u5b50\u5143\u5668\u4ef6\u4e0e\u673a\u7535\u7ec4\u4ef6\u8bbe\u5907\u5236\u9020", "value": "3563"}, {"label": "3569: \u5176\u4ed6\u7535\u5b50\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3569"}]}, {"label": "357: \u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4e13\u7528\u673a\u68b0\u5236\u9020", "value": "357", "children": [{"label": "3571: \u62d6\u62c9\u673a\u5236\u9020", "value": "3571"}, {"label": "3572: \u673a\u68b0\u5316\u519c\u4e1a\u53ca\u56ed\u827a\u673a\u5177\u5236\u9020", "value": "3572"}, {"label": "3573: \u8425\u6797\u53ca\u6728\u7af9\u91c7\u4f10\u673a\u68b0\u5236\u9020", "value": "3573"}, {"label": "3574: \u755c\u7267\u673a\u68b0\u5236\u9020", "value": "3574"}, {"label": "3575: \u6e14\u4e1a\u673a\u68b0\u5236\u9020", "value": "3575"}, {"label": "3576: \u519c\u6797\u7267\u6e14\u673a\u68b0\u914d\u4ef6\u5236\u9020", "value": "3576"}, {"label": "3577: \u68c9\u82b1\u52a0\u5de5\u673a\u68b0\u5236\u9020", "value": "3577"}, {"label": "3579: \u5176\u4ed6\u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4e1a\u673a\u68b0\u5236\u9020", "value": "3579"}]}, {"label": "358: \u533b\u7597\u4eea\u5668\u8bbe\u5907\u53ca\u5668\u68b0\u5236\u9020", "value": "358", "children": [{"label": "3581: \u533b\u7597\u8bca\u65ad\u3001\u76d1\u62a4\u53ca\u6cbb\u7597\u8bbe\u5907\u5236\u9020", "value": "3581"}, {"label": "3582: \u53e3\u8154\u79d1\u7528\u8bbe\u5907\u53ca\u5668\u5177\u5236\u9020", "value": "3582"}, {"label": "3583: \u533b\u7597\u5b9e\u9a8c\u5ba4\u53ca\u533b\u7528\u6d88\u6bd2\u8bbe\u5907\u548c\u5668\u5177\u5236\u9020", "value": "3583"}, {"label": "3584: \u533b\u7597\u3001\u5916\u79d1\u53ca\u517d\u533b\u7528\u5668\u68b0\u5236\u9020", "value": "3584"}, {"label": "3585: \u673a\u68b0\u6cbb\u7597\u53ca\u75c5\u623f\u62a4\u7406\u8bbe\u5907\u5236\u9020", "value": "3585"}, {"label": "3586: \u5eb7\u590d\u8f85\u5177\u5236\u9020", "value": "3586"}, {"label": "3587: \u773c\u955c\u5236\u9020", "value": "3587"}, {"label": "3589: \u5176\u4ed6\u533b\u7597\u8bbe\u5907\u53ca\u5668\u68b0\u5236\u9020", "value": "3589"}]}, {"label": "359: \u73af\u4fdd\u3001\u90ae\u653f\u3001\u793e\u4f1a\u516c\u5171\u670d\u52a1\u53ca\u5176\u4ed6\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "359", "children": [{"label": "3591: \u73af\u5883\u4fdd\u62a4\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3591"}, {"label": "3592: \u5730\u8d28\u52d8\u67e5\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3592"}, {"label": "3593: \u90ae\u653f\u4e13\u7528\u673a\u68b0\u53ca\u5668\u6750\u5236\u9020", "value": "3593"}, {"label": "3594: \u5546\u4e1a\u3001\u996e\u98df\u3001\u670d\u52a1\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3594"}, {"label": "3595: \u793e\u4f1a\u516c\u5171\u5b89\u5168\u8bbe\u5907\u53ca\u5668\u6750\u5236\u9020", "value": "3595"}, {"label": "3596: \u4ea4\u901a\u5b89\u5168\u3001\u7ba1\u5236\u53ca\u7c7b\u4f3c\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3596"}, {"label": "3597: \u6c34\u8d44\u6e90\u4e13\u7528\u673a\u68b0\u5236\u9020", "value": "3597"}, {"label": "3599: \u5176\u4ed6\u4e13\u7528\u8bbe\u5907\u5236\u9020", "value": "3599"}]}]}, {"label": "36: \u6c7d\u8f66\u5236\u9020\u4e1a", "value": "36", "children": [{"label": "361: \u6c7d\u8f66\u6574\u8f66\u5236\u9020", "value": "361", "children": [{"label": "3611: \u6c7d\u67f4\u6cb9\u8f66\u6574\u8f66\u5236\u9020", "value": "3611"}, {"label": "3612: \u65b0\u80fd\u6e90\u8f66\u6574\u8f66\u5236\u9020", "value": "3612"}]}, {"label": "3620: \u6c7d\u8f66\u7528\u53d1\u52a8\u673a\u5236\u9020", "value": "3620"}, {"label": "3630: \u6539\u88c5\u6c7d\u8f66\u5236\u9020", "value": "3630"}, {"label": "3640: \u4f4e\u901f\u6c7d\u8f66\u5236\u9020", "value": "3640"}, {"label": "3650: \u7535\u8f66\u5236\u9020", "value": "3650"}, {"label": "3660: \u6c7d\u8f66\u8f66\u8eab\u3001\u6302\u8f66\u5236\u9020", "value": "3660"}, {"label": "3670: \u6c7d\u8f66\u96f6\u90e8\u4ef6\u53ca\u914d\u4ef6\u5236\u9020", "value": "3670"}]}, {"label": "37: \u94c1\u8def\u3001\u8239\u8236\u3001\u822a\u7a7a\u822a\u5929\u548c\u5176\u4ed6\u8fd0\u8f93\u8bbe\u5907\u5236\u9020\u4e1a", "value": "37", "children": [{"label": "371: \u94c1\u8def\u8fd0\u8f93\u8bbe\u5907\u5236\u9020", "value": "371", "children": [{"label": "3711: \u9ad8\u94c1\u8f66\u7ec4\u5236\u9020", "value": "3711"}, {"label": "3712: \u94c1\u8def\u673a\u8f66\u8f66\u8f86\u5236\u9020", "value": "3712"}, {"label": "3713: \u7a84\u8f68\u673a\u8f66\u8f66\u8f86\u5236\u9020", "value": "3713"}, {"label": "3714: \u9ad8\u94c1\u8bbe\u5907\u3001\u914d\u4ef6\u5236\u9020", "value": "3714"}, {"label": "3715: \u94c1\u8def\u673a\u8f66\u8f66\u8f86\u914d\u4ef6\u5236\u9020", "value": "3715"}, {"label": "3716: \u94c1\u8def\u4e13\u7528\u8bbe\u5907\u53ca\u5668\u6750\u3001\u914d\u4ef6\u5236\u9020", "value": "3716"}, {"label": "3719: \u5176\u4ed6\u94c1\u8def\u8fd0\u8f93\u8bbe\u5907\u5236\u9020", "value": "3719"}]}, {"label": "3720: \u57ce\u5e02\u8f68\u9053\u4ea4\u901a\u8bbe\u5907\u5236\u9020", "value": "3720"}, {"label": "373: \u8239\u8236\u53ca\u76f8\u5173\u88c5\u7f6e\u5236\u9020", "value": "373", "children": [{"label": "3731: \u91d1\u5c5e\u8239\u8236\u5236\u9020", "value": "3731"}, {"label": "3732: \u975e\u91d1\u5c5e\u8239\u8236\u5236\u9020", "value": "3732"}, {"label": "3733: \u5a31\u4e50\u8239\u548c\u8fd0\u52a8\u8239\u5236\u9020", "value": "3733"}, {"label": "3734: \u8239\u7528\u914d\u5957\u8bbe\u5907\u5236\u9020", "value": "3734"}, {"label": "3735: \u8239\u8236\u6539\u88c5", "value": "3735"}, {"label": "3736: \u8239\u8236\u62c6\u9664", "value": "3736"}, {"label": "3737: \u6d77\u6d0b\u5de5\u7a0b\u88c5\u5907\u5236\u9020", "value": "3737"}, {"label": "3739: \u822a\u6807\u5668\u6750\u53ca\u5176\u4ed6\u76f8\u5173\u88c5\u7f6e\u5236\u9020", "value": "3739"}]}, {"label": "374: \u822a\u7a7a\u3001\u822a\u5929\u5668\u53ca\u8bbe\u5907\u5236\u9020", "value": "374", "children": [{"label": "3741: \u98de\u673a\u5236\u9020", "value": "3741"}, {"label": "3742: \u822a\u5929\u5668\u53ca\u8fd0\u8f7d\u706b\u7bad\u5236\u9020", "value": "3742"}, {"label": "3743: \u822a\u5929\u76f8\u5173\u8bbe\u5907\u5236\u9020", "value": "3743"}, {"label": "3744: \u822a\u7a7a\u76f8\u5173\u8bbe\u5907\u5236\u9020", "value": "3744"}, {"label": "3749: \u5176\u4ed6\u822a\u7a7a\u822a\u5929\u5668\u5236\u9020", "value": "3749"}]}, {"label": "375: \u6469\u6258\u8f66\u5236\u9020", "value": "375", "children": [{"label": "3751: \u6469\u6258\u8f66\u6574\u8f66\u5236\u9020", "value": "3751"}, {"label": "3752: \u6469\u6258\u8f66\u96f6\u90e8\u4ef6\u53ca\u914d\u4ef6\u5236\u9020", "value": "3752"}]}, {"label": "376: \u81ea\u884c\u8f66\u548c\u6b8b\u75be\u4eba\u5ea7\u8f66\u5236\u9020", "value": "376", "children": [{"label": "3761: \u81ea\u884c\u8f66\u5236\u9020", "value": "3761"}, {"label": "3762: \u6b8b\u75be\u4eba\u5ea7\u8f66\u5236\u9020", "value": "3762"}]}, {"label": "3770: \u52a9\u52a8\u8f66\u5236\u9020", "value": "3770"}, {"label": "3780: \u975e\u516c\u8def\u4f11\u95f2\u8f66\u53ca\u96f6\u914d\u4ef6\u5236\u9020", "value": "3780"}, {"label": "379: \u6f5c\u6c34\u6551\u635e\u53ca\u5176\u4ed6\u672a\u5217\u660e\u8fd0\u8f93\u8bbe\u5907\u5236\u9020", "value": "379", "children": [{"label": "3791: \u6f5c\u6c34\u88c5\u5907\u5236\u9020", "value": "3791"}, {"label": "3792: \u6c34\u4e0b\u6551\u635e\u88c5\u5907\u5236\u9020", "value": "3792"}, {"label": "3799: \u5176\u4ed6\u672a\u5217\u660e\u8fd0\u8f93\u8bbe\u5907\u5236\u9020", "value": "3799"}]}]}, {"label": "38: \u7535\u6c14\u673a\u68b0\u548c\u5668\u6750\u5236\u9020\u4e1a ", "value": "38", "children": [{"label": "381: \u7535\u673a\u5236\u9020", "value": "381", "children": [{"label": "3811: \u53d1\u7535\u673a\u53ca\u53d1\u7535\u673a\u7ec4\u5236\u9020", "value": "3811"}, {"label": "3812: \u7535\u52a8\u673a\u5236\u9020", "value": "3812"}, {"label": "3813: \u5fae\u7279\u7535\u673a\u53ca\u7ec4\u4ef6\u5236\u9020", "value": "3813"}, {"label": "3819: \u5176\u4ed6\u7535\u673a\u5236\u9020", "value": "3819"}]}, {"label": "382: \u8f93\u914d\u7535\u53ca\u63a7\u5236\u8bbe\u5907\u5236\u9020", "value": "382", "children": [{"label": "3821: \u53d8\u538b\u5668\u3001\u6574\u6d41\u5668\u548c\u7535\u611f\u5668\u5236\u9020", "value": "3821"}, {"label": "3822: \u7535\u5bb9\u5668\u53ca\u5176\u914d\u5957\u8bbe\u5907\u5236\u9020", "value": "3822"}, {"label": "3823: \u914d\u7535\u5f00\u5173\u63a7\u5236\u8bbe\u5907\u5236\u9020", "value": "3823"}, {"label": "3824: \u7535\u529b\u7535\u5b50\u5143\u5668\u4ef6\u5236\u9020", "value": "3824"}, {"label": "3825: \u5149\u4f0f\u8bbe\u5907\u53ca\u5143\u5668\u4ef6\u5236\u9020", "value": "3825"}, {"label": "3829: \u5176\u4ed6\u8f93\u914d\u7535\u53ca\u63a7\u5236\u8bbe\u5907\u5236\u9020", "value": "3829"}]}, {"label": "383: \u7535\u7ebf\u3001\u7535\u7f06\u3001\u5149\u7f06\u53ca\u7535\u5de5\u5668\u6750\u5236\u9020", "value": "383", "children": [{"label": "3831: \u7535\u7ebf\u3001\u7535\u7f06\u5236\u9020", "value": "3831"}, {"label": "3832: \u5149\u7ea4\u5236\u9020", "value": "3832"}, {"label": "3833: \u5149\u7f06\u5236\u9020", "value": "3833"}, {"label": "3834: \u7edd\u7f18\u5236\u54c1\u5236\u9020", "value": "3834"}, {"label": "3839: \u5176\u4ed6\u7535\u5de5\u5668\u6750\u5236\u9020", "value": "3839"}]}, {"label": "384: \u7535\u6c60\u5236\u9020", "value": "384", "children": [{"label": "3841: \u9502\u79bb\u5b50\u7535\u6c60\u5236\u9020", "value": "3841"}, {"label": "3842: \u954d\u6c22\u7535\u6c60\u5236\u9020", "value": "3842"}, {"label": "3843: \u94c5\u84c4\u7535\u6c60\u5236\u9020", "value": "3843"}, {"label": "3844: \u950c\u9530\u7535\u6c60\u5236\u9020", "value": "3844"}, {"label": "3849: \u5176\u4ed6\u7535\u6c60\u5236\u9020", "value": "3849"}]}, {"label": "385: \u5bb6\u7528\u7535\u529b\u5668\u5177\u5236\u9020", "value": "385", "children": [{"label": "3851: \u5bb6\u7528\u5236\u51b7\u7535\u5668\u5177\u5236\u9020", "value": "3851"}, {"label": "3852: \u5bb6\u7528\u7a7a\u6c14\u8c03\u8282\u5668\u5236\u9020", "value": "3852"}, {"label": "3853: \u5bb6\u7528\u901a\u98ce\u7535\u5668\u5177\u5236\u9020", "value": "3853"}, {"label": "3854: \u5bb6\u7528\u53a8\u623f\u7535\u5668\u5177\u5236\u9020", "value": "3854"}, {"label": "3855: \u5bb6\u7528\u6e05\u6d01\u536b\u751f\u7535\u5668\u5177\u5236\u9020", "value": "3855"}, {"label": "3856: \u5bb6\u7528\u7f8e\u5bb9\u3001\u4fdd\u5065\u62a4\u7406\u7535\u5668\u5177\u5236\u9020", "value": "3856"}, {"label": "3857: \u5bb6\u7528\u7535\u529b\u5668\u5177\u4e13\u7528\u914d\u4ef6\u5236\u9020", "value": "3857"}, {"label": "3859: \u5176\u4ed6\u5bb6\u7528\u7535\u529b\u5668\u5177\u5236\u9020", "value": "3859"}]}, {"label": "386: \u975e\u7535\u529b\u5bb6\u7528\u5668\u5177\u5236\u9020", "value": "386", "children": [{"label": "3861: \u71c3\u6c14\u53ca\u7c7b\u4f3c\u80fd\u6e90\u5bb6\u7528\u5668\u5177\u5236\u9020", "value": "3861"}, {"label": "3862: \u592a\u9633\u80fd\u5668\u5177\u5236\u9020 ", "value": "3862"}, {"label": "3869: \u5176\u4ed6\u975e\u7535\u529b\u5bb6\u7528\u5668\u5177\u5236\u9020", "value": "3869"}]}, {"label": "387: \u7167\u660e\u5668\u5177\u5236\u9020", "value": "387", "children": [{"label": "3871: \u7535\u5149\u6e90\u5236\u9020", "value": "3871"}, {"label": "3872: \u7167\u660e\u706f\u5177\u5236\u9020", "value": "3872"}, {"label": "3873: \u821e\u53f0\u53ca\u573a\u5730\u7528\u706f\u5236\u9020", "value": "3873"}, {"label": "3874: \u667a\u80fd\u7167\u660e\u5668\u5177\u5236\u9020", "value": "3874"}, {"label": "3879: \u706f\u7528\u7535\u5668\u9644\u4ef6\u53ca\u5176\u4ed6\u7167\u660e\u5668\u5177\u5236\u9020", "value": "3879"}]}, {"label": "389: \u5176\u4ed6\u7535\u6c14\u673a\u68b0\u53ca\u5668\u6750\u5236\u9020", "value": "389", "children": [{"label": "3891: \u7535\u6c14\u4fe1\u53f7\u8bbe\u5907\u88c5\u7f6e\u5236\u9020", "value": "3891"}, {"label": "3899: \u5176\u4ed6\u672a\u5217\u660e\u7535\u6c14\u673a\u68b0\u53ca\u5668\u6750\u5236\u9020", "value": "3899"}]}]}, {"label": "39: \u8ba1\u7b97\u673a\u3001\u901a\u4fe1\u548c\u5176\u4ed6\u7535\u5b50\u8bbe\u5907\u5236\u9020\u4e1a", "value": "39", "children": [{"label": "391: \u8ba1\u7b97\u673a\u5236\u9020", "value": "391", "children": [{"label": "3911: \u8ba1\u7b97\u673a\u6574\u673a\u5236\u9020", "value": "3911"}, {"label": "3912: \u8ba1\u7b97\u673a\u96f6\u90e8\u4ef6\u5236\u9020", "value": "3912"}, {"label": "3913: \u8ba1\u7b97\u673a\u5916\u56f4\u8bbe\u5907\u5236\u9020", "value": "3913"}, {"label": "3914: \u5de5\u4e1a\u63a7\u5236\u8ba1\u7b97\u673a\u53ca\u7cfb\u7edf\u5236\u9020", "value": "3914"}, {"label": "3915: \u4fe1\u606f\u5b89\u5168\u8bbe\u5907\u5236\u9020", "value": "3915"}, {"label": "3919: \u5176\u4ed6\u8ba1\u7b97\u673a\u5236\u9020", "value": "3919"}]}, {"label": "392: \u901a\u4fe1\u8bbe\u5907\u5236\u9020", "value": "392", "children": [{"label": "3921: \u901a\u4fe1\u7cfb\u7edf\u8bbe\u5907\u5236\u9020", "value": "3921"}, {"label": "3922: \u901a\u4fe1\u7ec8\u7aef\u8bbe\u5907\u5236\u9020", "value": "3922"}]}, {"label": "393: \u5e7f\u64ad\u7535\u89c6\u8bbe\u5907\u5236\u9020", "value": "393", "children": [{"label": "3931: \u5e7f\u64ad\u7535\u89c6\u8282\u76ee\u5236\u4f5c\u53ca\u53d1\u5c04\u8bbe\u5907\u5236\u9020", "value": "3931"}, {"label": "3932: \u5e7f\u64ad\u7535\u89c6\u63a5\u6536\u8bbe\u5907\u5236\u9020", "value": "3932"}, {"label": "3933: \u5e7f\u64ad\u7535\u89c6\u4e13\u7528\u914d\u4ef6\u5236\u9020", "value": "3933"}, {"label": "3934: \u4e13\u4e1a\u97f3\u54cd\u8bbe\u5907\u5236\u9020", "value": "3934"}, {"label": "3939: \u5e94\u7528\u7535\u89c6\u8bbe\u5907\u53ca\u5176\u4ed6\u5e7f\u64ad\u7535\u89c6\u8bbe\u5907\u5236\u9020", "value": "3939"}]}, {"label": "3940: \u96f7\u8fbe\u53ca\u914d\u5957\u8bbe\u5907\u5236\u9020", "value": "3940"}, {"label": "395: \u89c6\u542c\u8bbe\u5907\u5236\u9020", "value": "395", "children": [{"label": "3951: \u7535\u89c6\u673a\u5236\u9020", "value": "3951"}, {"label": "3952: \u97f3\u54cd\u8bbe\u5907\u5236\u9020", "value": "3952"}, {"label": "3953: \u5f71\u89c6\u5f55\u653e\u8bbe\u5907\u5236\u9020", "value": "3953"}]}, {"label": "396: \u667a\u80fd\u6d88\u8d39\u8bbe\u5907\u5236\u9020", "value": "396", "children": [{"label": "3961: \u53ef\u7a7f\u6234\u667a\u80fd\u8bbe\u5907\u5236\u9020", "value": "3961"}, {"label": "3962: \u667a\u80fd\u8f66\u8f7d\u8bbe\u5907\u5236\u9020", "value": "3962"}, {"label": "3963: \u667a\u80fd\u65e0\u4eba\u98de\u884c\u5668\u5236\u9020", "value": "3963"}, {"label": "3964: \u670d\u52a1\u6d88\u8d39\u673a\u5668\u4eba\u5236\u9020", "value": "3964"}, {"label": "3969: \u5176\u4ed6\u667a\u80fd\u6d88\u8d39\u8bbe\u5907\u5236\u9020", "value": "3969"}]}, {"label": "397: \u7535\u5b50\u5668\u4ef6\u5236\u9020", "value": "397", "children": [{"label": "3971: \u7535\u5b50\u771f\u7a7a\u5668\u4ef6\u5236\u9020", "value": "3971"}, {"label": "3972: \u534a\u5bfc\u4f53\u5206\u7acb\u5668\u4ef6\u5236\u9020", "value": "3972"}, {"label": "3973: \u96c6\u6210\u7535\u8def\u5236\u9020", "value": "3973"}, {"label": "3974: \u663e\u793a\u5668\u4ef6\u5236\u9020", "value": "3974"}, {"label": "3975: \u534a\u5bfc\u4f53\u7167\u660e\u5668\u4ef6\u5236\u9020", "value": "3975"}, {"label": "3976: \u5149\u7535\u5b50\u5668\u4ef6\u5236\u9020", "value": "3976"}, {"label": "3979: \u5176\u4ed6\u7535\u5b50\u5668\u4ef6\u5236\u9020", "value": "3979"}]}, {"label": "398: \u7535\u5b50\u5143\u4ef6\u53ca\u7535\u5b50\u4e13\u7528\u6750\u6599\u5236\u9020", "value": "398", "children": [{"label": "3981: \u7535\u963b\u7535\u5bb9\u7535\u611f\u5143\u4ef6\u5236\u9020", "value": "3981"}, {"label": "3982: \u7535\u5b50\u7535\u8def\u5236\u9020", "value": "3982"}, {"label": "3983: \u654f\u611f\u5143\u4ef6\u53ca\u4f20\u611f\u5668\u5236\u9020", "value": "3983"}, {"label": "3984: \u7535\u58f0\u5668\u4ef6\u53ca\u96f6\u4ef6\u5236\u9020", "value": "3984"}, {"label": "3985: \u7535\u5b50\u4e13\u7528\u6750\u6599\u5236\u9020", "value": "3985"}, {"label": "3989: \u5176\u4ed6\u7535\u5b50\u5143\u4ef6\u5236\u9020", "value": "3989"}]}, {"label": "3990: \u5176\u4ed6\u7535\u5b50\u8bbe\u5907\u5236\u9020", "value": "3990"}]}, {"label": "40: \u4eea\u5668\u4eea\u8868\u5236\u9020\u4e1a", "value": "40", "children": [{"label": "401: \u901a\u7528\u4eea\u5668\u4eea\u8868\u5236\u9020", "value": "401", "children": [{"label": "4011: \u5de5\u4e1a\u81ea\u52a8\u63a7\u5236\u7cfb\u7edf\u88c5\u7f6e\u5236\u9020", "value": "4011"}, {"label": "4012: \u7535\u5de5\u4eea\u5668\u4eea\u8868\u5236\u9020", "value": "4012"}, {"label": "4013: \u7ed8\u56fe\u3001\u8ba1\u7b97\u53ca\u6d4b\u91cf\u4eea\u5668\u5236\u9020", "value": "4013"}, {"label": "4014: \u5b9e\u9a8c\u5206\u6790\u4eea\u5668\u5236\u9020", "value": "4014"}, {"label": "4015: \u8bd5\u9a8c\u673a\u5236\u9020", "value": "4015"}, {"label": "4016: \u4f9b\u5e94\u7528\u4eea\u5668\u4eea\u8868\u5236\u9020", "value": "4016"}, {"label": "4019: \u5176\u4ed6\u901a\u7528\u4eea\u5668\u5236\u9020", "value": "4019"}]}, {"label": "402: \u4e13\u7528\u4eea\u5668\u4eea\u8868\u5236\u9020", "value": "402", "children": [{"label": "4021: \u73af\u5883\u76d1\u6d4b\u4e13\u7528\u4eea\u5668\u4eea\u8868\u5236\u9020", "value": "4021"}, {"label": "4022: \u8fd0\u8f93\u8bbe\u5907\u53ca\u751f\u4ea7\u7528\u8ba1\u6570\u4eea\u8868\u5236\u9020", "value": "4022"}, {"label": "4023: \u5bfc\u822a\u3001\u6d4b\u7ed8\u3001\u6c14\u8c61\u53ca\u6d77\u6d0b\u4e13\u7528\u4eea\u5668\u5236\u9020", "value": "4023"}, {"label": "4024: \u519c\u6797\u7267\u6e14\u4e13\u7528\u4eea\u5668\u4eea\u8868\u5236\u9020", "value": "4024"}, {"label": "4025: \u5730\u8d28\u52d8\u63a2\u548c\u5730\u9707\u4e13\u7528\u4eea\u5668\u5236\u9020", "value": "4025"}, {"label": "4026: \u6559\u5b66\u4e13\u7528\u4eea\u5668\u5236\u9020", "value": "4026"}, {"label": "4027: \u6838\u5b50\u53ca\u6838\u8f90\u5c04\u6d4b\u91cf\u4eea\u5668\u5236\u9020", "value": "4027"}, {"label": "4028: \u7535\u5b50\u6d4b\u91cf\u4eea\u5668\u5236\u9020 ", "value": "4028"}, {"label": "4029: \u5176\u4ed6\u4e13\u7528\u4eea\u5668\u5236\u9020", "value": "4029"}]}, {"label": "4030: \u949f\u8868\u4e0e\u8ba1\u65f6\u4eea\u5668\u5236\u9020", "value": "4030"}, {"label": "4040: \u5149\u5b66\u4eea\u5668\u5236\u9020", "value": "4040"}, {"label": "4050: \u8861\u5668\u5236\u9020", "value": "4050"}, {"label": "4090: \u5176\u4ed6\u4eea\u5668\u4eea\u8868\u5236\u9020\u4e1a", "value": "4090"}]}, {"label": "41: \u5176\u4ed6\u5236\u9020\u4e1a", "value": "41", "children": [{"label": "411: \u65e5\u7528\u6742\u54c1\u5236\u9020", "value": "411", "children": [{"label": "4111: \u9b03\u6bdb\u52a0\u5de5\u3001\u5236\u5237\u53ca\u6e05\u626b\u5de5\u5177\u5236\u9020", "value": "4111"}, {"label": "4119: \u5176\u4ed6\u65e5\u7528\u6742\u54c1\u5236\u9020", "value": "4119"}]}, {"label": "4120: \u6838\u8f90\u5c04\u52a0\u5de5", "value": "4120"}, {"label": "4190: \u5176\u4ed6\u672a\u5217\u660e\u5236\u9020\u4e1a", "value": "4190"}]}, {"label": "42: \u5e9f\u5f03\u8d44\u6e90\u7efc\u5408\u5229\u7528\u4e1a", "value": "42", "children": [{"label": "4210: \u91d1\u5c5e\u5e9f\u6599\u548c\u788e\u5c51\u52a0\u5de5\u5904\u7406", "value": "4210"}, {"label": "4220: \u975e\u91d1\u5c5e\u5e9f\u6599\u548c\u788e\u5c51\u52a0\u5de5\u5904\u7406", "value": "4220"}]}, {"label": "43: \u91d1\u5c5e\u5236\u54c1\u3001\u673a\u68b0\u548c\u8bbe\u5907\u4fee\u7406\u4e1a", "value": "43", "children": [{"label": "4310: \u91d1\u5c5e\u5236\u54c1\u4fee\u7406", "value": "4310"}, {"label": "4320: \u901a\u7528\u8bbe\u5907\u4fee\u7406", "value": "4320"}, {"label": "4330: \u4e13\u7528\u8bbe\u5907\u4fee\u7406", "value": "4330"}, {"label": "434: \u94c1\u8def\u3001\u8239\u8236\u3001\u822a\u7a7a\u822a\u5929\u7b49\u8fd0\u8f93\u8bbe\u5907\u4fee\u7406", "value": "434", "children": [{"label": "4341: \u94c1\u8def\u8fd0\u8f93\u8bbe\u5907\u4fee\u7406", "value": "4341"}, {"label": "4342: \u8239\u8236\u4fee\u7406", "value": "4342"}, {"label": "4343: \u822a\u7a7a\u822a\u5929\u5668\u4fee\u7406", "value": "4343"}, {"label": "4349: \u5176\u4ed6\u8fd0\u8f93\u8bbe\u5907\u4fee\u7406", "value": "4349"}]}, {"label": "4350: \u7535\u6c14\u8bbe\u5907\u4fee\u7406", "value": "4350"}, {"label": "4360: \u4eea\u5668\u4eea\u8868\u4fee\u7406", "value": "4360"}, {"label": "4390: \u5176\u4ed6\u673a\u68b0\u548c\u8bbe\u5907\u4fee\u7406\u4e1a", "value": "4390"}]}]}, {"label": "D: \u7535\u529b\u3001\u70ed\u529b\u3001\u71c3\u6c14\u53ca\u6c34\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "D", "children": [{"label": "44: \u7535\u529b\u3001\u70ed\u529b\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "44", "children": [{"label": "441: \u7535\u529b\u751f\u4ea7", "value": "441", "children": [{"label": "4411: \u706b\u529b\u53d1\u7535", "value": "4411"}, {"label": "4412: \u70ed\u7535\u8054\u4ea7", "value": "4412"}, {"label": "4413: \u6c34\u529b\u53d1\u7535", "value": "4413"}, {"label": "4414: \u6838\u529b\u53d1\u7535", "value": "4414"}, {"label": "4415: \u98ce\u529b\u53d1\u7535", "value": "4415"}, {"label": "4416: \u592a\u9633\u80fd\u53d1\u7535", "value": "4416"}, {"label": "4417: \u751f\u7269\u8d28\u80fd\u53d1\u7535", "value": "4417"}, {"label": "4419: \u5176\u4ed6\u7535\u529b\u751f\u4ea7", "value": "4419"}]}, {"label": "4420: \u7535\u529b\u4f9b\u5e94", "value": "4420"}, {"label": "4430: \u70ed\u529b\u751f\u4ea7\u548c\u4f9b\u5e94", "value": "4430"}]}, {"label": "45: \u71c3\u6c14\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "45", "children": [{"label": "451: \u71c3\u6c14\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "451", "children": [{"label": "4511: \u5929\u7136\u6c14\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "4511"}, {"label": "4512: \u6db2\u5316\u77f3\u6cb9\u6c14\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "4512"}, {"label": "4513: \u7164\u6c14\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "4513"}]}, {"label": "4520: \u751f\u7269\u8d28\u71c3\u6c14\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "4520"}]}, {"label": "46: \u6c34\u7684\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "value": "46", "children": [{"label": "4610: \u81ea\u6765\u6c34\u751f\u4ea7\u548c\u4f9b\u5e94", "value": "4610"}, {"label": "4620: ?\u6c61\u6c34\u5904\u7406\u53ca\u5176\u518d\u751f\u5229\u7528", "value": "4620"}, {"label": "4630: \u6d77\u6c34\u6de1\u5316\u5904\u7406", "value": "4630"}, {"label": "4690: \u5176\u4ed6\u6c34\u7684\u5904\u7406\u3001\u5229\u7528\u4e0e\u5206\u914d", "value": "4690"}]}]}, {"label": "E: \u5efa\u7b51\u4e1a", "value": "E", "children": [{"label": "47: \u623f\u5c4b\u5efa\u7b51\u4e1a", "value": "47", "children": [{"label": "4710: \u4f4f\u5b85\u623f\u5c4b\u5efa\u7b51", "value": "4710"}, {"label": "4720: \u4f53\u80b2\u573a\u9986\u5efa\u7b51", "value": "4720"}, {"label": "4790: \u5176\u4ed6\u623f\u5c4b\u5efa\u7b51\u4e1a", "value": "4790"}]}, {"label": "48: \u571f\u6728\u5de5\u7a0b\u5efa\u7b51\u4e1a", "value": "48", "children": [{"label": "481: \u94c1\u8def\u3001\u9053\u8def\u3001\u96a7\u9053\u548c\u6865\u6881\u5de5\u7a0b\u5efa\u7b51", "value": "481", "children": [{"label": "4811: \u94c1\u8def\u5de5\u7a0b\u5efa\u7b51", "value": "4811"}, {"label": "4812: \u516c\u8def\u5de5\u7a0b\u5efa\u7b51", "value": "4812"}, {"label": "4813: \u5e02\u653f\u9053\u8def\u5de5\u7a0b\u5efa\u7b51 ", "value": "4813"}, {"label": "4814: \u57ce\u5e02\u8f68\u9053\u4ea4\u901a\u5de5\u7a0b\u5efa\u7b51", "value": "4814"}, {"label": "4819: \u5176\u4ed6\u9053\u8def\u3001\u96a7\u9053\u548c\u6865\u6881\u5de5\u7a0b\u5efa\u7b51 ", "value": "4819"}]}, {"label": "482: \u6c34\u5229\u548c\u6c34\u8fd0\u5de5\u7a0b\u5efa\u7b51", "value": "482", "children": [{"label": "4821: \u6c34\u6e90\u53ca\u4f9b\u6c34\u8bbe\u65bd\u5de5\u7a0b\u5efa\u7b51", "value": "4821"}, {"label": "4822: \u6cb3\u6e56\u6cbb\u7406\u53ca\u9632\u6d2a\u8bbe\u65bd\u5de5\u7a0b\u5efa\u7b51", "value": "4822"}, {"label": "4823: \u6e2f\u53e3\u53ca\u822a\u8fd0\u8bbe\u65bd\u5de5\u7a0b\u5efa\u7b51", "value": "4823"}]}, {"label": "483: \u6d77\u6d0b\u5de5\u7a0b\u5efa\u7b51", "value": "483", "children": [{"label": "4831: \u6d77\u6d0b\u6cb9\u6c14\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u5de5\u7a0b\u5efa\u7b51", "value": "4831"}, {"label": "4832: \u6d77\u6d0b\u80fd\u6e90\u5f00\u53d1\u5229\u7528\u5de5\u7a0b\u5efa\u7b51", "value": "4832"}, {"label": "4833: \u6d77\u5e95\u96a7\u9053\u5de5\u7a0b\u5efa\u7b51", "value": "4833"}, {"label": "4834: \u6d77\u5e95\u8bbe\u65bd\u94fa\u8bbe\u5de5\u7a0b\u5efa\u7b51", "value": "4834"}, {"label": "4839: \u5176\u4ed6\u6d77\u6d0b\u5de5\u7a0b\u5efa\u7b51", "value": "4839"}]}, {"label": "4840: \u5de5\u77ff\u5de5\u7a0b\u5efa\u7b51", "value": "4840"}, {"label": "485: \u67b6\u7ebf\u548c\u7ba1\u9053\u5de5\u7a0b\u5efa\u7b51", "value": "485", "children": [{"label": "4851: \u67b6\u7ebf\u53ca\u8bbe\u5907\u5de5\u7a0b\u5efa\u7b51", "value": "4851"}, {"label": "4852: \u7ba1\u9053\u5de5\u7a0b\u5efa\u7b51", "value": "4852"}, {"label": "4853: \u5730\u4e0b\u7efc\u5408\u7ba1\u5eca\u5de5\u7a0b\u5efa\u7b51", "value": "4853"}]}, {"label": "486: \u8282\u80fd\u73af\u4fdd\u5de5\u7a0b\u65bd\u5de5", "value": "486", "children": [{"label": "4861: \u8282\u80fd\u5de5\u7a0b\u65bd\u5de5", "value": "4861"}, {"label": "4862: \u73af\u4fdd\u5de5\u7a0b\u65bd\u5de5", "value": "4862"}, {"label": "4863: \u751f\u6001\u4fdd\u62a4\u5de5\u7a0b\u65bd\u5de5", "value": "4863"}]}, {"label": "487: \u7535\u529b\u5de5\u7a0b\u65bd\u5de5", "value": "487", "children": [{"label": "4871: \u706b\u529b\u53d1\u7535\u5de5\u7a0b\u65bd\u5de5", "value": "4871"}, {"label": "4872: \u6c34\u529b\u53d1\u7535\u5de5\u7a0b\u65bd\u5de5", "value": "4872"}, {"label": "4873: \u6838\u7535\u5de5\u7a0b\u65bd\u5de5", "value": "4873"}, {"label": "4874: \u98ce\u80fd\u53d1\u7535\u5de5\u7a0b\u65bd\u5de5", "value": "4874"}, {"label": "4875: \u592a\u9633\u80fd\u53d1\u7535\u5de5\u7a0b\u65bd\u5de5", "value": "4875"}, {"label": "4879: \u5176\u4ed6\u7535\u529b\u5de5\u7a0b\u65bd\u5de5", "value": "4879"}]}, {"label": "489: \u5176\u4ed6\u571f\u6728\u5de5\u7a0b\u5efa\u7b51", "value": "489", "children": [{"label": "4891: \u56ed\u6797\u7eff\u5316\u5de5\u7a0b\u65bd\u5de5", "value": "4891"}, {"label": "4892: \u4f53\u80b2\u573a\u5730\u8bbe\u65bd\u5de5\u7a0b\u65bd\u5de5", "value": "4892"}, {"label": "4893: \u6e38\u4e50\u8bbe\u65bd\u5de5\u7a0b\u65bd\u5de5", "value": "4893"}, {"label": "4899: \u5176\u4ed6\u571f\u6728\u5de5\u7a0b\u5efa\u7b51\u65bd\u5de5", "value": "4899"}]}]}, {"label": "49: \u5efa\u7b51\u5b89\u88c5\u4e1a", "value": "49", "children": [{"label": "4910: \u7535\u6c14\u5b89\u88c5", "value": "4910"}, {"label": "4920: \u7ba1\u9053\u548c\u8bbe\u5907\u5b89\u88c5", "value": "4920"}, {"label": "499: \u5176\u4ed6\u5efa\u7b51\u5b89\u88c5\u4e1a", "value": "499", "children": [{"label": "4991: \u4f53\u80b2\u573a\u5730\u8bbe\u65bd\u5b89\u88c5", "value": "4991"}, {"label": "4999: \u5176\u4ed6\u5efa\u7b51\u5b89\u88c5", "value": "4999"}]}]}, {"label": "50: \u5efa\u7b51\u88c5\u9970\u3001\u88c5\u4fee\u548c\u5176\u4ed6\u5efa\u7b51\u4e1a", "value": "50", "children": [{"label": "501: \u5efa\u7b51\u88c5\u9970\u548c\u88c5\u4fee\u4e1a", "value": "501", "children": [{"label": "5011: \u516c\u5171\u5efa\u7b51\u88c5\u9970\u548c\u88c5\u4fee", "value": "5011"}, {"label": "5012: \u4f4f\u5b85\u88c5\u9970\u548c\u88c5\u4fee", "value": "5012"}, {"label": "5013: \u5efa\u7b51\u5e55\u5899\u88c5\u9970\u548c\u88c5\u4fee", "value": "5013"}]}, {"label": "502: \u5efa\u7b51\u7269\u62c6\u9664\u548c\u573a\u5730\u51c6\u5907\u6d3b\u52a8", "value": "502", "children": [{"label": "5021: \u5efa\u7b51\u7269\u62c6\u9664\u6d3b\u52a8", "value": "5021"}, {"label": "5022: \u573a\u5730\u51c6\u5907\u6d3b\u52a8", "value": "5022"}]}, {"label": "5030: \u63d0\u4f9b\u65bd\u5de5\u8bbe\u5907\u670d\u52a1", "value": "5030"}, {"label": "5090: \u5176\u4ed6\u672a\u5217\u660e\u5efa\u7b51\u4e1a", "value": "5090"}]}]}, {"label": "F: \u6279\u53d1\u548c\u96f6\u552e\u4e1a", "value": "F", "children": [{"label": "51: \u6279\u53d1\u4e1a", "value": "51", "children": [{"label": "511: \u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4ea7\u54c1\u6279\u53d1", "value": "511", "children": [{"label": "5111: \u8c37\u7269\u3001\u8c46\u53ca\u85af\u7c7b\u6279\u53d1", "value": "5111"}, {"label": "5112: \u79cd\u5b50\u6279\u53d1", "value": "5112"}, {"label": "5113: \u755c\u7267\u6e14\u4e1a\u9972\u6599\u6279\u53d1", "value": "5113"}, {"label": "5114: \u68c9\u3001\u9ebb\u6279\u53d1", "value": "5114"}, {"label": "5115: \u6797\u4e1a\u4ea7\u54c1\u6279\u53d1", "value": "5115"}, {"label": "5116: \u7272\u755c\u6279\u53d1", "value": "5116"}, {"label": "5117: \u6e14\u4e1a\u4ea7\u54c1\u6279\u53d1", "value": "5117"}, {"label": "5119: \u5176\u4ed6\u519c\u7267\u4ea7\u54c1\u6279\u53d1", "value": "5119"}]}, {"label": "512: \u98df\u54c1\u3001\u996e\u6599\u53ca\u70df\u8349\u5236\u54c1\u6279\u53d1", "value": "512", "children": [{"label": "5121: \u7c73\u3001\u9762\u5236\u54c1\u53ca\u98df\u7528\u6cb9\u6279\u53d1", "value": "5121"}, {"label": "5122: \u7cd5\u70b9\u3001\u7cd6\u679c\u53ca\u7cd6\u6279\u53d1", "value": "5122"}, {"label": "5123: \u679c\u54c1\u3001\u852c\u83dc\u6279\u53d1", "value": "5123"}, {"label": "5124: \u8089\u3001\u79bd\u3001\u86cb\u3001\u5976\u53ca\u6c34\u4ea7\u54c1\u6279\u53d1", "value": "5124"}, {"label": "5125: \u76d0\u53ca\u8c03\u5473\u54c1\u6279\u53d1", "value": "5125"}, {"label": "5126: \u8425\u517b\u548c\u4fdd\u5065\u54c1\u6279\u53d1", "value": "5126"}, {"label": "5127: \u9152\u3001\u996e\u6599\u53ca\u8336\u53f6\u6279\u53d1", "value": "5127"}, {"label": "5128: \u70df\u8349\u5236\u54c1\u6279\u53d1", "value": "5128"}, {"label": "5129: \u5176\u4ed6\u98df\u54c1\u6279\u53d1", "value": "5129"}]}, {"label": "513: \u7eba\u7ec7\u3001\u670d\u88c5\u53ca\u5bb6\u5ead\u7528\u54c1\u6279\u53d1", "value": "513", "children": [{"label": "5131: \u7eba\u7ec7\u54c1\u3001\u9488\u7ec7\u54c1\u53ca\u539f\u6599\u6279\u53d1", "value": "5131"}, {"label": "5132: \u670d\u88c5\u6279\u53d1", "value": "5132"}, {"label": "5133: \u978b\u5e3d\u6279\u53d1", "value": "5133"}, {"label": "5134: \u5316\u5986\u54c1\u53ca\u536b\u751f\u7528\u54c1\u6279\u53d1", "value": "5134"}, {"label": "5135: \u53a8\u5177\u536b\u5177\u53ca\u65e5\u7528\u6742\u54c1\u6279\u53d1", "value": "5135"}, {"label": "5136: \u706f\u5177\u3001\u88c5\u9970\u7269\u54c1\u6279\u53d1", "value": "5136"}, {"label": "5137: \u5bb6\u7528\u89c6\u542c\u8bbe\u5907\u6279\u53d1", "value": "5137"}, {"label": "5138: \u65e5\u7528\u5bb6\u7535\u6279\u53d1", "value": "5138"}, {"label": "5139: \u5176\u4ed6\u5bb6\u5ead\u7528\u54c1\u6279\u53d1", "value": "5139"}]}, {"label": "514: \u6587\u5316\u3001\u4f53\u80b2\u7528\u54c1\u53ca\u5668\u6750\u6279\u53d1", "value": "514", "children": [{"label": "5141: \u6587\u5177\u7528\u54c1\u6279\u53d1", "value": "5141"}, {"label": "5142: \u4f53\u80b2\u7528\u54c1\u53ca\u5668\u6750\u6279\u53d1", "value": "5142"}, {"label": "5143: \u56fe\u4e66\u6279\u53d1", "value": "5143"}, {"label": "5144: \u62a5\u520a\u6279\u53d1", "value": "5144"}, {"label": "5145: \u97f3\u50cf\u5236\u54c1\u3001\u7535\u5b50\u548c\u6570\u5b57\u51fa\u7248\u7269\u6279\u53d1", "value": "5145"}, {"label": "5146: \u9996\u9970\u3001\u5de5\u827a\u54c1\u53ca\u6536\u85cf\u54c1\u6279\u53d1", "value": "5146"}, {"label": "5147: \u4e50\u5668\u6279\u53d1", "value": "5147"}, {"label": "5149: \u5176\u4ed6\u6587\u5316\u7528\u54c1\u6279\u53d1", "value": "5149"}]}, {"label": "515: \u533b\u836f\u53ca\u533b\u7597\u5668\u6750\u6279\u53d1", "value": "515", "children": [{"label": "5151: \u897f\u836f\u6279\u53d1", "value": "5151"}, {"label": "5152: \u4e2d\u836f\u6279\u53d1", "value": "5152"}, {"label": "5153: \u52a8\u7269\u7528\u836f\u54c1\u6279\u53d1", "value": "5153"}, {"label": "5154: \u533b\u7597\u7528\u54c1\u53ca\u5668\u6750\u6279\u53d1", "value": "5154"}]}, {"label": "516: \u77ff\u4ea7\u54c1\u3001\u5efa\u6750\u53ca\u5316\u5de5\u4ea7\u54c1\u6279\u53d1", "value": "516", "children": [{"label": "5161: \u7164\u70ad\u53ca\u5236\u54c1\u6279\u53d1", "value": "5161"}, {"label": "5162: \u77f3\u6cb9\u53ca\u5236\u54c1\u6279\u53d1", "value": "5162"}, {"label": "5163: \u975e\u91d1\u5c5e\u77ff\u53ca\u5236\u54c1\u6279\u53d1", "value": "5163"}, {"label": "5164: \u91d1\u5c5e\u53ca\u91d1\u5c5e\u77ff\u6279\u53d1", "value": "5164"}, {"label": "5165: \u5efa\u6750\u6279\u53d1", "value": "5165"}, {"label": "5166: \u5316\u80a5\u6279\u53d1", "value": "5166"}, {"label": "5167: \u519c\u836f\u6279\u53d1", "value": "5167"}, {"label": "5168: \u519c\u7528\u8584\u819c\u6279\u53d1", "value": "5168"}, {"label": "5169: \u5176\u4ed6\u5316\u5de5\u4ea7\u54c1\u6279\u53d1", "value": "5169"}]}, {"label": "517: \u673a\u68b0\u8bbe\u5907\u3001\u4e94\u91d1\u4ea7\u54c1\u53ca\u7535\u5b50\u4ea7\u54c1\u6279\u53d1", "value": "517", "children": [{"label": "5171: \u519c\u4e1a\u673a\u68b0\u6279\u53d1", "value": "5171"}, {"label": "5172: \u6c7d\u8f66\u53ca\u96f6\u914d\u4ef6\u6279\u53d1", "value": "5172"}, {"label": "5173: \u6469\u6258\u8f66\u53ca\u96f6\u914d\u4ef6\u6279\u53d1", "value": "5173"}, {"label": "5174: \u4e94\u91d1\u4ea7\u54c1\u6279\u53d1", "value": "5174"}, {"label": "5175: \u7535\u6c14\u8bbe\u5907\u6279\u53d1", "value": "5175"}, {"label": "5176: \u8ba1\u7b97\u673a\u3001\u8f6f\u4ef6\u53ca\u8f85\u52a9\u8bbe\u5907\u6279\u53d1", "value": "5176"}, {"label": "5177: \u901a\u8baf\u8bbe\u5907\u6279\u53d1", "value": "5177"}, {"label": "5178: \u5e7f\u64ad\u5f71\u89c6\u8bbe\u5907\u6279\u53d1", "value": "5178"}, {"label": "5179: \u5176\u4ed6\u673a\u68b0\u8bbe\u5907\u53ca\u7535\u5b50\u4ea7\u54c1\u6279\u53d1", "value": "5179"}]}, {"label": "518: \u8d38\u6613\u7ecf\u7eaa\u4e0e\u4ee3\u7406", "value": "518", "children": [{"label": "5181: \u8d38\u6613\u4ee3\u7406", "value": "5181"}, {"label": "5182: \u4e00\u822c\u7269\u54c1\u62cd\u5356 ", "value": "5182"}, {"label": "5183: \u827a\u672f\u54c1\u3001\u6536\u85cf\u54c1\u62cd\u5356", "value": "5183"}, {"label": "5184: \u827a\u672f\u54c1\u4ee3\u7406", "value": "5184"}, {"label": "5189: \u5176\u4ed6\u8d38\u6613\u7ecf\u7eaa\u4e0e\u4ee3\u7406", "value": "5189"}]}, {"label": "519: \u5176\u4ed6\u6279\u53d1\u4e1a", "value": "519", "children": [{"label": "5191: \u518d\u751f\u7269\u8d44\u56de\u6536\u4e0e\u6279\u53d1", "value": "5191"}, {"label": "5192: \u5ba0\u7269\u98df\u54c1\u7528\u54c1\u6279\u53d1", "value": "5192"}, {"label": "5193: \u4e92\u8054\u7f51\u6279\u53d1", "value": "5193"}, {"label": "5199: \u5176\u4ed6\u672a\u5217\u660e\u6279\u53d1\u4e1a", "value": "5199"}]}]}, {"label": "52: \u96f6\u552e\u4e1a", "value": "52", "children": [{"label": "521: \u7efc\u5408\u96f6\u552e", "value": "521", "children": [{"label": "5211: \u767e\u8d27\u96f6\u552e", "value": "5211"}, {"label": "5212: \u8d85\u7ea7\u5e02\u573a\u96f6\u552e", "value": "5212"}, {"label": "5213: \u4fbf\u5229\u5e97\u96f6\u552e", "value": "5213"}, {"label": "5219: \u5176\u4ed6\u7efc\u5408\u96f6\u552e", "value": "5219"}]}, {"label": "522: \u98df\u54c1\u3001\u996e\u6599\u53ca\u70df\u8349\u5236\u54c1\u4e13\u95e8\u96f6\u552e", "value": "522", "children": [{"label": "5221: \u7cae\u6cb9\u96f6\u552e", "value": "5221"}, {"label": "5222: \u7cd5\u70b9\u3001\u9762\u5305\u96f6\u552e", "value": "5222"}, {"label": "5223: \u679c\u54c1\u3001\u852c\u83dc\u96f6\u552e", "value": "5223"}, {"label": "5224: \u8089\u3001\u79bd\u3001\u86cb\u3001\u5976\u53ca\u6c34\u4ea7\u54c1\u96f6\u552e", "value": "5224"}, {"label": "5225: \u8425\u517b\u548c\u4fdd\u5065\u54c1\u96f6\u552e", "value": "5225"}, {"label": "5226: \u9152\u3001\u996e\u6599\u53ca\u8336\u53f6\u96f6\u552e", "value": "5226"}, {"label": "5227: \u70df\u8349\u5236\u54c1\u96f6\u552e", "value": "5227"}, {"label": "5229: \u5176\u4ed6\u98df\u54c1\u96f6\u552e", "value": "5229"}]}, {"label": "523: \u7eba\u7ec7\u3001\u670d\u88c5\u53ca\u65e5\u7528\u54c1\u4e13\u95e8\u96f6\u552e", "value": "523", "children": [{"label": "5231: \u7eba\u7ec7\u54c1\u53ca\u9488\u7ec7\u54c1\u96f6\u552e", "value": "5231"}, {"label": "5232: \u670d\u88c5\u96f6\u552e", "value": "5232"}, {"label": "5233: \u978b\u5e3d\u96f6\u552e", "value": "5233"}, {"label": "5234: \u5316\u5986\u54c1\u53ca\u536b\u751f\u7528\u54c1\u96f6\u552e", "value": "5234"}, {"label": "5235: \u53a8\u5177\u536b\u5177\u53ca\u65e5\u7528\u6742\u54c1\u96f6\u552e", "value": "5235"}, {"label": "5236: \u949f\u8868\u3001\u773c\u955c\u96f6\u552e", "value": "5236"}, {"label": "5237: \u7bb1\u5305\u96f6\u552e", "value": "5237"}, {"label": "5238: \u81ea\u884c\u8f66\u7b49\u4ee3\u6b65\u8bbe\u5907\u96f6\u552e", "value": "5238"}, {"label": "5239: \u5176\u4ed6\u65e5\u7528\u54c1\u96f6\u552e", "value": "5239"}]}, {"label": "524: \u6587\u5316\u3001\u4f53\u80b2\u7528\u54c1\u53ca\u5668\u6750\u4e13\u95e8\u96f6\u552e", "value": "524", "children": [{"label": "5241: \u6587\u5177\u7528\u54c1\u96f6\u552e", "value": "5241"}, {"label": "5242: \u4f53\u80b2\u7528\u54c1\u53ca\u5668\u6750\u96f6\u552e", "value": "5242"}, {"label": "5243: \u56fe\u4e66\u3001\u62a5\u520a\u96f6\u552e", "value": "5243"}, {"label": "5244: \u97f3\u50cf\u5236\u54c1\u3001\u7535\u5b50\u548c\u6570\u5b57\u51fa\u7248\u7269\u96f6\u552e", "value": "5244"}, {"label": "5245: \u73e0\u5b9d\u9996\u9970\u96f6\u552e", "value": "5245"}, {"label": "5246: \u5de5\u827a\u7f8e\u672f\u54c1\u53ca\u6536\u85cf\u54c1\u96f6\u552e", "value": "5246"}, {"label": "5247: \u4e50\u5668\u96f6\u552e", "value": "5247"}, {"label": "5248: \u7167\u76f8\u5668\u6750\u96f6\u552e", "value": "5248"}, {"label": "5249: \u5176\u4ed6\u6587\u5316\u7528\u54c1\u96f6\u552e", "value": "5249"}]}, {"label": "525: \u533b\u836f\u53ca\u533b\u7597\u5668\u6750\u4e13\u95e8\u96f6\u552e", "value": "525", "children": [{"label": "5251: \u897f\u836f\u96f6\u552e", "value": "5251"}, {"label": "5252: \u4e2d\u836f\u96f6\u552e", "value": "5252"}, {"label": "5253: \u52a8\u7269\u7528\u836f\u54c1\u96f6\u552e", "value": "5253"}, {"label": "5254: \u533b\u7597\u7528\u54c1\u53ca\u5668\u6750\u96f6\u552e", "value": "5254"}, {"label": "5255: \u4fdd\u5065\u8f85\u52a9\u6cbb\u7597\u5668\u6750\u96f6\u552e", "value": "5255"}]}, {"label": "526: \u6c7d\u8f66\u3001\u6469\u6258\u8f66\u3001\u96f6\u914d\u4ef6\u548c\u71c3\u6599\u53ca\u5176\u4ed6\u52a8\u529b\u9500\u552e", "value": "526", "children": [{"label": "5261: \u6c7d\u8f66\u65b0\u8f66\u96f6\u552e", "value": "5261"}, {"label": "5262: \u6c7d\u8f66\u65e7\u8f66\u96f6\u552e", "value": "5262"}, {"label": "5263: \u6c7d\u8f66\u96f6\u914d\u4ef6\u96f6\u552e", "value": "5263"}, {"label": "5264: \u6469\u6258\u8f66\u53ca\u96f6\u914d\u4ef6\u96f6\u552e", "value": "5264"}, {"label": "5265: \u673a\u52a8\u8f66\u71c3\u6cb9\u96f6\u552e", "value": "5265"}, {"label": "5266: \u673a\u52a8\u8f66\u71c3\u6c14\u96f6\u552e", "value": "5266"}, {"label": "5267: \u673a\u52a8\u8f66\u5145\u7535\u9500\u552e", "value": "5267"}]}, {"label": "527: \u5bb6\u7528\u7535\u5668\u53ca\u7535\u5b50\u4ea7\u54c1\u4e13\u95e8\u96f6\u552e ", "value": "527", "children": [{"label": "5271: \u5bb6\u7528\u89c6\u542c\u8bbe\u5907\u96f6\u552e", "value": "5271"}, {"label": "5272: \u65e5\u7528\u5bb6\u7535\u96f6\u552e", "value": "5272"}, {"label": "5273: \u8ba1\u7b97\u673a\u3001\u8f6f\u4ef6\u53ca\u8f85\u52a9\u8bbe\u5907\u96f6\u552e", "value": "5273"}, {"label": "5274: \u901a\u4fe1\u8bbe\u5907\u96f6\u552e", "value": "5274"}, {"label": "5279: \u5176\u4ed6\u7535\u5b50\u4ea7\u54c1\u96f6\u552e", "value": "5279"}]}, {"label": "528: \u4e94\u91d1\u3001\u5bb6\u5177\u53ca\u5ba4\u5185\u88c5\u9970\u6750\u6599\u4e13\u95e8\u96f6\u552e", "value": "528", "children": [{"label": "5281: \u4e94\u91d1\u96f6\u552e", "value": "5281"}, {"label": "5282: \u706f\u5177\u96f6\u552e", "value": "5282"}, {"label": "5283: \u5bb6\u5177\u96f6\u552e", "value": "5283"}, {"label": "5284: \u6d82\u6599\u96f6\u552e", "value": "5284"}, {"label": "5285: \u536b\u751f\u6d01\u5177\u96f6\u552e", "value": "5285"}, {"label": "5286: \u6728\u8d28\u88c5\u9970\u6750\u6599\u96f6\u552e", "value": "5286"}, {"label": "5287: \u9676\u74f7\u3001\u77f3\u6750\u88c5\u9970\u6750\u6599\u96f6\u552e", "value": "5287"}, {"label": "5289: \u5176\u4ed6\u5ba4\u5185\u88c5\u9970\u6750\u6599\u96f6\u552e", "value": "5289"}]}, {"label": "529: \u8d27\u644a\u3001\u65e0\u5e97\u94fa\u53ca\u5176\u4ed6\u96f6\u552e\u4e1a", "value": "529", "children": [{"label": "5291: \u6d41\u52a8\u8d27\u644a\u96f6\u552e", "value": "5291"}, {"label": "5292: \u4e92\u8054\u7f51\u96f6\u552e", "value": "5292"}, {"label": "5293: \u90ae\u8d2d\u53ca\u7535\u89c6\u3001\u7535\u8bdd\u96f6\u552e", "value": "5293"}, {"label": "5294: \u81ea\u52a8\u552e\u8d27\u673a\u96f6\u552e", "value": "5294"}, {"label": "5295: \u65e7\u8d27\u96f6\u552e", "value": "5295"}, {"label": "5296: \u751f\u6d3b\u7528\u71c3\u6599\u96f6\u552e", "value": "5296"}, {"label": "5297: \u5ba0\u7269\u98df\u54c1\u7528\u54c1\u96f6\u552e", "value": "5297"}, {"label": "5299: \u5176\u4ed6\u672a\u5217\u660e\u96f6\u552e\u4e1a", "value": "5299"}]}]}]}, {"label": "G: \u4ea4\u901a\u8fd0\u8f93\u3001\u4ed3\u50a8\u548c\u90ae\u653f\u4e1a", "value": "G", "children": [{"label": "53: \u94c1\u8def\u8fd0\u8f93\u4e1a", "value": "53", "children": [{"label": "531: \u94c1\u8def\u65c5\u5ba2\u8fd0\u8f93", "value": "531", "children": [{"label": "5311: \u9ad8\u901f\u94c1\u8def\u65c5\u5ba2\u8fd0\u8f93", "value": "5311"}, {"label": "5312: \u57ce\u9645\u94c1\u8def\u65c5\u5ba2\u8fd0\u8f93", "value": "5312"}, {"label": "5313: \u666e\u901a\u94c1\u8def\u65c5\u5ba2\u8fd0\u8f93", "value": "5313"}]}, {"label": "5320: \u94c1\u8def\u8d27\u7269\u8fd0\u8f93", "value": "5320"}, {"label": "533: \u94c1\u8def\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "533", "children": [{"label": "5331: \u5ba2\u8fd0\u706b\u8f66\u7ad9", "value": "5331"}, {"label": "5332: \u8d27\u8fd0\u706b\u8f66\u7ad9\uff08\u573a\uff09", "value": "5332"}, {"label": "5333: \u94c1\u8def\u8fd0\u8f93\u7ef4\u62a4\u6d3b\u52a8", "value": "5333"}, {"label": "5339: \u5176\u4ed6\u94c1\u8def\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "5339"}]}]}, {"label": "54: \u9053\u8def\u8fd0\u8f93\u4e1a", "value": "54", "children": [{"label": "541: \u57ce\u5e02\u516c\u5171\u4ea4\u901a\u8fd0\u8f93", "value": "541", "children": [{"label": "5411: \u516c\u5171\u7535\u6c7d\u8f66\u5ba2\u8fd0", "value": "5411"}, {"label": "5412: \u57ce\u5e02\u8f68\u9053\u4ea4\u901a", "value": "5412"}, {"label": "5413: \u51fa\u79df\u8f66\u5ba2\u8fd0", "value": "5413"}, {"label": "5414: \u516c\u5171\u81ea\u884c\u8f66\u670d\u52a1", "value": "5414"}, {"label": "5419: \u5176\u4ed6\u57ce\u5e02\u516c\u5171\u4ea4\u901a\u8fd0\u8f93 ", "value": "5419"}]}, {"label": "542: \u516c\u8def\u65c5\u5ba2\u8fd0\u8f93", "value": "542", "children": [{"label": "5421: \u957f\u9014\u5ba2\u8fd0", "value": "5421"}, {"label": "5422: \u65c5\u6e38\u5ba2\u8fd0", "value": "5422"}, {"label": "5429: \u5176\u4ed6\u516c\u8def\u5ba2\u8fd0", "value": "5429"}]}, {"label": "543: \u9053\u8def\u8d27\u7269\u8fd0\u8f93", "value": "543", "children": [{"label": "5431: \u666e\u901a\u8d27\u7269\u9053\u8def\u8fd0\u8f93", "value": "5431"}, {"label": "5432: \u51b7\u85cf\u8f66\u9053\u8def\u8fd0\u8f93", "value": "5432"}, {"label": "5433: \u96c6\u88c5\u7bb1\u9053\u8def\u8fd0\u8f93", "value": "5433"}, {"label": "5434: \u5927\u578b\u8d27\u7269\u9053\u8def\u8fd0\u8f93", "value": "5434"}, {"label": "5435: \u5371\u9669\u8d27\u7269\u9053\u8def\u8fd0\u8f93", "value": "5435"}, {"label": "5436: \u90ae\u4ef6\u5305\u88f9\u9053\u8def\u8fd0\u8f93", "value": "5436"}, {"label": "5437: \u57ce\u5e02\u914d\u9001", "value": "5437"}, {"label": "5438: \u642c\u5bb6\u8fd0\u8f93", "value": "5438"}, {"label": "5439: \u5176\u4ed6\u9053\u8def\u8d27\u7269\u8fd0\u8f93", "value": "5439"}]}, {"label": "544: \u9053\u8def\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "544", "children": [{"label": "5441: \u5ba2\u8fd0\u6c7d\u8f66\u7ad9", "value": "5441"}, {"label": "5442: \u8d27\u8fd0\u67a2\u7ebd\uff08\u7ad9\uff09", "value": "5442"}, {"label": "5443: \u516c\u8def\u7ba1\u7406\u4e0e\u517b\u62a4", "value": "5443"}, {"label": "5449: \u5176\u4ed6\u9053\u8def\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "5449"}]}]}, {"label": "55: \u6c34\u4e0a\u8fd0\u8f93\u4e1a", "value": "55", "children": [{"label": "551: \u6c34\u4e0a\u65c5\u5ba2\u8fd0\u8f93", "value": "551", "children": [{"label": "5511: \u6d77\u4e0a\u65c5\u5ba2\u8fd0\u8f93", "value": "5511"}, {"label": "5512: \u5185\u6cb3\u65c5\u5ba2\u8fd0\u8f93", "value": "5512"}, {"label": "5513: \u5ba2\u8fd0\u8f6e\u6e21\u8fd0\u8f93", "value": "5513"}]}, {"label": "552: \u6c34\u4e0a\u8d27\u7269\u8fd0\u8f93", "value": "552", "children": [{"label": "5521: \u8fdc\u6d0b\u8d27\u7269\u8fd0\u8f93", "value": "5521"}, {"label": "5522: \u6cbf\u6d77\u8d27\u7269\u8fd0\u8f93", "value": "5522"}, {"label": "5523: \u5185\u6cb3\u8d27\u7269\u8fd0\u8f93", "value": "5523"}]}, {"label": "553: \u6c34\u4e0a\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "553", "children": [{"label": "5531: \u5ba2\u8fd0\u6e2f\u53e3", "value": "5531"}, {"label": "5532: \u8d27\u8fd0\u6e2f\u53e3", "value": "5532"}, {"label": "5539: \u5176\u4ed6\u6c34\u4e0a\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "5539"}]}]}, {"label": "56: \u822a\u7a7a\u8fd0\u8f93\u4e1a ", "value": "56", "children": [{"label": "561: \u822a\u7a7a\u5ba2\u8d27\u8fd0\u8f93", "value": "561", "children": [{"label": "5611: \u822a\u7a7a\u65c5\u5ba2\u8fd0\u8f93", "value": "5611"}, {"label": "5612: \u822a\u7a7a\u8d27\u7269\u8fd0\u8f93", "value": "5612"}]}, {"label": "562: \u901a\u7528\u822a\u7a7a\u670d\u52a1", "value": "562", "children": [{"label": "5621: \u901a\u7528\u822a\u7a7a\u751f\u4ea7\u670d\u52a1", "value": "5621"}, {"label": "5622: \u89c2\u5149\u6e38\u89c8\u822a\u7a7a\u670d\u52a1", "value": "5622"}, {"label": "5623: \u4f53\u80b2\u822a\u7a7a\u8fd0\u52a8\u670d\u52a1", "value": "5623"}, {"label": "5629: \u5176\u4ed6\u901a\u7528\u822a\u7a7a\u670d\u52a1", "value": "5629"}]}, {"label": "563: \u822a\u7a7a\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "563", "children": [{"label": "5631: \u673a\u573a", "value": "5631"}, {"label": "5632: \u7a7a\u4e2d\u4ea4\u901a\u7ba1\u7406", "value": "5632"}, {"label": "5639: \u5176\u4ed6\u822a\u7a7a\u8fd0\u8f93\u8f85\u52a9\u6d3b\u52a8", "value": "5639"}]}]}, {"label": "57: \u7ba1\u9053\u8fd0\u8f93\u4e1a ", "value": "57", "children": [{"label": "5710: \u6d77\u5e95\u7ba1\u9053\u8fd0\u8f93", "value": "5710"}, {"label": "5720: \u9646\u5730\u7ba1\u9053\u8fd0\u8f93", "value": "5720"}]}, {"label": "58: \u591a\u5f0f\u8054\u8fd0\u548c\u8fd0\u8f93\u4ee3\u7406\u4e1a", "value": "58", "children": [{"label": "5810: \u591a\u5f0f\u8054\u8fd0", "value": "5810"}, {"label": "582: \u8fd0\u8f93\u4ee3\u7406\u4e1a", "value": "582", "children": [{"label": "5821: \u8d27\u7269\u8fd0\u8f93\u4ee3\u7406", "value": "5821"}, {"label": "5822: \u65c5\u5ba2\u7968\u52a1\u4ee3\u7406", "value": "5822"}, {"label": "5829: \u5176\u4ed6\u8fd0\u8f93\u4ee3\u7406\u4e1a", "value": "5829"}]}]}, {"label": "59: \u88c5\u5378\u642c\u8fd0\u548c\u4ed3\u50a8\u4e1a ", "value": "59", "children": [{"label": "5910: \u88c5\u5378\u642c\u8fd0", "value": "5910"}, {"label": "5920: \u901a\u7528\u4ed3\u50a8", "value": "5920"}, {"label": "5930: \u4f4e\u6e29\u4ed3\u50a8", "value": "5930"}, {"label": "594: \u5371\u9669\u54c1\u4ed3\u50a8", "value": "594", "children": [{"label": "5941: \u6cb9\u6c14\u4ed3\u50a8", "value": "5941"}, {"label": "5942: \u5371\u9669\u5316\u5b66\u54c1\u4ed3\u50a8", "value": "5942"}, {"label": "5949: \u5176\u4ed6\u5371\u9669\u54c1\u4ed3\u50a8", "value": "5949"}]}, {"label": "595: \u8c37\u7269\u3001\u68c9\u82b1\u7b49\u519c\u4ea7\u54c1\u4ed3\u50a8", "value": "595", "children": [{"label": "5951: \u8c37\u7269\u4ed3\u50a8", "value": "5951"}, {"label": "5952: \u68c9\u82b1\u4ed3\u50a8", "value": "5952"}, {"label": "5959: \u5176\u4ed6\u519c\u4ea7\u54c1\u4ed3\u50a8", "value": "5959"}]}, {"label": "5960: \u4e2d\u836f\u6750\u4ed3\u50a8", "value": "5960"}, {"label": "5990: \u5176\u4ed6\u4ed3\u50a8\u4e1a", "value": "5990"}]}, {"label": "60: \u90ae\u653f\u4e1a", "value": "60", "children": [{"label": "6010: \u90ae\u653f\u57fa\u672c\u670d\u52a1", "value": "6010"}, {"label": "6020: \u5feb\u9012\u670d\u52a1", "value": "6020"}, {"label": "6090: \u5176\u4ed6\u5bc4\u9012\u670d\u52a1", "value": "6090"}]}]}, {"label": "H: \u4f4f\u5bbf\u548c\u9910\u996e\u4e1a", "value": "H", "children": [{"label": "61: \u4f4f\u5bbf\u4e1a", "value": "61", "children": [{"label": "6110: \u65c5\u6e38\u996d\u5e97", "value": "6110"}, {"label": "612: \u4e00\u822c\u65c5\u9986", "value": "612", "children": [{"label": "6121: \u7ecf\u6d4e\u578b\u8fde\u9501\u9152\u5e97", "value": "6121"}, {"label": "6129: \u5176\u4ed6\u4e00\u822c\u65c5\u9986", "value": "6129"}]}, {"label": "6130: \u6c11\u5bbf\u670d\u52a1", "value": "6130"}, {"label": "6140: \u9732\u8425\u5730\u670d\u52a1", "value": "6140"}, {"label": "6190: \u5176\u4ed6\u4f4f\u5bbf\u4e1a", "value": "6190"}]}, {"label": "62: \u9910\u996e\u4e1a", "value": "62", "children": [{"label": "6210: \u6b63\u9910\u670d\u52a1", "value": "6210"}, {"label": "6220: \u5feb\u9910\u670d\u52a1", "value": "6220"}, {"label": "623: \u996e\u6599\u53ca\u51b7\u996e\u670d\u52a1", "value": "623", "children": [{"label": "6231: \u8336\u9986\u670d\u52a1", "value": "6231"}, {"label": "6232: \u5496\u5561\u9986\u670d\u52a1", "value": "6232"}, {"label": "6233: \u9152\u5427\u670d\u52a1 ", "value": "6233"}, {"label": "6239: \u5176\u4ed6\u996e\u6599\u53ca\u51b7\u996e\u670d\u52a1", "value": "6239"}]}, {"label": "624: \u9910\u996e\u914d\u9001\u53ca\u5916\u5356\u9001\u9910\u670d\u52a1", "value": "624", "children": [{"label": "6241: \u9910\u996e\u914d\u9001\u670d\u52a1", "value": "6241"}, {"label": "6242: \u5916\u5356\u9001\u9910\u670d\u52a1", "value": "6242"}]}, {"label": "629: \u5176\u4ed6\u9910\u996e\u4e1a", "value": "629", "children": [{"label": "6291: \u5c0f\u5403\u670d\u52a1", "value": "6291"}, {"label": "6299: \u5176\u4ed6\u672a\u5217\u660e\u9910\u996e\u4e1a", "value": "6299"}]}]}]}, {"label": "I: \u4fe1\u606f\u4f20\u8f93\u3001\u8f6f\u4ef6\u548c\u4fe1\u606f\u6280\u672f\u670d\u52a1\u4e1a", "value": "I", "children": [{"label": "63: \u7535\u4fe1\u3001\u5e7f\u64ad\u7535\u89c6\u548c\u536b\u661f\u4f20\u8f93\u670d\u52a1", "value": "63", "children": [{"label": "631: \u7535\u4fe1", "value": "631", "children": [{"label": "6311: \u56fa\u5b9a\u7535\u4fe1\u670d\u52a1", "value": "6311"}, {"label": "6312: \u79fb\u52a8\u7535\u4fe1\u670d\u52a1", "value": "6312"}, {"label": "6319: \u5176\u4ed6\u7535\u4fe1\u670d\u52a1", "value": "6319"}]}, {"label": "632: \u5e7f\u64ad\u7535\u89c6\u4f20\u8f93\u670d\u52a1", "value": "632", "children": [{"label": "6321: \u6709\u7ebf\u5e7f\u64ad\u7535\u89c6\u4f20\u8f93\u670d\u52a1", "value": "6321"}, {"label": "6322: \u65e0\u7ebf\u5e7f\u64ad\u7535\u89c6\u4f20\u8f93\u670d\u52a1", "value": "6322"}]}, {"label": "633: \u536b\u661f\u4f20\u8f93\u670d\u52a1", "value": "633", "children": [{"label": "6331: \u5e7f\u64ad\u7535\u89c6\u536b\u661f\u4f20\u8f93\u670d\u52a1", "value": "6331"}, {"label": "6339: \u5176\u4ed6\u536b\u661f\u4f20\u8f93\u670d\u52a1", "value": "6339"}]}]}, {"label": "64: \u4e92\u8054\u7f51\u548c\u76f8\u5173\u670d\u52a1", "value": "64", "children": [{"label": "6410: \u4e92\u8054\u7f51\u63a5\u5165\u53ca\u76f8\u5173\u670d\u52a1", "value": "6410"}, {"label": "642: \u4e92\u8054\u7f51\u4fe1\u606f\u670d\u52a1", "value": "642", "children": [{"label": "6421: \u4e92\u8054\u7f51\u641c\u7d22\u670d\u52a1", "value": "6421"}, {"label": "6422: \u4e92\u8054\u7f51\u6e38\u620f\u670d\u52a1", "value": "6422"}, {"label": "6429: \u4e92\u8054\u7f51\u5176\u4ed6\u4fe1\u606f\u670d\u52a1", "value": "6429"}]}, {"label": "643: \u4e92\u8054\u7f51\u5e73\u53f0", "value": "643", "children": [{"label": "6431: \u4e92\u8054\u7f51\u751f\u4ea7\u670d\u52a1\u5e73\u53f0", "value": "6431"}, {"label": "6432: \u4e92\u8054\u7f51\u751f\u6d3b\u670d\u52a1\u5e73\u53f0", "value": "6432"}, {"label": "6433: \u4e92\u8054\u7f51\u79d1\u6280\u521b\u65b0\u5e73\u53f0", "value": "6433"}, {"label": "6434: \u4e92\u8054\u7f51\u516c\u5171\u670d\u52a1\u5e73\u53f0", "value": "6434"}, {"label": "6439: \u5176\u4ed6\u4e92\u8054\u7f51\u5e73\u53f0", "value": "6439"}]}, {"label": "6440: \u4e92\u8054\u7f51\u5b89\u5168\u670d\u52a1", "value": "6440"}, {"label": "6450: \u4e92\u8054\u7f51\u6570\u636e\u670d\u52a1", "value": "6450"}, {"label": "6490: \u5176\u4ed6\u4e92\u8054\u7f51\u670d\u52a1", "value": "6490"}]}, {"label": "65: \u8f6f\u4ef6\u548c\u4fe1\u606f\u6280\u672f\u670d\u52a1\u4e1a", "value": "65", "children": [{"label": "651: \u8f6f\u4ef6\u5f00\u53d1", "value": "651", "children": [{"label": "6511: \u57fa\u7840\u8f6f\u4ef6\u5f00\u53d1", "value": "6511"}, {"label": "6512: \u652f\u6491\u8f6f\u4ef6\u5f00\u53d1", "value": "6512"}, {"label": "6513: \u5e94\u7528\u8f6f\u4ef6\u5f00\u53d1", "value": "6513"}, {"label": "6519: \u5176\u4ed6\u8f6f\u4ef6\u5f00\u53d1", "value": "6519"}]}, {"label": "6520: \u96c6\u6210\u7535\u8def\u8bbe\u8ba1", "value": "6520"}, {"label": "653: \u4fe1\u606f\u7cfb\u7edf\u96c6\u6210\u548c\u7269\u8054\u7f51\u6280\u672f\u670d\u52a1", "value": "653", "children": [{"label": "6531: \u4fe1\u606f\u7cfb\u7edf\u96c6\u6210\u670d\u52a1", "value": "6531"}, {"label": "6532: \u7269\u8054\u7f51\u6280\u672f\u670d\u52a1", "value": "6532"}]}, {"label": "6540: \u8fd0\u884c\u7ef4\u62a4\u670d\u52a1", "value": "6540"}, {"label": "6550: \u4fe1\u606f\u5904\u7406\u548c\u5b58\u50a8\u652f\u6301\u670d\u52a1", "value": "6550"}, {"label": "6560: \u4fe1\u606f\u6280\u672f\u54a8\u8be2\u670d\u52a1", "value": "6560"}, {"label": "657: \u6570\u5b57\u5185\u5bb9\u670d\u52a1", "value": "657", "children": [{"label": "6571: \u5730\u7406\u9065\u611f\u4fe1\u606f\u670d\u52a1", "value": "6571"}, {"label": "6572: \u52a8\u6f2b\u3001\u6e38\u620f\u6570\u5b57\u5185\u5bb9\u670d\u52a1", "value": "6572"}, {"label": "6579: \u5176\u4ed6\u6570\u5b57\u5185\u5bb9\u670d\u52a1", "value": "6579"}]}, {"label": "659: \u5176\u4ed6\u4fe1\u606f\u6280\u672f\u670d\u52a1\u4e1a", "value": "659", "children": [{"label": "6591: \u547c\u53eb\u4e2d\u5fc3", "value": "6591"}, {"label": "6599: \u5176\u4ed6\u672a\u5217\u660e\u4fe1\u606f\u6280\u672f\u670d\u52a1\u4e1a", "value": "6599"}]}]}]}, {"label": "J: \u91d1\u878d\u4e1a", "value": "J", "children": [{"label": "66: \u8d27\u5e01\u91d1\u878d\u670d\u52a1", "value": "66", "children": [{"label": "6610: \u4e2d\u592e\u94f6\u884c\u670d\u52a1", "value": "6610"}, {"label": "662: \u8d27\u5e01\u94f6\u884c\u670d\u52a1", "value": "662", "children": [{"label": "6621: \u5546\u4e1a\u94f6\u884c\u670d\u52a1", "value": "6621"}, {"label": "6622: \u653f\u7b56\u6027\u94f6\u884c\u670d\u52a1", "value": "6622"}, {"label": "6623: \u4fe1\u7528\u5408\u4f5c\u793e\u670d\u52a1", "value": "6623"}, {"label": "6624: \u519c\u6751\u8d44\u91d1\u4e92\u52a9\u793e\u670d\u52a1", "value": "6624"}, {"label": "6629: \u5176\u4ed6\u8d27\u5e01\u94f6\u884c\u670d\u52a1", "value": "6629"}]}, {"label": "663: \u975e\u8d27\u5e01\u94f6\u884c\u670d\u52a1", "value": "663", "children": [{"label": "6631: \u878d\u8d44\u79df\u8d41\u670d\u52a1", "value": "6631"}, {"label": "6632: \u8d22\u52a1\u516c\u53f8\u670d\u52a1 ", "value": "6632"}, {"label": "6633: \u5178\u5f53", "value": "6633"}, {"label": "6634: \u6c7d\u8f66\u91d1\u878d\u516c\u53f8\u670d\u52a1", "value": "6634"}, {"label": "6635: \u5c0f\u989d\u8d37\u6b3e\u516c\u53f8\u670d\u52a1 ", "value": "6635"}, {"label": "6636: \u6d88\u8d39\u91d1\u878d\u516c\u53f8\u670d\u52a1 ", "value": "6636"}, {"label": "6637: \u7f51\u7edc\u501f\u8d37\u670d\u52a1", "value": "6637"}, {"label": "6639: \u5176\u4ed6\u975e\u8d27\u5e01\u94f6\u884c\u670d\u52a1", "value": "6639"}]}, {"label": "6640: \u94f6\u884c\u7406\u8d22\u670d\u52a1", "value": "6640"}, {"label": "6650: \u94f6\u884c\u76d1\u7ba1\u670d\u52a1", "value": "6650"}]}, {"label": "67: \u8d44\u672c\u5e02\u573a\u670d\u52a1", "value": "67", "children": [{"label": "671: \u8bc1\u5238\u5e02\u573a\u670d\u52a1", "value": "671", "children": [{"label": "6711: \u8bc1\u5238\u5e02\u573a\u7ba1\u7406\u670d\u52a1", "value": "6711"}, {"label": "6712: \u8bc1\u5238\u7ecf\u7eaa\u4ea4\u6613\u670d\u52a1", "value": "6712"}]}, {"label": "6720: \u516c\u5f00\u52df\u96c6\u8bc1\u5238\u6295\u8d44\u57fa\u91d1", "value": "6720"}, {"label": "673: \u975e\u516c\u5f00\u52df\u96c6\u8bc1\u5238\u6295\u8d44\u57fa\u91d1", "value": "673", "children": [{"label": "6731: \u521b\u4e1a\u6295\u8d44\u57fa\u91d1", "value": "6731"}, {"label": "6732: \u5929\u4f7f\u6295\u8d44", "value": "6732"}, {"label": "6739: \u5176\u4ed6\u975e\u516c\u5f00\u52df\u96c6\u8bc1\u5238\u6295\u8d44\u57fa\u91d1", "value": "6739"}]}, {"label": "674: \u671f\u8d27\u5e02\u573a\u670d\u52a1", "value": "674", "children": [{"label": "6741: \u671f\u8d27\u5e02\u573a\u7ba1\u7406\u670d\u52a1", "value": "6741"}, {"label": "6749: \u5176\u4ed6\u671f\u8d27\u5e02\u573a\u670d\u52a1", "value": "6749"}]}, {"label": "6750: \u8bc1\u5238\u671f\u8d27\u76d1\u7ba1\u670d\u52a1", "value": "6750"}, {"label": "6760: \u8d44\u672c\u6295\u8d44\u670d\u52a1", "value": "6760"}, {"label": "6790: \u5176\u4ed6\u8d44\u672c\u5e02\u573a\u670d\u52a1", "value": "6790"}]}, {"label": "68: \u4fdd\u9669\u4e1a", "value": "68", "children": [{"label": "681: \u4eba\u8eab\u4fdd\u9669", "value": "681", "children": [{"label": "6811: \u4eba\u5bff\u4fdd\u9669", "value": "6811"}, {"label": "6812: \u5e74\u91d1\u4fdd\u9669", "value": "6812"}, {"label": "6813: \u5065\u5eb7\u4fdd\u9669", "value": "6813"}, {"label": "6814: \u610f\u5916\u4f24\u5bb3\u4fdd\u9669", "value": "6814"}]}, {"label": "6820: \u8d22\u4ea7\u4fdd\u9669", "value": "6820"}, {"label": "6830: \u518d\u4fdd\u9669", "value": "6830"}, {"label": "6840: \u5546\u4e1a\u517b\u8001\u91d1", "value": "6840"}, {"label": "685: \u4fdd\u9669\u4e2d\u4ecb\u670d\u52a1", "value": "685", "children": [{"label": "6851: \u4fdd\u9669\u7ecf\u7eaa\u670d\u52a1", "value": "6851"}, {"label": "6852: \u4fdd\u9669\u4ee3\u7406\u670d\u52a1", "value": "6852"}, {"label": "6853: \u4fdd\u9669\u516c\u4f30\u670d\u52a1", "value": "6853"}]}, {"label": "6860: \u4fdd\u9669\u8d44\u4ea7\u7ba1\u7406", "value": "6860"}, {"label": "6870: \u4fdd\u9669\u76d1\u7ba1\u670d\u52a1", "value": "6870"}, {"label": "6890: \u5176\u4ed6\u4fdd\u9669\u6d3b\u52a8", "value": "6890"}]}, {"label": "69: \u5176\u4ed6\u91d1\u878d\u4e1a", "value": "69", "children": [{"label": "691: \u91d1\u878d\u4fe1\u6258\u4e0e\u7ba1\u7406\u670d\u52a1", "value": "691", "children": [{"label": "6911: \u4fe1\u6258\u516c\u53f8", "value": "6911"}, {"label": "6919: \u5176\u4ed6\u91d1\u878d\u4fe1\u6258\u4e0e\u7ba1\u7406\u670d\u52a1", "value": "6919"}]}, {"label": "6920: \u63a7\u80a1\u516c\u53f8\u670d\u52a1", "value": "6920"}, {"label": "6930: \u975e\u91d1\u878d\u673a\u6784\u652f\u4ed8\u670d\u52a1", "value": "6930"}, {"label": "6940: \u91d1\u878d\u4fe1\u606f\u670d\u52a1", "value": "6940"}, {"label": "6950: \u91d1\u878d\u8d44\u4ea7\u7ba1\u7406\u516c\u53f8", "value": "6950"}, {"label": "699: \u5176\u4ed6\u672a\u5217\u660e\u91d1\u878d\u4e1a", "value": "699", "children": [{"label": "6991: \u8d27\u5e01\u7ecf\u7eaa\u516c\u53f8\u670d\u52a1", "value": "6991"}, {"label": "6999: \u5176\u4ed6\u672a\u5305\u62ec\u91d1\u878d\u4e1a", "value": "6999"}]}]}]}, {"label": "K: \u623f\u5730\u4ea7\u4e1a", "value": "K", "children": [{"label": "70: \u623f\u5730\u4ea7\u4e1a", "value": "70", "children": [{"label": "7010: \u623f\u5730\u4ea7\u5f00\u53d1\u7ecf\u8425", "value": "7010"}, {"label": "7020: \u7269\u4e1a\u7ba1\u7406", "value": "7020"}, {"label": "7030: \u623f\u5730\u4ea7\u4e2d\u4ecb\u670d\u52a1", "value": "7030"}, {"label": "7040: \u623f\u5730\u4ea7\u79df\u8d41\u7ecf\u8425", "value": "7040"}, {"label": "7090: \u5176\u4ed6\u623f\u5730\u4ea7\u4e1a", "value": "7090"}]}]}, {"label": "L: \u79df\u8d41\u548c\u5546\u52a1\u670d\u52a1\u4e1a", "value": "L", "children": [{"label": "71: \u79df\u8d41\u4e1a", "value": "71", "children": [{"label": "711: \u673a\u68b0\u8bbe\u5907\u7ecf\u8425\u79df\u8d41", "value": "711", "children": [{"label": "7111: \u6c7d\u8f66\u79df\u8d41", "value": "7111"}, {"label": "7112: \u519c\u4e1a\u673a\u68b0\u7ecf\u8425\u79df\u8d41", "value": "7112"}, {"label": "7113: \u5efa\u7b51\u5de5\u7a0b\u673a\u68b0\u4e0e\u8bbe\u5907\u7ecf\u8425\u79df\u8d41", "value": "7113"}, {"label": "7114: \u8ba1\u7b97\u673a\u53ca\u901a\u8baf\u8bbe\u5907\u7ecf\u8425\u79df\u8d41", "value": "7114"}, {"label": "7115: \u533b\u7597\u8bbe\u5907\u7ecf\u8425\u79df\u8d41", "value": "7115"}, {"label": "7119: \u5176\u4ed6\u673a\u68b0\u4e0e\u8bbe\u5907\u7ecf\u8425\u79df\u8d41", "value": "7119"}]}, {"label": "712: \u6587\u4f53\u8bbe\u5907\u548c\u7528\u54c1\u51fa\u79df", "value": "712", "children": [{"label": "7121: \u4f11\u95f2\u5a31\u4e50\u7528\u54c1\u8bbe\u5907\u51fa\u79df", "value": "7121"}, {"label": "7122: \u4f53\u80b2\u7528\u54c1\u8bbe\u5907\u51fa\u79df", "value": "7122"}, {"label": "7123: \u6587\u5316\u7528\u54c1\u8bbe\u5907\u51fa\u79df", "value": "7123"}, {"label": "7124: \u56fe\u4e66\u51fa\u79df", "value": "7124"}, {"label": "7125: \u97f3\u50cf\u5236\u54c1\u51fa\u79df", "value": "7125"}, {"label": "7129: \u5176\u4ed6\u6587\u4f53\u8bbe\u5907\u548c\u7528\u54c1\u51fa\u79df", "value": "7129"}]}, {"label": "7130: \u65e5\u7528\u54c1\u51fa\u79df", "value": "7130"}]}, {"label": "72: \u5546\u52a1\u670d\u52a1\u4e1a", "value": "72", "children": [{"label": "721: \u7ec4\u7ec7\u7ba1\u7406\u670d\u52a1", "value": "721", "children": [{"label": "7211: \u4f01\u4e1a\u603b\u90e8\u7ba1\u7406", "value": "7211"}, {"label": "7212: \u6295\u8d44\u4e0e\u8d44\u4ea7\u7ba1\u7406", "value": "7212"}, {"label": "7213: \u8d44\u6e90\u4e0e\u4ea7\u6743\u4ea4\u6613\u670d\u52a1", "value": "7213"}, {"label": "7214: \u5355\u4f4d\u540e\u52e4\u7ba1\u7406\u670d\u52a1", "value": "7214"}, {"label": "7215: \u519c\u6751\u96c6\u4f53\u7ecf\u6d4e\u7ec4\u7ec7\u7ba1\u7406", "value": "7215"}, {"label": "7219: \u5176\u4ed6\u7ec4\u7ec7\u7ba1\u7406\u670d\u52a1", "value": "7219"}]}, {"label": "722: \u7efc\u5408\u7ba1\u7406\u670d\u52a1", "value": "722", "children": [{"label": "7221: \u56ed\u533a\u7ba1\u7406\u670d\u52a1", "value": "7221"}, {"label": "7222: \u5546\u4e1a\u7efc\u5408\u4f53\u7ba1\u7406\u670d\u52a1", "value": "7222"}, {"label": "7223: \u5e02\u573a\u7ba1\u7406\u670d\u52a1", "value": "7223"}, {"label": "7224: \u4f9b\u5e94\u94fe\u7ba1\u7406\u670d\u52a1", "value": "7224"}, {"label": "7229: \u5176\u4ed6\u7efc\u5408\u7ba1\u7406\u670d\u52a1", "value": "7229"}]}, {"label": "723: \u6cd5\u5f8b\u670d\u52a1", "value": "723", "children": [{"label": "7231: \u5f8b\u5e08\u53ca\u76f8\u5173\u6cd5\u5f8b\u670d\u52a1", "value": "7231"}, {"label": "7232: \u516c\u8bc1\u670d\u52a1", "value": "7232"}, {"label": "7239: \u5176\u4ed6\u6cd5\u5f8b\u670d\u52a1", "value": "7239"}]}, {"label": "724: \u54a8\u8be2\u4e0e\u8c03\u67e5", "value": "724", "children": [{"label": "7241: \u4f1a\u8ba1\u3001\u5ba1\u8ba1\u53ca\u7a0e\u52a1\u670d\u52a1", "value": "7241"}, {"label": "7242: \u5e02\u573a\u8c03\u67e5", "value": "7242"}, {"label": "7243: \u793e\u4f1a\u7ecf\u6d4e\u54a8\u8be2", "value": "7243"}, {"label": "7244: \u5065\u5eb7\u54a8\u8be2", "value": "7244"}, {"label": "7245: \u73af\u4fdd\u54a8\u8be2", "value": "7245"}, {"label": "7246: \u4f53\u80b2\u54a8\u8be2", "value": "7246"}, {"label": "7249: \u5176\u4ed6\u4e13\u4e1a\u54a8\u8be2\u4e0e\u8c03\u67e5", "value": "7249"}]}, {"label": "725: \u5e7f\u544a\u4e1a", "value": "725", "children": [{"label": "7251: \u4e92\u8054\u7f51\u5e7f\u544a\u670d\u52a1", "value": "7251"}, {"label": "7259: \u5176\u4ed6\u5e7f\u544a\u670d\u52a1", "value": "7259"}]}, {"label": "726: \u4eba\u529b\u8d44\u6e90\u670d\u52a1", "value": "726", "children": [{"label": "7261: \u516c\u5171\u5c31\u4e1a\u670d\u52a1", "value": "7261"}, {"label": "7262: \u804c\u4e1a\u4e2d\u4ecb\u670d\u52a1", "value": "7262"}, {"label": "7263: \u52b3\u52a1\u6d3e\u9063\u670d\u52a1", "value": "7263"}, {"label": "7264: \u521b\u4e1a\u6307\u5bfc\u670d\u52a1", "value": "7264"}, {"label": "7269: \u5176\u4ed6\u4eba\u529b\u8d44\u6e90\u670d\u52a1", "value": "7269"}]}, {"label": "727: \u5b89\u5168\u4fdd\u62a4\u670d\u52a1", "value": "727", "children": [{"label": "7271: \u5b89\u5168\u670d\u52a1", "value": "7271"}, {"label": "7272:  \u5b89\u5168\u7cfb\u7edf\u76d1\u63a7\u670d\u52a1", "value": "7272"}, {"label": "7279: \u5176\u4ed6\u5b89\u5168\u4fdd\u62a4\u670d\u52a1", "value": "7279"}]}, {"label": "728: \u4f1a\u8bae\u3001\u5c55\u89c8\u53ca\u76f8\u5173\u670d\u52a1", "value": "728", "children": [{"label": "7281: \u79d1\u6280\u4f1a\u5c55\u670d\u52a1", "value": "7281"}, {"label": "7282: \u65c5\u6e38\u4f1a\u5c55\u670d\u52a1", "value": "7282"}, {"label": "7283: \u4f53\u80b2\u4f1a\u5c55\u670d\u52a1", "value": "7283"}, {"label": "7284: \u6587\u5316\u4f1a\u5c55\u670d\u52a1", "value": "7284"}, {"label": "7289: \u5176\u4ed6\u4f1a\u8bae\u3001\u5c55\u89c8\u53ca\u76f8\u5173\u670d\u52a1", "value": "7289"}]}, {"label": "729: \u5176\u4ed6\u5546\u52a1\u670d\u52a1\u4e1a", "value": "729", "children": [{"label": "7291: \u65c5\u884c\u793e\u53ca\u76f8\u5173\u670d\u52a1", "value": "7291"}, {"label": "7292: \u5305\u88c5\u670d\u52a1", "value": "7292"}, {"label": "7293: \u529e\u516c\u670d\u52a1", "value": "7293"}, {"label": "7294: \u7ffb\u8bd1\u670d\u52a1", "value": "7294"}, {"label": "7295: \u4fe1\u7528\u670d\u52a1", "value": "7295"}, {"label": "7296: \u975e\u878d\u8d44\u62c5\u4fdd\u670d\u52a1", "value": "7296"}, {"label": "7297: \u5546\u52a1\u4ee3\u7406\u4ee3\u529e\u670d\u52a1", "value": "7297"}, {"label": "7298: \u7968\u52a1\u4ee3\u7406\u670d\u52a1", "value": "7298"}, {"label": "7299: \u5176\u4ed6\u672a\u5217\u660e\u5546\u52a1\u670d\u52a1\u4e1a", "value": "7299"}]}]}]}, {"label": "M: \u79d1\u5b66\u7814\u7a76\u548c\u6280\u672f\u670d\u52a1\u4e1a", "value": "M", "children": [{"label": "73: \u7814\u7a76\u548c\u8bd5\u9a8c\u53d1\u5c55", "value": "73", "children": [{"label": "7310: \u81ea\u7136\u79d1\u5b66\u7814\u7a76\u548c\u8bd5\u9a8c\u53d1\u5c55", "value": "7310"}, {"label": "7320: \u5de5\u7a0b\u548c\u6280\u672f\u7814\u7a76\u548c\u8bd5\u9a8c\u53d1\u5c55", "value": "7320"}, {"label": "7330: \u519c\u4e1a\u79d1\u5b66\u7814\u7a76\u548c\u8bd5\u9a8c\u53d1\u5c55", "value": "7330"}, {"label": "7340: \u533b\u5b66\u7814\u7a76\u548c\u8bd5\u9a8c\u53d1\u5c55", "value": "7340"}, {"label": "7350: \u793e\u4f1a\u4eba\u6587\u79d1\u5b66\u7814\u7a76", "value": "7350"}]}, {"label": "74: \u4e13\u4e1a\u6280\u672f\u670d\u52a1\u4e1a", "value": "74", "children": [{"label": "7410: \u6c14\u8c61\u670d\u52a1", "value": "7410"}, {"label": "7420: \u5730\u9707\u670d\u52a1", "value": "7420"}, {"label": "743: \u6d77\u6d0b\u670d\u52a1", "value": "743", "children": [{"label": "7431: \u6d77\u6d0b\u6c14\u8c61\u670d\u52a1", "value": "7431"}, {"label": "7432: \u6d77\u6d0b\u73af\u5883\u670d\u52a1", "value": "7432"}, {"label": "7439: \u5176\u4ed6\u6d77\u6d0b\u670d\u52a1", "value": "7439"}]}, {"label": "744: \u6d4b\u7ed8\u5730\u7406\u4fe1\u606f\u670d\u52a1", "value": "744", "children": [{"label": "7441: \u9065\u611f\u6d4b\u7ed8\u670d\u52a1", "value": "7441"}, {"label": "7449: \u5176\u4ed6\u6d4b\u7ed8\u5730\u7406\u4fe1\u606f\u670d\u52a1", "value": "7449"}]}, {"label": "745: \u8d28\u68c0\u6280\u672f\u670d\u52a1", "value": "745", "children": [{"label": "7451: \u68c0\u9a8c\u68c0\u75ab\u670d\u52a1", "value": "7451"}, {"label": "7452: \u68c0\u6d4b\u670d\u52a1", "value": "7452"}, {"label": "7453: \u8ba1\u91cf\u670d\u52a1", "value": "7453"}, {"label": "7454: \u6807\u51c6\u5316\u670d\u52a1", "value": "7454"}, {"label": "7455: \u8ba4\u8bc1\u8ba4\u53ef\u670d\u52a1", "value": "7455"}, {"label": "7459: \u5176\u4ed6\u8d28\u68c0\u6280\u672f\u670d\u52a1", "value": "7459"}]}, {"label": "746: \u73af\u5883\u4e0e\u751f\u6001\u76d1\u6d4b", "value": "746", "children": [{"label": "7461: \u73af\u5883\u4fdd\u62a4\u76d1\u6d4b", "value": "7461"}, {"label": "7462: \u751f\u6001\u8d44\u6e90\u76d1\u6d4b", "value": "7462"}, {"label": "7463: \u91ce\u751f\u52a8\u7269\u75ab\u6e90\u75ab\u75c5\u9632\u63a7\u76d1\u6d4b", "value": "7463"}]}, {"label": "747: \u5730\u8d28\u52d8\u67e5 ", "value": "747", "children": [{"label": "7471: \u80fd\u6e90\u77ff\u4ea7\u5730\u8d28\u52d8\u67e5", "value": "7471"}, {"label": "7472: \u56fa\u4f53\u77ff\u4ea7\u5730\u8d28\u52d8\u67e5", "value": "7472"}, {"label": "7473: \u6c34\u3001\u4e8c\u6c27\u5316\u78b3\u7b49\u77ff\u4ea7\u5730\u8d28\u52d8\u67e5", "value": "7473"}, {"label": "7474: \u57fa\u7840\u5730\u8d28\u52d8\u67e5", "value": "7474"}, {"label": "7475: \u5730\u8d28\u52d8\u67e5\u6280\u672f\u670d\u52a1", "value": "7475"}]}, {"label": "748: \u5de5\u7a0b\u6280\u672f\u4e0e\u8bbe\u8ba1\u670d\u52a1", "value": "748", "children": [{"label": "7481: \u5de5\u7a0b\u7ba1\u7406\u670d\u52a1", "value": "7481"}, {"label": "7482: \u5de5\u7a0b\u76d1\u7406\u670d\u52a1", "value": "7482"}, {"label": "7483: \u5de5\u7a0b\u52d8\u5bdf\u6d3b\u52a8", "value": "7483"}, {"label": "7484: \u5de5\u7a0b\u8bbe\u8ba1\u6d3b\u52a8", "value": "7484"}, {"label": "7485: \u89c4\u5212\u8bbe\u8ba1\u7ba1\u7406", "value": "7485"}, {"label": "7486: \u571f\u5730\u89c4\u5212\u670d\u52a1", "value": "7486"}]}, {"label": "749: \u5de5\u4e1a\u4e0e\u4e13\u4e1a\u8bbe\u8ba1\u53ca\u5176\u4ed6\u4e13\u4e1a\u6280\u672f\u670d\u52a1", "value": "749", "children": [{"label": "7491: \u5de5\u4e1a\u8bbe\u8ba1\u670d\u52a1", "value": "7491"}, {"label": "7492: \u4e13\u4e1a\u8bbe\u8ba1\u670d\u52a1", "value": "7492"}, {"label": "7493: \u517d\u533b\u670d\u52a1", "value": "7493"}, {"label": "7499: \u5176\u4ed6\u672a\u5217\u660e\u4e13\u4e1a\u6280\u672f\u670d\u52a1\u4e1a", "value": "7499"}]}]}, {"label": "75: \u79d1\u6280\u63a8\u5e7f\u548c\u5e94\u7528\u670d\u52a1", "value": "75", "children": [{"label": "751: \u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "751", "children": [{"label": "7511: \u519c\u6797\u7267\u6e14\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7511"}, {"label": "7512: \u751f\u7269\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7512"}, {"label": "7513: \u65b0\u6750\u6599\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7513"}, {"label": "7514: \u8282\u80fd\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7514"}, {"label": "7515: \u65b0\u80fd\u6e90\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7515"}, {"label": "7516: \u73af\u4fdd\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7516"}, {"label": "7517: \u4e09\u7ef4\uff083D)\u6253\u5370\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7517"}, {"label": "7519: \u5176\u4ed6\u6280\u672f\u63a8\u5e7f\u670d\u52a1", "value": "7519"}]}, {"label": "7520: \u77e5\u8bc6\u4ea7\u6743\u670d\u52a1", "value": "7520"}, {"label": "7530: \u79d1\u6280\u4e2d\u4ecb\u670d\u52a1", "value": "7530"}, {"label": "7540: \u521b\u4e1a\u7a7a\u95f4\u670d\u52a1", "value": "7540"}, {"label": "7590: \u5176\u4ed6\u79d1\u6280\u63a8\u5e7f\u670d\u52a1\u4e1a", "value": "7590"}]}]}, {"label": "N: \u6c34\u5229\u3001\u73af\u5883\u548c\u516c\u5171\u8bbe\u65bd\u7ba1\u7406\u4e1a", "value": "N", "children": [{"label": "76: \u6c34\u5229\u7ba1\u7406\u4e1a", "value": "76", "children": [{"label": "7610: \u9632\u6d2a\u9664\u6d9d\u8bbe\u65bd\u7ba1\u7406", "value": "7610"}, {"label": "7620: \u6c34\u8d44\u6e90\u7ba1\u7406", "value": "7620"}, {"label": "7630: \u5929\u7136\u6c34\u6536\u96c6\u4e0e\u5206\u914d", "value": "7630"}, {"label": "7640: \u6c34\u6587\u670d\u52a1", "value": "7640"}, {"label": "7690: \u5176\u4ed6\u6c34\u5229\u7ba1\u7406\u4e1a", "value": "7690"}]}, {"label": "77: \u751f\u6001\u4fdd\u62a4\u548c\u73af\u5883\u6cbb\u7406\u4e1a", "value": "77", "children": [{"label": "771: \u751f\u6001\u4fdd\u62a4", "value": "771", "children": [{"label": "7711: \u81ea\u7136\u751f\u6001\u7cfb\u7edf\u4fdd\u62a4\u7ba1\u7406", "value": "7711"}, {"label": "7712: \u81ea\u7136\u9057\u8ff9\u4fdd\u62a4\u7ba1\u7406", "value": "7712"}, {"label": "7713: \u91ce\u751f\u52a8\u7269\u4fdd\u62a4", "value": "7713"}, {"label": "7714: \u91ce\u751f\u690d\u7269\u4fdd\u62a4", "value": "7714"}, {"label": "7715: \u52a8\u7269\u56ed\u3001\u6c34\u65cf\u9986\u7ba1\u7406\u670d\u52a1", "value": "7715"}, {"label": "7716: \u690d\u7269\u56ed\u7ba1\u7406\u670d\u52a1", "value": "7716"}, {"label": "7719: \u5176\u4ed6\u81ea\u7136\u4fdd\u62a4", "value": "7719"}]}, {"label": "772: \u73af\u5883\u6cbb\u7406\u4e1a", "value": "772", "children": [{"label": "7721: \u6c34\u6c61\u67d3\u6cbb\u7406", "value": "7721"}, {"label": "7722: \u5927\u6c14\u6c61\u67d3\u6cbb\u7406", "value": "7722"}, {"label": "7723: \u56fa\u4f53\u5e9f\u7269\u6cbb\u7406", "value": "7723"}, {"label": "7724: \u5371\u9669\u5e9f\u7269\u6cbb\u7406", "value": "7724"}, {"label": "7725: \u653e\u5c04\u6027\u5e9f\u7269\u6cbb\u7406", "value": "7725"}, {"label": "7726: \u571f\u58e4\u6c61\u67d3\u6cbb\u7406\u4e0e\u4fee\u590d\u670d\u52a1", "value": "7726"}, {"label": "7727: \u566a\u58f0\u4e0e\u632f\u52a8\u63a7\u5236\u670d\u52a1", "value": "7727"}, {"label": "7729: \u5176\u4ed6\u6c61\u67d3\u6cbb\u7406 ", "value": "7729"}]}]}, {"label": "78: \u516c\u5171\u8bbe\u65bd\u7ba1\u7406\u4e1a", "value": "78", "children": [{"label": "7810: \u5e02\u653f\u8bbe\u65bd\u7ba1\u7406", "value": "7810"}, {"label": "7820: \u73af\u5883\u536b\u751f\u7ba1\u7406", "value": "7820"}, {"label": "7830: \u57ce\u4e61\u5e02\u5bb9\u7ba1\u7406", "value": "7830"}, {"label": "7840: \u7eff\u5316\u7ba1\u7406", "value": "7840"}, {"label": "7850: \u57ce\u5e02\u516c\u56ed\u7ba1\u7406", "value": "7850"}, {"label": "786: \u6e38\u89c8\u666f\u533a\u7ba1\u7406", "value": "786", "children": [{"label": "7861: \u540d\u80dc\u98ce\u666f\u533a\u7ba1\u7406", "value": "7861"}, {"label": "7862: \u68ee\u6797\u516c\u56ed\u7ba1\u7406", "value": "7862"}, {"label": "7869: \u5176\u4ed6\u6e38\u89c8\u666f\u533a\u7ba1\u7406", "value": "7869"}]}]}, {"label": "79: \u571f\u5730\u7ba1\u7406\u4e1a", "value": "79", "children": [{"label": "7910: \u571f\u5730\u6574\u6cbb\u670d\u52a1", "value": "7910"}, {"label": "7920: \u571f\u5730\u8c03\u67e5\u8bc4\u4f30\u670d\u52a1", "value": "7920"}, {"label": "7930: \u571f\u5730\u767b\u8bb0\u670d\u52a1", "value": "7930"}, {"label": "7940: \u571f\u5730\u767b\u8bb0\u4ee3\u7406\u670d\u52a1", "value": "7940"}, {"label": "7990: \u5176\u4ed6\u571f\u5730\u7ba1\u7406\u670d\u52a1", "value": "7990"}]}]}, {"label": "O: \u5c45\u6c11\u670d\u52a1\u3001\u4fee\u7406\u548c\u5176\u4ed6\u670d\u52a1\u4e1a", "value": "O", "children": [{"label": "80: \u5c45\u6c11\u670d\u52a1\u4e1a", "value": "80", "children": [{"label": "8010: \u5bb6\u5ead\u670d\u52a1", "value": "8010"}, {"label": "8020: \u6258\u513f\u6240\u670d\u52a1", "value": "8020"}, {"label": "8030: \u6d17\u67d3\u670d\u52a1", "value": "8030"}, {"label": "8040: \u7406\u53d1\u53ca\u7f8e\u5bb9\u670d\u52a1", "value": "8040"}, {"label": "805: \u6d17\u6d74\u548c\u4fdd\u5065\u517b\u751f\u670d\u52a1", "value": "805", "children": [{"label": "8051: \u6d17\u6d74\u670d\u52a1", "value": "8051"}, {"label": "8052: \u8db3\u6d74\u670d\u52a1", "value": "8052"}, {"label": "8053: \u517b\u751f\u4fdd\u5065\u670d\u52a1", "value": "8053"}]}, {"label": "8060: \u6444\u5f71\u6269\u5370\u670d\u52a1", "value": "8060"}, {"label": "8070: \u5a5a\u59fb\u670d\u52a1", "value": "8070"}, {"label": "8080: \u6ba1\u846c\u670d\u52a1", "value": "8080"}, {"label": "8090: \u5176\u4ed6\u5c45\u6c11\u670d\u52a1\u4e1a", "value": "8090"}]}, {"label": "81: \u673a\u52a8\u8f66\u3001\u7535\u5b50\u4ea7\u54c1\u548c\u65e5\u7528\u4ea7\u54c1\u4fee\u7406\u4e1a", "value": "81", "children": [{"label": "811: \u6c7d\u8f66\u3001\u6469\u6258\u8f66\u7b49\u4fee\u7406\u4e0e\u7ef4\u62a4", "value": "811", "children": [{"label": "8111: \u6c7d\u8f66\u4fee\u7406\u4e0e\u7ef4\u62a4", "value": "8111"}, {"label": "8112: \u5927\u578b\u8f66\u8f86\u88c5\u5907\u4fee\u7406\u4e0e\u7ef4\u62a4", "value": "8112"}, {"label": "8113: \u6469\u6258\u8f66\u4fee\u7406\u4e0e\u7ef4\u62a4", "value": "8113"}, {"label": "8114: \u52a9\u52a8\u8f66\u7b49\u4fee\u7406\u4e0e\u7ef4\u62a4", "value": "8114"}]}, {"label": "812: \u8ba1\u7b97\u673a\u548c\u529e\u516c\u8bbe\u5907\u7ef4\u4fee", "value": "812", "children": [{"label": "8121: \u8ba1\u7b97\u673a\u548c\u8f85\u52a9\u8bbe\u5907\u4fee\u7406", "value": "8121"}, {"label": "8122: \u901a\u8baf\u8bbe\u5907\u4fee\u7406", "value": "8122"}, {"label": "8129: \u5176\u4ed6\u529e\u516c\u8bbe\u5907\u7ef4\u4fee", "value": "8129"}]}, {"label": "813: \u5bb6\u7528\u7535\u5668\u4fee\u7406", "value": "813", "children": [{"label": "8131: \u5bb6\u7528\u7535\u5b50\u4ea7\u54c1\u4fee\u7406", "value": "8131"}, {"label": "8132: \u65e5\u7528\u7535\u5668\u4fee\u7406", "value": "8132"}]}, {"label": "819: \u5176\u4ed6\u65e5\u7528\u4ea7\u54c1\u4fee\u7406\u4e1a", "value": "819", "children": [{"label": "8191: \u81ea\u884c\u8f66\u4fee\u7406", "value": "8191"}, {"label": "8192: \u978b\u548c\u76ae\u9769\u4fee\u7406", "value": "8192"}, {"label": "8193: \u5bb6\u5177\u548c\u76f8\u5173\u7269\u54c1\u4fee\u7406", "value": "8193"}, {"label": "8199: \u5176\u4ed6\u672a\u5217\u660e\u65e5\u7528\u4ea7\u54c1\u4fee\u7406\u4e1a", "value": "8199"}]}]}, {"label": "82: \u5176\u4ed6\u670d\u52a1\u4e1a", "value": "82", "children": [{"label": "821: \u6e05\u6d01\u670d\u52a1", "value": "821", "children": [{"label": "8211: \u5efa\u7b51\u7269\u6e05\u6d01\u670d\u52a1", "value": "8211"}, {"label": "8219: \u5176\u4ed6\u6e05\u6d01\u670d\u52a1", "value": "8219"}]}, {"label": "822: \u5ba0\u7269\u670d\u52a1", "value": "822", "children": [{"label": "8221: \u5ba0\u7269\u9972\u517b", "value": "8221"}, {"label": "8222: \u5ba0\u7269\u533b\u9662\u670d\u52a1", "value": "8222"}, {"label": "8223: \u5ba0\u7269\u7f8e\u5bb9\u670d\u52a1", "value": "8223"}, {"label": "8224: \u5ba0\u7269\u5bc4\u6258\u6536\u517b\u670d\u52a1", "value": "8224"}, {"label": "8229: \u5176\u4ed6\u5ba0\u7269\u670d\u52a1", "value": "8229"}]}, {"label": "8290: \u5176\u4ed6\u672a\u5217\u660e\u670d\u52a1\u4e1a", "value": "8290"}]}]}, {"label": "P: \u6559\u80b2", "value": "P", "children": [{"label": "83: \u6559\u80b2", "value": "83", "children": [{"label": "8310: \u5b66\u524d\u6559\u80b2", "value": "8310"}, {"label": "832: \u521d\u7b49\u6559\u80b2", "value": "832", "children": [{"label": "8321: \u666e\u901a\u5c0f\u5b66\u6559\u80b2", "value": "8321"}, {"label": "8322: \u6210\u4eba\u5c0f\u5b66\u6559\u80b2", "value": "8322"}]}, {"label": "833: \u4e2d\u7b49\u6559\u80b2", "value": "833", "children": [{"label": "8331: \u666e\u901a\u521d\u4e2d\u6559\u80b2", "value": "8331"}, {"label": "8332: \u804c\u4e1a\u521d\u4e2d\u6559\u80b2", "value": "8332"}, {"label": "8333: \u6210\u4eba\u521d\u4e2d\u6559\u80b2", "value": "8333"}, {"label": "8334: \u666e\u901a\u9ad8\u4e2d\u6559\u80b2", "value": "8334"}, {"label": "8335: \u6210\u4eba\u9ad8\u4e2d\u6559\u80b2", "value": "8335"}, {"label": "8336: \u4e2d\u7b49\u804c\u4e1a\u5b66\u6821\u6559\u80b2", "value": "8336"}]}, {"label": "834: \u9ad8\u7b49\u6559\u80b2", "value": "834", "children": [{"label": "8341: \u666e\u901a\u9ad8\u7b49\u6559\u80b2", "value": "8341"}, {"label": "8342: \u6210\u4eba\u9ad8\u7b49\u6559\u80b2", "value": "8342"}]}, {"label": "8350: \u7279\u6b8a\u6559\u80b2", "value": "8350"}, {"label": "839: \u6280\u80fd\u57f9\u8bad\u3001\u6559\u80b2\u8f85\u52a9\u53ca\u5176\u4ed6\u6559\u80b2", "value": "839", "children": [{"label": "8391: \u804c\u4e1a\u6280\u80fd\u57f9\u8bad", "value": "8391"}, {"label": "8392: \u4f53\u6821\u53ca\u4f53\u80b2\u57f9\u8bad", "value": "8392"}, {"label": "8393: \u6587\u5316\u827a\u672f\u57f9\u8bad", "value": "8393"}, {"label": "8394: \u6559\u80b2\u8f85\u52a9\u670d\u52a1", "value": "8394"}, {"label": "8399: \u5176\u4ed6\u672a\u5217\u660e\u6559\u80b2", "value": "8399"}]}]}]}, {"label": "Q: \u536b\u751f\u548c\u793e\u4f1a\u5de5\u4f5c", "value": "Q", "children": [{"label": "84: \u536b\u751f", "value": "84", "children": [{"label": "841: \u533b\u9662", "value": "841", "children": [{"label": "8411: \u7efc\u5408\u533b\u9662", "value": "8411"}, {"label": "8412: \u4e2d\u533b\u533b\u9662", "value": "8412"}, {"label": "8413: \u4e2d\u897f\u533b\u7ed3\u5408\u533b\u9662", "value": "8413"}, {"label": "8414: \u6c11\u65cf\u533b\u9662", "value": "8414"}, {"label": "8415: \u4e13\u79d1\u533b\u9662", "value": "8415"}, {"label": "8416: \u7597\u517b\u9662", "value": "8416"}]}, {"label": "842: \u57fa\u5c42\u533b\u7597\u536b\u751f\u670d\u52a1", "value": "842", "children": [{"label": "8421: \u793e\u533a\u536b\u751f\u670d\u52a1\u4e2d\u5fc3\uff08\u7ad9\uff09", "value": "8421"}, {"label": "8422: \u8857\u9053\u536b\u751f\u9662", "value": "8422"}, {"label": "8423: \u4e61\u9547\u536b\u751f\u9662", "value": "8423"}, {"label": "8424: \u6751\u536b\u751f\u5ba4 ", "value": "8424"}, {"label": "8425: \u95e8\u8bca\u90e8\uff08\u6240\uff09", "value": "8425"}]}, {"label": "843: \u4e13\u4e1a\u516c\u5171\u536b\u751f\u670d\u52a1", "value": "843", "children": [{"label": "8431: \u75be\u75c5\u9884\u9632\u63a7\u5236\u4e2d\u5fc3", "value": "8431"}, {"label": "8432: \u4e13\u79d1\u75be\u75c5\u9632\u6cbb\u9662\uff08\u6240\u3001\u7ad9)", "value": "8432"}, {"label": "8433: \u5987\u5e7c\u4fdd\u5065\u9662\uff08\u6240\u3001\u7ad9\uff09", "value": "8433"}, {"label": "8434: \u6025\u6551\u4e2d\u5fc3\uff08\u7ad9\uff09\u670d\u52a1", "value": "8434"}, {"label": "8435: \u91c7\u4f9b\u8840\u673a\u6784\u670d\u52a1", "value": "8435"}, {"label": "8436: \u8ba1\u5212\u751f\u80b2\u6280\u672f\u670d\u52a1\u6d3b\u52a8", "value": "8436"}]}, {"label": "849: \u5176\u4ed6\u536b\u751f\u6d3b\u52a8", "value": "849", "children": [{"label": "8491: \u5065\u5eb7\u4f53\u68c0\u670d\u52a1", "value": "8491"}, {"label": "8492: \u4e34\u5e8a\u68c0\u9a8c\u670d\u52a1", "value": "8492"}, {"label": "8499: \u5176\u4ed6\u672a\u5217\u660e\u536b\u751f\u670d\u52a1", "value": "8499"}]}]}, {"label": "85: \u793e\u4f1a\u5de5\u4f5c", "value": "85", "children": [{"label": "851: \u63d0\u4f9b\u4f4f\u5bbf\u793e\u4f1a\u5de5\u4f5c", "value": "851", "children": [{"label": "8511: \u5e72\u90e8\u4f11\u517b\u6240", "value": "8511"}, {"label": "8512: \u62a4\u7406\u673a\u6784\u670d\u52a1", "value": "8512"}, {"label": "8513: \u7cbe\u795e\u5eb7\u590d\u670d\u52a1", "value": "8513"}, {"label": "8514: \u8001\u5e74\u4eba\u3001\u6b8b\u75be\u4eba\u517b\u62a4\u670d\u52a1", "value": "8514"}, {"label": "8515: \u4e34\u7ec8\u5173\u6000\u670d\u52a1", "value": "8515"}, {"label": "8516: \u5b64\u6b8b\u513f\u7ae5\u6536\u517b\u548c\u5e87\u62a4\u670d\u52a1", "value": "8516"}, {"label": "8519: \u5176\u4ed6\u63d0\u4f9b\u4f4f\u5bbf\u793e\u4f1a\u6551\u52a9", "value": "8519"}]}, {"label": "852: \u4e0d\u63d0\u4f9b\u4f4f\u5bbf\u793e\u4f1a\u5de5\u4f5c", "value": "852", "children": [{"label": "8521: \u793e\u4f1a\u770b\u62a4\u4e0e\u5e2e\u52a9\u670d\u52a1", "value": "8521"}, {"label": "8522: \u5eb7\u590d\u8f85\u5177\u9002\u914d\u670d\u52a1", "value": "8522"}, {"label": "8529: \u5176\u4ed6\u4e0d\u63d0\u4f9b\u4f4f\u5bbf\u793e\u4f1a\u5de5\u4f5c", "value": "8529"}]}]}]}, {"label": "R: \u6587\u5316\u3001\u4f53\u80b2\u548c\u5a31\u4e50\u4e1a", "value": "R", "children": [{"label": "86: \u65b0\u95fb\u548c\u51fa\u7248\u4e1a", "value": "86", "children": [{"label": "8610: \u65b0\u95fb\u4e1a", "value": "8610"}, {"label": "862: \u51fa\u7248\u4e1a", "value": "862", "children": [{"label": "8621: \u56fe\u4e66\u51fa\u7248", "value": "8621"}, {"label": "8622: \u62a5\u7eb8\u51fa\u7248", "value": "8622"}, {"label": "8623: \u671f\u520a\u51fa\u7248", "value": "8623"}, {"label": "8624: \u97f3\u50cf\u5236\u54c1\u51fa\u7248", "value": "8624"}, {"label": "8625: \u7535\u5b50\u51fa\u7248\u7269\u51fa\u7248", "value": "8625"}, {"label": "8626: \u6570\u5b57\u51fa\u7248", "value": "8626"}, {"label": "8629: \u5176\u4ed6\u51fa\u7248\u4e1a", "value": "8629"}]}]}, {"label": "87: \u5e7f\u64ad\u3001\u7535\u89c6\u3001\u7535\u5f71\u548c\u5f71\u89c6\u5f55\u97f3\u5236\u4f5c\u4e1a", "value": "87", "children": [{"label": "8710: \u5e7f\u64ad", "value": "8710"}, {"label": "8720: \u7535\u89c6", "value": "8720"}, {"label": "8730: \u5f71\u89c6\u8282\u76ee\u5236\u4f5c", "value": "8730"}, {"label": "8740: \u5e7f\u64ad\u7535\u89c6\u96c6\u6210\u64ad\u63a7", "value": "8740"}, {"label": "8750: \u7535\u5f71\u548c\u5e7f\u64ad\u7535\u89c6\u8282\u76ee\u53d1\u884c", "value": "8750"}, {"label": "8760: \u7535\u5f71\u653e\u6620", "value": "8760"}, {"label": "8770: \u5f55\u97f3\u5236\u4f5c", "value": "8770"}]}, {"label": "88: \u6587\u5316\u827a\u672f\u4e1a", "value": "88", "children": [{"label": "8810: \u6587\u827a\u521b\u4f5c\u4e0e\u8868\u6f14", "value": "8810"}, {"label": "8820: \u827a\u672f\u8868\u6f14\u573a\u9986", "value": "8820"}, {"label": "883: \u56fe\u4e66\u9986\u4e0e\u6863\u6848\u9986", "value": "883", "children": [{"label": "8831: \u56fe\u4e66\u9986", "value": "8831"}, {"label": "8832: \u6863\u6848\u9986", "value": "8832"}]}, {"label": "8840: \u6587\u7269\u53ca\u975e\u7269\u8d28\u6587\u5316\u9057\u4ea7\u4fdd\u62a4", "value": "8840"}, {"label": "8850: \u535a\u7269\u9986", "value": "8850"}, {"label": "8860: \u70c8\u58eb\u9675\u56ed\u3001\u7eaa\u5ff5\u9986", "value": "8860"}, {"label": "8870: \u7fa4\u4f17\u6587\u4f53\u6d3b\u52a8", "value": "8870"}, {"label": "8890: \u5176\u4ed6\u6587\u5316\u827a\u672f\u4e1a", "value": "8890"}]}, {"label": "89: \u4f53\u80b2", "value": "89", "children": [{"label": "891: \u4f53\u80b2\u7ec4\u7ec7", "value": "891", "children": [{"label": "8911: \u4f53\u80b2\u7ade\u8d5b\u7ec4\u7ec7", "value": "8911"}, {"label": "8912: \u4f53\u80b2\u4fdd\u969c\u7ec4\u7ec7", "value": "8912"}, {"label": "8919: \u5176\u4ed6\u4f53\u80b2\u7ec4\u7ec7", "value": "8919"}]}, {"label": "892: \u4f53\u80b2\u573a\u5730\u8bbe\u65bd\u7ba1\u7406", "value": "892", "children": [{"label": "8921: \u4f53\u80b2\u573a\u9986\u7ba1\u7406", "value": "8921"}, {"label": "8929: \u5176\u4ed6\u4f53\u80b2\u573a\u5730\u8bbe\u65bd\u7ba1\u7406 ", "value": "8929"}]}, {"label": "8930: \u5065\u8eab\u4f11\u95f2\u6d3b\u52a8", "value": "8930"}, {"label": "899: \u5176\u4ed6\u4f53\u80b2", "value": "899", "children": [{"label": "8991: \u4f53\u80b2\u4e2d\u4ecb\u4ee3\u7406\u670d\u52a1", "value": "8991"}, {"label": "8992: \u4f53\u80b2\u5065\u5eb7\u670d\u52a1", "value": "8992"}, {"label": "8999: \u5176\u4ed6\u672a\u5217\u660e\u4f53\u80b2", "value": "8999"}]}]}, {"label": "90: \u5a31\u4e50\u4e1a", "value": "90", "children": [{"label": "901: \u5ba4\u5185\u5a31\u4e50\u6d3b\u52a8", "value": "901", "children": [{"label": "9011: \u6b4c\u821e\u5385\u5a31\u4e50\u6d3b\u52a8", "value": "9011"}, {"label": "9012: \u7535\u5b50\u6e38\u827a\u5385\u5a31\u4e50\u6d3b\u52a8", "value": "9012"}, {"label": "9013: \u7f51\u5427\u6d3b\u52a8", "value": "9013"}, {"label": "9019: \u5176\u4ed6\u5ba4\u5185\u5a31\u4e50\u6d3b\u52a8", "value": "9019"}]}, {"label": "9020: \u6e38\u4e50\u56ed", "value": "9020"}, {"label": "9030: \u4f11\u95f2\u89c2\u5149\u6d3b\u52a8", "value": "9030"}, {"label": "904: \u5f69\u7968\u6d3b\u52a8", "value": "904", "children": [{"label": "9041: \u4f53\u80b2\u5f69\u7968\u670d\u52a1", "value": "9041"}, {"label": "9042: \u798f\u5229\u5f69\u7968\u670d\u52a1", "value": "9042"}, {"label": "9049: \u5176\u4ed6\u5f69\u7968\u670d\u52a1", "value": "9049"}]}, {"label": "905: \u6587\u5316\u5a31\u4e50\u4f53\u80b2\u6d3b\u52a8\u548c\u7ecf\u7eaa\u4ee3\u7406\u670d\u52a1", "value": "905", "children": [{"label": "9051: \u6587\u5316\u6d3b\u52a8\u670d\u52a1", "value": "9051"}, {"label": "9052: \u4f53\u80b2\u8868\u6f14\u670d\u52a1", "value": "9052"}, {"label": "9053: \u6587\u5316\u5a31\u4e50\u7ecf\u7eaa\u4eba", "value": "9053"}, {"label": "9054: \u4f53\u80b2\u7ecf\u7eaa\u4eba", "value": "9054"}, {"label": "9059: \u5176\u4ed6\u6587\u5316\u827a\u672f\u7ecf\u7eaa\u4ee3\u7406", "value": "9059"}]}, {"label": "9090: \u5176\u4ed6\u5a31\u4e50\u4e1a", "value": "9090"}]}]}, {"label": "S: \u516c\u5171\u7ba1\u7406\u3001\u793e\u4f1a\u4fdd\u969c\u548c\u793e\u4f1a\u7ec4\u7ec7", "value": "S", "children": [{"label": "91: \u4e2d\u56fd\u5171\u4ea7\u515a\u673a\u5173", "value": "91", "children": [{"label": "9100: \u4e2d\u56fd\u5171\u4ea7\u515a\u673a\u5173", "value": "9100"}]}, {"label": "92: \u56fd\u5bb6\u673a\u6784", "value": "92", "children": [{"label": "9210: \u56fd\u5bb6\u6743\u529b\u673a\u6784", "value": "9210"}, {"label": "922: \u56fd\u5bb6\u884c\u653f\u673a\u6784", "value": "922", "children": [{"label": "9221: \u7efc\u5408\u4e8b\u52a1\u7ba1\u7406\u673a\u6784", "value": "9221"}, {"label": "9222: \u5bf9\u5916\u4e8b\u52a1\u7ba1\u7406\u673a\u6784", "value": "9222"}, {"label": "9223: \u516c\u5171\u5b89\u5168\u7ba1\u7406\u673a\u6784", "value": "9223"}, {"label": "9224: \u793e\u4f1a\u4e8b\u52a1\u7ba1\u7406\u673a\u6784", "value": "9224"}, {"label": "9225: \u7ecf\u6d4e\u4e8b\u52a1\u7ba1\u7406\u673a\u6784", "value": "9225"}, {"label": "9226: \u884c\u653f\u76d1\u7763\u68c0\u67e5\u673a\u6784", "value": "9226"}]}, {"label": "923: \u4eba\u6c11\u6cd5\u9662\u548c\u4eba\u6c11\u68c0\u5bdf\u9662", "value": "923", "children": [{"label": "9231: \u4eba\u6c11\u6cd5\u9662", "value": "9231"}, {"label": "9232: \u4eba\u6c11\u68c0\u5bdf\u9662", "value": "9232"}]}, {"label": "929: \u5176\u4ed6\u56fd\u5bb6\u673a\u6784", "value": "929", "children": [{"label": "9291: \u6d88\u9632\u7ba1\u7406\u673a\u6784", "value": "9291"}, {"label": "9299: \u5176\u4ed6\u672a\u5217\u660e\u56fd\u5bb6\u673a\u6784", "value": "9299"}]}]}, {"label": "93: \u4eba\u6c11\u653f\u534f\u3001\u6c11\u4e3b\u515a\u6d3e", "value": "93", "children": [{"label": "9310: \u4eba\u6c11\u653f\u534f", "value": "9310"}, {"label": "9320: \u6c11\u4e3b\u515a\u6d3e", "value": "9320"}]}, {"label": "94: \u793e\u4f1a\u4fdd\u969c", "value": "94", "children": [{"label": "941: \u57fa\u672c\u4fdd\u9669", "value": "941", "children": [{"label": "9411: \u57fa\u672c\u517b\u8001\u4fdd\u9669", "value": "9411"}, {"label": "9412: \u57fa\u672c\u533b\u7597\u4fdd\u9669", "value": "9412"}, {"label": "9413: \u5931\u4e1a\u4fdd\u9669", "value": "9413"}, {"label": "9414: \u5de5\u4f24\u4fdd\u9669", "value": "9414"}, {"label": "9415: \u751f\u80b2\u4fdd\u9669", "value": "9415"}, {"label": "9419: \u5176\u4ed6\u57fa\u672c\u4fdd\u9669", "value": "9419"}]}, {"label": "9420: \u8865\u5145\u4fdd\u9669", "value": "9420"}, {"label": "9490: \u5176\u4ed6\u793e\u4f1a\u4fdd\u969c", "value": "9490"}]}, {"label": "95: \u7fa4\u4f17\u56e2\u4f53\u3001\u793e\u4f1a\u56e2\u4f53\u548c\u5176\u4ed6\u6210\u5458\u7ec4\u7ec7", "value": "95", "children": [{"label": "951: \u7fa4\u4f17\u56e2\u4f53", "value": "951", "children": [{"label": "9511: \u5de5\u4f1a", "value": "9511"}, {"label": "9512: \u5987\u8054", "value": "9512"}, {"label": "9513: \u5171\u9752\u56e2", "value": "9513"}, {"label": "9519: \u5176\u4ed6\u7fa4\u4f17\u56e2\u4f53", "value": "9519"}]}, {"label": "952: \u793e\u4f1a\u56e2\u4f53", "value": "952", "children": [{"label": "9521: \u4e13\u4e1a\u6027\u56e2\u4f53", "value": "9521"}, {"label": "9522: \u884c\u4e1a\u6027\u56e2\u4f53", "value": "9522"}, {"label": "9529: \u5176\u4ed6\u793e\u4f1a\u56e2\u4f53", "value": "9529"}]}, {"label": "9530: \u57fa\u91d1\u4f1a", "value": "9530"}, {"label": "954: \u5b97\u6559\u7ec4\u7ec7", "value": "954", "children": [{"label": "9541: \u5b97\u6559\u56e2\u4f53\u670d\u52a1", "value": "9541"}, {"label": "9542: \u5b97\u6559\u6d3b\u52a8\u573a\u6240\u670d\u52a1", "value": "9542"}]}]}, {"label": "96: \u57fa\u5c42\u7fa4\u4f17\u81ea\u6cbb\u7ec4\u7ec7\u53ca\u5176\u4ed6\u7ec4\u7ec7", "value": "96", "children": [{"label": "9610: \u793e\u533a\u5c45\u6c11\u81ea\u6cbb\u7ec4\u7ec7", "value": "9610"}, {"label": "9620: \u6751\u6c11\u81ea\u6cbb\u7ec4\u7ec7", "value": "9620"}]}]}, {"label": "T: \u56fd\u9645\u7ec4\u7ec7", "value": "T", "children": [{"label": "97: \u56fd\u9645\u7ec4\u7ec7", "value": "97", "children": [{"label": "9700: \u56fd\u9645\u7ec4\u7ec7", "value": "9700"}]}]}]
-		}
+	        industryList: [
+  {
+    "label": "A: 农、林、牧、渔业",
+    "value": "A",
+    "children": [
+      {
+        "label": "01: 农业",
+        "value": "01",
+        "children": [
+          {
+            "label": "011: 谷物种植",
+            "value": "011",
+            "children": [
+              {
+                "label": "0111: 稻谷种植",
+                "value": "0111"
+              },
+              {
+                "label": "0112: 小麦种植",
+                "value": "0112"
+              },
+              {
+                "label": "0113: 玉米种植",
+                "value": "0113"
+              },
+              {
+                "label": "0119: 其他谷物种植",
+                "value": "0119"
+              }
+            ]
+          },
+          {
+            "label": "012: 豆类、油料和薯类种植",
+            "value": "012",
+            "children": [
+              {
+                "label": "0121: 豆类种植",
+                "value": "0121"
+              },
+              {
+                "label": "0122: 油料种植",
+                "value": "0122"
+              },
+              {
+                "label": "0123: 薯类种植",
+                "value": "0123"
+              }
+            ]
+          },
+          {
+            "label": "013: 棉、麻、糖、烟草种植",
+            "value": "013",
+            "children": [
+              {
+                "label": "0131: 棉花种植",
+                "value": "0131"
+              },
+              {
+                "label": "0132: 麻类种植",
+                "value": "0132"
+              },
+              {
+                "label": "0133: 糖料种植",
+                "value": "0133"
+              },
+              {
+                "label": "0134: 烟草种植",
+                "value": "0134"
+              }
+            ]
+          },
+          {
+            "label": "014: 蔬菜、食用菌及园艺作物种植",
+            "value": "014",
+            "children": [
+              {
+                "label": "0141: 蔬菜种植",
+                "value": "0141"
+              },
+              {
+                "label": "0142: 食用菌种植",
+                "value": "0142"
+              },
+              {
+                "label": "0143: 花卉种植",
+                "value": "0143"
+              },
+              {
+                "label": "0149: 其他园艺作物种植",
+                "value": "0149"
+              }
+            ]
+          },
+          {
+            "label": "015: 水果种植",
+            "value": "015",
+            "children": [
+              {
+                "label": "0151: 仁果类和核果类水果种植",
+                "value": "0151"
+              },
+              {
+                "label": "0152: 葡萄种植",
+                "value": "0152"
+              },
+              {
+                "label": "0153: 柑橘类种植",
+                "value": "0153"
+              },
+              {
+                "label": "0154: 香蕉等亚热带水果种植",
+                "value": "0154"
+              },
+              {
+                "label": "0159: 其他水果种植",
+                "value": "0159"
+              }
+            ]
+          },
+          {
+            "label": "016: 坚果、含油果、香料和饮料作物种植",
+            "value": "016",
+            "children": [
+              {
+                "label": "0161: 坚果种植",
+                "value": "0161"
+              },
+              {
+                "label": "0162: 含油果种植",
+                "value": "0162"
+              },
+              {
+                "label": "0163: 香料作物种植",
+                "value": "0163"
+              },
+              {
+                "label": "0164: 茶叶种植",
+                "value": "0164"
+              },
+              {
+                "label": "0169: 其他饮料作物种植",
+                "value": "0169"
+              }
+            ]
+          },
+          {
+            "label": "017: 中药材种植",
+            "value": "017",
+            "children": [
+              {
+                "label": "0171: 中草药种植",
+                "value": "0171"
+              },
+              {
+                "label": "0179: 其他中药材种植",
+                "value": "0179"
+              }
+            ]
+          },
+          {
+            "label": "018: 草种植及割草",
+            "value": "018",
+            "children": [
+              {
+                "label": "0181: 草种植",
+                "value": "0181"
+              },
+              {
+                "label": "0182: 天然草原割草",
+                "value": "0182"
+              }
+            ]
+          },
+          {
+            "label": "0190: 其他农业",
+            "value": "0190"
+          }
+        ]
+      },
+      {
+        "label": "02: 林业",
+        "value": "02",
+        "children": [
+          {
+            "label": "021: 林木育种和育苗",
+            "value": "021",
+            "children": [
+              {
+                "label": "0211: 林木育种",
+                "value": "0211"
+              },
+              {
+                "label": "0212: 林木育苗",
+                "value": "0212"
+              }
+            ]
+          },
+          {
+            "label": "0220: 造林和更新",
+            "value": "0220"
+          },
+          {
+            "label": "023: 森林经营、管护和改培",
+            "value": "023",
+            "children": [
+              {
+                "label": "0231: 森林经营和管护",
+                "value": "0231"
+              },
+              {
+                "label": "0232: 森林改培",
+                "value": "0232"
+              }
+            ]
+          },
+          {
+            "label": "024: 木材和竹材采运",
+            "value": "024",
+            "children": [
+              {
+                "label": "0241: 木材采运",
+                "value": "0241"
+              },
+              {
+                "label": "0242: 竹材采运",
+                "value": "0242"
+              }
+            ]
+          },
+          {
+            "label": "025: 林产品采集",
+            "value": "025",
+            "children": [
+              {
+                "label": "0251: 木竹材林产品采集",
+                "value": "0251"
+              },
+              {
+                "label": "0252: 非木竹材林产品采集",
+                "value": "0252"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "03: 畜牧业",
+        "value": "03",
+        "children": [
+          {
+            "label": "031: 牲畜饲养",
+            "value": "031",
+            "children": [
+              {
+                "label": "0311: 牛的饲养",
+                "value": "0311"
+              },
+              {
+                "label": "0312: 马的饲养",
+                "value": "0312"
+              },
+              {
+                "label": "0313: 猪的饲养",
+                "value": "0313"
+              },
+              {
+                "label": "0314: 羊的饲养",
+                "value": "0314"
+              },
+              {
+                "label": "0315: 骆驼饲养",
+                "value": "0315"
+              },
+              {
+                "label": "0319: 其他牲畜饲养",
+                "value": "0319"
+              }
+            ]
+          },
+          {
+            "label": "032: 家禽饲养",
+            "value": "032",
+            "children": [
+              {
+                "label": "0321: 鸡的饲养",
+                "value": "0321"
+              },
+              {
+                "label": "0322: 鸭的饲养",
+                "value": "0322"
+              },
+              {
+                "label": "0323: 鹅的饲养",
+                "value": "0323"
+              },
+              {
+                "label": "0329: 其他家禽饲养",
+                "value": "0329"
+              }
+            ]
+          },
+          {
+            "label": "0330: 狩猎和捕捉动物",
+            "value": "0330"
+          },
+          {
+            "label": "039: 其他畜牧业",
+            "value": "039",
+            "children": [
+              {
+                "label": "0391: 兔的饲养",
+                "value": "0391"
+              },
+              {
+                "label": "0392: 蜜蜂饲养",
+                "value": "0392"
+              },
+              {
+                "label": "0399: 其他未列明畜牧业",
+                "value": "0399"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "04: 渔业",
+        "value": "04",
+        "children": [
+          {
+            "label": "041: 水产养殖",
+            "value": "041",
+            "children": [
+              {
+                "label": "0411: 海水养殖",
+                "value": "0411"
+              },
+              {
+                "label": "0412: 内陆养殖",
+                "value": "0412"
+              }
+            ]
+          },
+          {
+            "label": "042: 水产捕捞",
+            "value": "042",
+            "children": [
+              {
+                "label": "0421: 海水捕捞",
+                "value": "0421"
+              },
+              {
+                "label": "0422: 内陆捕捞",
+                "value": "0422"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "05: 农、林、牧、渔专业及辅助性活动",
+        "value": "05",
+        "children": [
+          {
+            "label": "051: 农业专业及辅助性活动",
+            "value": "051",
+            "children": [
+              {
+                "label": "0511: 种子种苗培育活动",
+                "value": "0511"
+              },
+              {
+                "label": "0512: 农业机械活动",
+                "value": "0512"
+              },
+              {
+                "label": "0513: 灌溉活动",
+                "value": "0513"
+              },
+              {
+                "label": "0514: 农产品初加工活动",
+                "value": "0514"
+              },
+              {
+                "label": "0515: 农作物病虫害防治活动",
+                "value": "0515"
+              },
+              {
+                "label": "0519: 其他农业专业及辅助性活动",
+                "value": "0519"
+              }
+            ]
+          },
+          {
+            "label": "052: 林业专业及辅助性活动",
+            "value": "052",
+            "children": [
+              {
+                "label": "0521: 林业有害生物防治活动",
+                "value": "0521"
+              },
+              {
+                "label": "0522: 森林防火活动",
+                "value": "0522"
+              },
+              {
+                "label": "0523: 林产品初级加工活动",
+                "value": "0523"
+              },
+              {
+                "label": "0529: 其他林业专业及辅助性活动",
+                "value": "0529"
+              }
+            ]
+          },
+          {
+            "label": "053: 畜牧专业及辅助性活动",
+            "value": "053",
+            "children": [
+              {
+                "label": "0531: 畜牧良种繁殖活动",
+                "value": "0531"
+              },
+              {
+                "label": "0532: 畜禽粪污处理活动",
+                "value": "0532"
+              },
+              {
+                "label": "0539: 其他畜牧专业及辅助性活动",
+                "value": "0539"
+              }
+            ]
+          },
+          {
+            "label": "054: 渔业专业及辅助性活动",
+            "value": "054",
+            "children": [
+              {
+                "label": "0541: 鱼苗及鱼种场活动",
+                "value": "0541"
+              },
+              {
+                "label": "0549: 其他渔业专业及辅助性活动",
+                "value": "0549"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "B: 采矿业",
+    "value": "B",
+    "children": [
+      {
+        "label": "06: 煤炭开采和洗选业",
+        "value": "06",
+        "children": [
+          {
+            "label": "0610: 烟煤和无烟煤开采洗选",
+            "value": "0610"
+          },
+          {
+            "label": "0620: 褐煤开采洗选",
+            "value": "0620"
+          },
+          {
+            "label": "0690: 其他煤炭采选",
+            "value": "0690"
+          }
+        ]
+      },
+      {
+        "label": "07: 石油和天然气开采业",
+        "value": "07",
+        "children": [
+          {
+            "label": "071: 石油开采",
+            "value": "071",
+            "children": [
+              {
+                "label": "0711: 陆地石油开采",
+                "value": "0711"
+              },
+              {
+                "label": "0712: 海洋石油开采",
+                "value": "0712"
+              }
+            ]
+          },
+          {
+            "label": "072: 天然气开采",
+            "value": "072",
+            "children": [
+              {
+                "label": "0721: 陆地天然气开采",
+                "value": "0721"
+              },
+              {
+                "label": "0722: 海洋天然气及可燃冰开采",
+                "value": "0722"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "08: 黑色金属矿采选业",
+        "value": "08",
+        "children": [
+          {
+            "label": "0810: 铁矿采选",
+            "value": "0810"
+          },
+          {
+            "label": "0820: 锰矿、铬矿采选",
+            "value": "0820"
+          },
+          {
+            "label": "0890: 其他黑色金属矿采选",
+            "value": "0890"
+          }
+        ]
+      },
+      {
+        "label": "09: 有色金属矿采选业",
+        "value": "09",
+        "children": [
+          {
+            "label": "091: 常用有色金属矿采选",
+            "value": "091",
+            "children": [
+              {
+                "label": "0911: 铜矿采选",
+                "value": "0911"
+              },
+              {
+                "label": "0912: 铅锌矿采选",
+                "value": "0912"
+              },
+              {
+                "label": "0913: 镍钴矿采选",
+                "value": "0913"
+              },
+              {
+                "label": "0914: 锡矿采选",
+                "value": "0914"
+              },
+              {
+                "label": "0915: 锑矿采选",
+                "value": "0915"
+              },
+              {
+                "label": "0916: 铝矿采选",
+                "value": "0916"
+              },
+              {
+                "label": "0917: 镁矿采选",
+                "value": "0917"
+              },
+              {
+                "label": "0919: 其他常用有色金属矿采选",
+                "value": "0919"
+              }
+            ]
+          },
+          {
+            "label": "092: 贵金属矿采选",
+            "value": "092",
+            "children": [
+              {
+                "label": "0921: 金矿采选",
+                "value": "0921"
+              },
+              {
+                "label": "0922: 银矿采选",
+                "value": "0922"
+              },
+              {
+                "label": "0929: 其他贵金属矿采选",
+                "value": "0929"
+              }
+            ]
+          },
+          {
+            "label": "093: 稀有稀土金属矿采选",
+            "value": "093",
+            "children": [
+              {
+                "label": "0931: 钨钼矿采选",
+                "value": "0931"
+              },
+              {
+                "label": "0932: 稀土金属矿采选",
+                "value": "0932"
+              },
+              {
+                "label": "0933: 放射性金属矿采选",
+                "value": "0933"
+              },
+              {
+                "label": "0939: 其他稀有金属矿采选",
+                "value": "0939"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "10: 非金属矿采选业",
+        "value": "10",
+        "children": [
+          {
+            "label": "101: 土砂石开采",
+            "value": "101",
+            "children": [
+              {
+                "label": "1011: 石灰石、石膏开采",
+                "value": "1011"
+              },
+              {
+                "label": "1012: 建筑装饰用石开采",
+                "value": "1012"
+              },
+              {
+                "label": "1013: 耐火土石开采",
+                "value": "1013"
+              },
+              {
+                "label": "1019: 粘土及其他土砂石开采",
+                "value": "1019"
+              }
+            ]
+          },
+          {
+            "label": "1020: 化学矿开采",
+            "value": "1020"
+          },
+          {
+            "label": "1030: 采盐",
+            "value": "1030"
+          },
+          {
+            "label": "109: 石棉及其他非金属矿采选",
+            "value": "109",
+            "children": [
+              {
+                "label": "1091: 石棉、云母矿采选",
+                "value": "1091"
+              },
+              {
+                "label": "1092: 石墨、滑石采选",
+                "value": "1092"
+              },
+              {
+                "label": "1093: 宝石、玉石采选",
+                "value": "1093"
+              },
+              {
+                "label": "1099: 其他未列明非金属矿采选",
+                "value": "1099"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "11: 开采专业及辅助性活动",
+        "value": "11",
+        "children": [
+          {
+            "label": "1110: 煤炭开采和洗选专业及辅助性活动",
+            "value": "1110"
+          },
+          {
+            "label": "1120: 石油和天然气开采专业及辅助性活动",
+            "value": "1120"
+          },
+          {
+            "label": "1190: 其他开采专业及辅助性活动",
+            "value": "1190"
+          }
+        ]
+      },
+      {
+        "label": "12: 其他采矿业",
+        "value": "12",
+        "children": [
+          {
+            "label": "1200: 其他采矿业",
+            "value": "1200"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "C: 制造业",
+    "value": "C",
+    "children": [
+      {
+        "label": "13: 农副食品加工业",
+        "value": "13",
+        "children": [
+          {
+            "label": "131: 谷物磨制",
+            "value": "131",
+            "children": [
+              {
+                "label": "1311: 稻谷加工",
+                "value": "1311"
+              },
+              {
+                "label": "1312: 小麦加工",
+                "value": "1312"
+              },
+              {
+                "label": "1313: 玉米加工",
+                "value": "1313"
+              },
+              {
+                "label": "1314: 杂粮加工",
+                "value": "1314"
+              },
+              {
+                "label": "1319: 其他谷物磨制",
+                "value": "1319"
+              }
+            ]
+          },
+          {
+            "label": "132: 饲料加工 ",
+            "value": "132",
+            "children": [
+              {
+                "label": "1321: 宠物饲料加工",
+                "value": "1321"
+              },
+              {
+                "label": "1329: 其他饲料加工",
+                "value": "1329"
+              }
+            ]
+          },
+          {
+            "label": "133: 植物油加工",
+            "value": "133",
+            "children": [
+              {
+                "label": "1331: 食用植物油加工",
+                "value": "1331"
+              },
+              {
+                "label": "1332: 非食用植物油加工",
+                "value": "1332"
+              }
+            ]
+          },
+          {
+            "label": "1340: 制糖业",
+            "value": "1340"
+          },
+          {
+            "label": "135: 屠宰及肉类加工",
+            "value": "135",
+            "children": [
+              {
+                "label": "1351: 牲畜屠宰",
+                "value": "1351"
+              },
+              {
+                "label": "1352: 禽类屠宰",
+                "value": "1352"
+              },
+              {
+                "label": "1353: 肉制品及副产品加工",
+                "value": "1353"
+              }
+            ]
+          },
+          {
+            "label": "136: 水产品加工",
+            "value": "136",
+            "children": [
+              {
+                "label": "1361: 水产品冷冻加工",
+                "value": "1361"
+              },
+              {
+                "label": "1362: 鱼糜制品及水产品干腌制加工",
+                "value": "1362"
+              },
+              {
+                "label": "1363: 鱼油提取及制品制造",
+                "value": "1363"
+              },
+              {
+                "label": "1369: 其他水产品加工",
+                "value": "1369"
+              }
+            ]
+          },
+          {
+            "label": "137: 蔬菜、菌类、水果和坚果加工",
+            "value": "137",
+            "children": [
+              {
+                "label": "1371: 蔬菜加工",
+                "value": "1371"
+              },
+              {
+                "label": "1372: 食用菌加工",
+                "value": "1372"
+              },
+              {
+                "label": "1373: 水果和坚果加工",
+                "value": "1373"
+              }
+            ]
+          },
+          {
+            "label": "139: 其他农副食品加工",
+            "value": "139",
+            "children": [
+              {
+                "label": "1391: 淀粉及淀粉制品制造",
+                "value": "1391"
+              },
+              {
+                "label": "1392: 豆制品制造",
+                "value": "1392"
+              },
+              {
+                "label": "1393: 蛋品加工",
+                "value": "1393"
+              },
+              {
+                "label": "1399: 其他未列明农副食品加工",
+                "value": "1399"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "14: 食品制造业",
+        "value": "14",
+        "children": [
+          {
+            "label": "141: 焙烤食品制造",
+            "value": "141",
+            "children": [
+              {
+                "label": "1411: 糕点、面包制造",
+                "value": "1411"
+              },
+              {
+                "label": "1419: 饼干及其他焙烤食品制造",
+                "value": "1419"
+              }
+            ]
+          },
+          {
+            "label": "142: 糖果、巧克力及蜜饯制造",
+            "value": "142",
+            "children": [
+              {
+                "label": "1421: 糖果、巧克力制造",
+                "value": "1421"
+              },
+              {
+                "label": "1422: 蜜饯制作",
+                "value": "1422"
+              }
+            ]
+          },
+          {
+            "label": "143: 方便食品制造",
+            "value": "143",
+            "children": [
+              {
+                "label": "1431: 米、面制品制造",
+                "value": "1431"
+              },
+              {
+                "label": "1432: 速冻食品制造",
+                "value": "1432"
+              },
+              {
+                "label": "1433: 方便面制造",
+                "value": "1433"
+              },
+              {
+                "label": "1439: 其他方便食品制造",
+                "value": "1439"
+              }
+            ]
+          },
+          {
+            "label": "144: 乳制品制造",
+            "value": "144",
+            "children": [
+              {
+                "label": "1441: 液体乳制造",
+                "value": "1441"
+              },
+              {
+                "label": "1442: 乳粉制造",
+                "value": "1442"
+              },
+              {
+                "label": "1449: 其他乳制品制造",
+                "value": "1449"
+              }
+            ]
+          },
+          {
+            "label": "145: 罐头食品制造",
+            "value": "145",
+            "children": [
+              {
+                "label": "1451: 肉、禽类罐头制造",
+                "value": "1451"
+              },
+              {
+                "label": "1452: 水产品罐头制造",
+                "value": "1452"
+              },
+              {
+                "label": "1453: 蔬菜、水果罐头制造",
+                "value": "1453"
+              },
+              {
+                "label": "1459: 其他罐头食品制造",
+                "value": "1459"
+              }
+            ]
+          },
+          {
+            "label": "146: 调味品、发酵制品制造",
+            "value": "146",
+            "children": [
+              {
+                "label": "1461: 味精制造",
+                "value": "1461"
+              },
+              {
+                "label": "1462: 酱油、食醋及类似制品制造",
+                "value": "1462"
+              },
+              {
+                "label": "1469: 其他调味品、发酵制品制造",
+                "value": "1469"
+              }
+            ]
+          },
+          {
+            "label": "149: 其他食品制造",
+            "value": "149",
+            "children": [
+              {
+                "label": "1491: 营养食品制造",
+                "value": "1491"
+              },
+              {
+                "label": "1492: 保健食品制造",
+                "value": "1492"
+              },
+              {
+                "label": "1493: 冷冻饮品及食用冰制造",
+                "value": "1493"
+              },
+              {
+                "label": "1494: 盐加工 ",
+                "value": "1494"
+              },
+              {
+                "label": "1495: 食品及饲料添加剂制造",
+                "value": "1495"
+              },
+              {
+                "label": "1499: 其他未列明食品制造",
+                "value": "1499"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "15: 酒、饮料及精制茶制造业",
+        "value": "15",
+        "children": [
+          {
+            "label": "151: 酒的制造",
+            "value": "151",
+            "children": [
+              {
+                "label": "1511: 酒精制造",
+                "value": "1511"
+              },
+              {
+                "label": "1512: 白酒制造",
+                "value": "1512"
+              },
+              {
+                "label": "1513: 啤酒制造",
+                "value": "1513"
+              },
+              {
+                "label": "1514: 黄酒制造",
+                "value": "1514"
+              },
+              {
+                "label": "1515: 葡萄酒制造",
+                "value": "1515"
+              },
+              {
+                "label": "1519: 其他酒制造",
+                "value": "1519"
+              }
+            ]
+          },
+          {
+            "label": "152: 饮料制造",
+            "value": "152",
+            "children": [
+              {
+                "label": "1521: 碳酸饮料制造",
+                "value": "1521"
+              },
+              {
+                "label": "1522: 瓶（罐）装饮用水制造",
+                "value": "1522"
+              },
+              {
+                "label": "1523: 果菜汁及果菜汁饮料制造",
+                "value": "1523"
+              },
+              {
+                "label": "1524: 含乳饮料和植物蛋白饮料制造",
+                "value": "1524"
+              },
+              {
+                "label": "1525: 固体饮料制造",
+                "value": "1525"
+              },
+              {
+                "label": "1529: 茶饮料及其他饮料制造",
+                "value": "1529"
+              }
+            ]
+          },
+          {
+            "label": "1530: 精制茶加工",
+            "value": "1530"
+          }
+        ]
+      },
+      {
+        "label": "16: 烟草制品业 ",
+        "value": "16",
+        "children": [
+          {
+            "label": "1610: 烟叶复烤",
+            "value": "1610"
+          },
+          {
+            "label": "1620: 卷烟制造",
+            "value": "1620"
+          },
+          {
+            "label": "1690: 其他烟草制品制造",
+            "value": "1690"
+          }
+        ]
+      },
+      {
+        "label": "17: 纺织业",
+        "value": "17",
+        "children": [
+          {
+            "label": "171: 棉纺织及印染精加工",
+            "value": "171",
+            "children": [
+              {
+                "label": "1711: 棉纺纱加工",
+                "value": "1711"
+              },
+              {
+                "label": "1712: 棉织造加工",
+                "value": "1712"
+              },
+              {
+                "label": "1713: 棉印染精加工",
+                "value": "1713"
+              }
+            ]
+          },
+          {
+            "label": "172: 毛纺织及染整精加工",
+            "value": "172",
+            "children": [
+              {
+                "label": "1721: 毛条和毛纱线加工",
+                "value": "1721"
+              },
+              {
+                "label": "1722: 毛织造加工",
+                "value": "1722"
+              },
+              {
+                "label": "1723: 毛染整精加工",
+                "value": "1723"
+              }
+            ]
+          },
+          {
+            "label": "173: 麻纺织及染整精加工",
+            "value": "173",
+            "children": [
+              {
+                "label": "1731: 麻纤维纺前加工和纺纱",
+                "value": "1731"
+              },
+              {
+                "label": "1732: 麻织造加工",
+                "value": "1732"
+              },
+              {
+                "label": "1733: 麻染整精加工",
+                "value": "1733"
+              }
+            ]
+          },
+          {
+            "label": "174: 丝绢纺织及印染精加工",
+            "value": "174",
+            "children": [
+              {
+                "label": "1741: 缫丝加工",
+                "value": "1741"
+              },
+              {
+                "label": "1742: 绢纺和丝织加工",
+                "value": "1742"
+              },
+              {
+                "label": "1743: 丝印染精加工",
+                "value": "1743"
+              }
+            ]
+          },
+          {
+            "label": "175: 化纤织造及印染精加工",
+            "value": "175",
+            "children": [
+              {
+                "label": "1751: 化纤织造加工",
+                "value": "1751"
+              },
+              {
+                "label": "1752: 化纤织物染整精加工",
+                "value": "1752"
+              }
+            ]
+          },
+          {
+            "label": "176: 针织或钩针编织物及其制品制造",
+            "value": "176",
+            "children": [
+              {
+                "label": "1761: 针织或钩针编织物织造",
+                "value": "1761"
+              },
+              {
+                "label": "1762: 针织或钩针编织物印染精加工",
+                "value": "1762"
+              },
+              {
+                "label": "1763: 针织或钩针编织品制造",
+                "value": "1763"
+              }
+            ]
+          },
+          {
+            "label": "177: 家用纺织制成品制造",
+            "value": "177",
+            "children": [
+              {
+                "label": "1771: 床上用品制造",
+                "value": "1771"
+              },
+              {
+                "label": "1772: 毛巾类制品制造",
+                "value": "1772"
+              },
+              {
+                "label": "1773: 窗帘、布艺类产品制造",
+                "value": "1773"
+              },
+              {
+                "label": "1779: 其他家用纺织制成品制造",
+                "value": "1779"
+              }
+            ]
+          },
+          {
+            "label": "178: 产业用纺织制成品制造",
+            "value": "178",
+            "children": [
+              {
+                "label": "1781: 非织造布制造",
+                "value": "1781"
+              },
+              {
+                "label": "1782: 绳、索、缆制造",
+                "value": "1782"
+              },
+              {
+                "label": "1783: 纺织带和帘子布制造",
+                "value": "1783"
+              },
+              {
+                "label": "1784: 篷、帆布制造",
+                "value": "1784"
+              },
+              {
+                "label": "1789: 其他产业用纺织制成品制造",
+                "value": "1789"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "18: 纺织服装、服饰业",
+        "value": "18",
+        "children": [
+          {
+            "label": "181: 机织服装制造",
+            "value": "181",
+            "children": [
+              {
+                "label": "1811: 运动机织服装制造",
+                "value": "1811"
+              },
+              {
+                "label": "1819: 其他机织服装制造",
+                "value": "1819"
+              }
+            ]
+          },
+          {
+            "label": "182: 针织或钩针编织服装制造",
+            "value": "182",
+            "children": [
+              {
+                "label": "1821: 运动休闲针织服装制造",
+                "value": "1821"
+              },
+              {
+                "label": "1829: 其他针织或钩针编织服装制造",
+                "value": "1829"
+              }
+            ]
+          },
+          {
+            "label": "1830: 服饰制造",
+            "value": "1830"
+          }
+        ]
+      },
+      {
+        "label": "19: 皮革、毛皮、羽毛及其制品和制鞋业",
+        "value": "19",
+        "children": [
+          {
+            "label": "1910: 皮革鞣制加工",
+            "value": "1910"
+          },
+          {
+            "label": "192: 皮革制品制造",
+            "value": "192",
+            "children": [
+              {
+                "label": "1921: 皮革服装制造",
+                "value": "1921"
+              },
+              {
+                "label": "1922: 皮箱、包(袋)制造",
+                "value": "1922"
+              },
+              {
+                "label": "1923: 皮手套及皮装饰制品制造 ",
+                "value": "1923"
+              },
+              {
+                "label": "1929: 其他皮革制品制造",
+                "value": "1929"
+              }
+            ]
+          },
+          {
+            "label": "193: 毛皮鞣制及制品加工",
+            "value": "193",
+            "children": [
+              {
+                "label": "1931: 毛皮鞣制加工",
+                "value": "1931"
+              },
+              {
+                "label": "1932: 毛皮服装加工",
+                "value": "1932"
+              },
+              {
+                "label": "1939: 其他毛皮制品加工",
+                "value": "1939"
+              }
+            ]
+          },
+          {
+            "label": "194: 羽毛(绒)加工及制品制造",
+            "value": "194",
+            "children": [
+              {
+                "label": "1941: 羽毛(绒)加工",
+                "value": "1941"
+              },
+              {
+                "label": "1942: 羽毛(绒)制品加工",
+                "value": "1942"
+              }
+            ]
+          },
+          {
+            "label": "195: 制鞋业",
+            "value": "195",
+            "children": [
+              {
+                "label": "1951: 纺织面料鞋制造",
+                "value": "1951"
+              },
+              {
+                "label": "1952: 皮鞋制造",
+                "value": "1952"
+              },
+              {
+                "label": "1953: 塑料鞋制造",
+                "value": "1953"
+              },
+              {
+                "label": "1954: 橡胶鞋制造",
+                "value": "1954"
+              },
+              {
+                "label": "1959: 其他制鞋业",
+                "value": "1959"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "20: 木材加工和木、竹、藤、棕、草制品业",
+        "value": "20",
+        "children": [
+          {
+            "label": "201: 木材加工",
+            "value": "201",
+            "children": [
+              {
+                "label": "2011: 锯材加工",
+                "value": "2011"
+              },
+              {
+                "label": "2012: 木片加工",
+                "value": "2012"
+              },
+              {
+                "label": "2013: 单板加工",
+                "value": "2013"
+              },
+              {
+                "label": "2019: 其他木材加工",
+                "value": "2019"
+              }
+            ]
+          },
+          {
+            "label": "202: 人造板制造",
+            "value": "202",
+            "children": [
+              {
+                "label": "2021: 胶合板制造",
+                "value": "2021"
+              },
+              {
+                "label": "2022: 纤维板制造",
+                "value": "2022"
+              },
+              {
+                "label": "2023: 刨花板制造",
+                "value": "2023"
+              },
+              {
+                "label": "2029: 其他人造板制造",
+                "value": "2029"
+              }
+            ]
+          },
+          {
+            "label": "203: 木制品制造",
+            "value": "203",
+            "children": [
+              {
+                "label": "2031: 建筑用木料及木材组件加工",
+                "value": "2031"
+              },
+              {
+                "label": "2032: 木门窗制造",
+                "value": "2032"
+              },
+              {
+                "label": "2033: 木楼梯制造",
+                "value": "2033"
+              },
+              {
+                "label": "2034: 木地板制造",
+                "value": "2034"
+              },
+              {
+                "label": "2035: 木制容器制造",
+                "value": "2035"
+              },
+              {
+                "label": "2039: 软木制品及其他木制品制造",
+                "value": "2039"
+              }
+            ]
+          },
+          {
+            "label": "204: 竹、藤、棕、草制品制造",
+            "value": "204",
+            "children": [
+              {
+                "label": "2041: 竹制品制造",
+                "value": "2041"
+              },
+              {
+                "label": "2042: 藤制品制造",
+                "value": "2042"
+              },
+              {
+                "label": "2043: 棕制品制造",
+                "value": "2043"
+              },
+              {
+                "label": "2049: 草及其他制品制造",
+                "value": "2049"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "21: 家具制造业 ",
+        "value": "21",
+        "children": [
+          {
+            "label": "2110: 木质家具制造",
+            "value": "2110"
+          },
+          {
+            "label": "2120: 竹、藤家具制造",
+            "value": "2120"
+          },
+          {
+            "label": "2130: 金属家具制造",
+            "value": "2130"
+          },
+          {
+            "label": "2140: 塑料家具制造",
+            "value": "2140"
+          },
+          {
+            "label": "2190: 其他家具制造",
+            "value": "2190"
+          }
+        ]
+      },
+      {
+        "label": "22: 造纸和纸制品业 ",
+        "value": "22",
+        "children": [
+          {
+            "label": "221: 纸浆制造",
+            "value": "221",
+            "children": [
+              {
+                "label": "2211: 木竹浆制造",
+                "value": "2211"
+              },
+              {
+                "label": "2212: 非木竹浆制造",
+                "value": "2212"
+              }
+            ]
+          },
+          {
+            "label": "222: 造纸",
+            "value": "222",
+            "children": [
+              {
+                "label": "2221: 机制纸及纸板制造",
+                "value": "2221"
+              },
+              {
+                "label": "2222: 手工纸制造",
+                "value": "2222"
+              },
+              {
+                "label": "2223: 加工纸制造",
+                "value": "2223"
+              }
+            ]
+          },
+          {
+            "label": "223: 纸制品制造",
+            "value": "223",
+            "children": [
+              {
+                "label": "2231: 纸和纸板容器制造",
+                "value": "2231"
+              },
+              {
+                "label": "2239: 其他纸制品制造",
+                "value": "2239"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "23: 印刷和记录媒介复制业",
+        "value": "23",
+        "children": [
+          {
+            "label": "231: 印刷",
+            "value": "231",
+            "children": [
+              {
+                "label": "2311: 书、报刊印刷",
+                "value": "2311"
+              },
+              {
+                "label": "2312: 本册印制",
+                "value": "2312"
+              },
+              {
+                "label": "2319: 包装装潢及其他印刷",
+                "value": "2319"
+              }
+            ]
+          },
+          {
+            "label": "2320: 装订及印刷相关服务",
+            "value": "2320"
+          },
+          {
+            "label": "2330: 记录媒介复制",
+            "value": "2330"
+          }
+        ]
+      },
+      {
+        "label": "24: 文教、工美、体育和娱乐用品制造业",
+        "value": "24",
+        "children": [
+          {
+            "label": "241: 文教办公用品制造",
+            "value": "241",
+            "children": [
+              {
+                "label": "2411: 文具制造",
+                "value": "2411"
+              },
+              {
+                "label": "2412: 笔的制造",
+                "value": "2412"
+              },
+              {
+                "label": "2413: 教学用模型及教具制造",
+                "value": "2413"
+              },
+              {
+                "label": "2414: 墨水、墨汁制造",
+                "value": "2414"
+              },
+              {
+                "label": "2419: 其他文教办公用品制造",
+                "value": "2419"
+              }
+            ]
+          },
+          {
+            "label": "242: 乐器制造",
+            "value": "242",
+            "children": [
+              {
+                "label": "2421: 中乐器制造",
+                "value": "2421"
+              },
+              {
+                "label": "2422: 西乐器制造",
+                "value": "2422"
+              },
+              {
+                "label": "2423: 电子乐器制造",
+                "value": "2423"
+              },
+              {
+                "label": "2429: 其他乐器及零件制造",
+                "value": "2429"
+              }
+            ]
+          },
+          {
+            "label": "243: 工艺美术及礼仪用品制造",
+            "value": "243",
+            "children": [
+              {
+                "label": "2431: 雕塑工艺品制造",
+                "value": "2431"
+              },
+              {
+                "label": "2432: 金属工艺品制造",
+                "value": "2432"
+              },
+              {
+                "label": "2433: 漆器工艺品制造",
+                "value": "2433"
+              },
+              {
+                "label": "2434: 花画工艺品制造",
+                "value": "2434"
+              },
+              {
+                "label": "2435: 天然植物纤维编织工艺品制造",
+                "value": "2435"
+              },
+              {
+                "label": "2436: 抽纱刺绣工艺品制造",
+                "value": "2436"
+              },
+              {
+                "label": "2437: 地毯、挂毯制造",
+                "value": "2437"
+              },
+              {
+                "label": "2438: 珠宝首饰及有关物品制造",
+                "value": "2438"
+              },
+              {
+                "label": "2439: 其他工艺美术及礼仪用品制造",
+                "value": "2439"
+              }
+            ]
+          },
+          {
+            "label": "244: 体育用品制造",
+            "value": "244",
+            "children": [
+              {
+                "label": "2441: 球类制造",
+                "value": "2441"
+              },
+              {
+                "label": "2442: 专项运动器材及配件制造",
+                "value": "2442"
+              },
+              {
+                "label": "2443: 健身器材制造",
+                "value": "2443"
+              },
+              {
+                "label": "2444: 运动防护用具制造",
+                "value": "2444"
+              },
+              {
+                "label": "2449: 其他体育用品制造",
+                "value": "2449"
+              }
+            ]
+          },
+          {
+            "label": "245: 玩具制造",
+            "value": "245",
+            "children": [
+              {
+                "label": "2451: 电玩具制造",
+                "value": "2451"
+              },
+              {
+                "label": "2452: 塑胶玩具制造",
+                "value": "2452"
+              },
+              {
+                "label": "2453: 金属玩具制造",
+                "value": "2453"
+              },
+              {
+                "label": "2454: 弹射玩具制造",
+                "value": "2454"
+              },
+              {
+                "label": "2455: 娃娃玩具制造",
+                "value": "2455"
+              },
+              {
+                "label": "2456: 儿童乘骑玩耍的童车类产品制造",
+                "value": "2456"
+              },
+              {
+                "label": "2459: 其他玩具制造",
+                "value": "2459"
+              }
+            ]
+          },
+          {
+            "label": "246: 游艺器材及娱乐用品制造",
+            "value": "246",
+            "children": [
+              {
+                "label": "2461: 露天游乐场所游乐设备制造",
+                "value": "2461"
+              },
+              {
+                "label": "2462: 游艺用品及室内游艺器材制造",
+                "value": "2462"
+              },
+              {
+                "label": "2469: 其他娱乐用品制造",
+                "value": "2469"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "25: 石油、煤炭及其他燃料加工业 ",
+        "value": "25",
+        "children": [
+          {
+            "label": "251: 精炼石油产品制造",
+            "value": "251",
+            "children": [
+              {
+                "label": "2511: 原油加工及石油制品制造",
+                "value": "2511"
+              },
+              {
+                "label": "2519: 其他原油制造",
+                "value": "2519"
+              }
+            ]
+          },
+          {
+            "label": "252: 煤炭加工",
+            "value": "252",
+            "children": [
+              {
+                "label": "2521: 炼焦",
+                "value": "2521"
+              },
+              {
+                "label": "2522: 煤制合成气生产",
+                "value": "2522"
+              },
+              {
+                "label": "2523: 煤制液体燃料生产",
+                "value": "2523"
+              },
+              {
+                "label": "2524: 煤制品制造",
+                "value": "2524"
+              },
+              {
+                "label": "2529: 其他煤炭加工",
+                "value": "2529"
+              }
+            ]
+          },
+          {
+            "label": "2530: 核燃料加工",
+            "value": "2530"
+          },
+          {
+            "label": "254: 生物质燃料加工",
+            "value": "254",
+            "children": [
+              {
+                "label": "2541: 生物质液体燃料生产",
+                "value": "2541"
+              },
+              {
+                "label": "2542: 生物质致密成型燃料加工",
+                "value": "2542"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "26: 化学原料和化学制品制造业",
+        "value": "26",
+        "children": [
+          {
+            "label": "261: 基础化学原料制造",
+            "value": "261",
+            "children": [
+              {
+                "label": "2611: 无机酸制造",
+                "value": "2611"
+              },
+              {
+                "label": "2612: 无机碱制造",
+                "value": "2612"
+              },
+              {
+                "label": "2613: 无机盐制造",
+                "value": "2613"
+              },
+              {
+                "label": "2614: 有机化学原料制造",
+                "value": "2614"
+              },
+              {
+                "label": "2619: 其他基础化学原料制造",
+                "value": "2619"
+              }
+            ]
+          },
+          {
+            "label": "262: 肥料制造",
+            "value": "262",
+            "children": [
+              {
+                "label": "2621: 氮肥制造",
+                "value": "2621"
+              },
+              {
+                "label": "2622: 磷肥制造",
+                "value": "2622"
+              },
+              {
+                "label": "2623: 钾肥制造",
+                "value": "2623"
+              },
+              {
+                "label": "2624: 复混肥料制造",
+                "value": "2624"
+              },
+              {
+                "label": "2625: 有机肥料及微生物肥料制造",
+                "value": "2625"
+              },
+              {
+                "label": "2629: 其他肥料制造",
+                "value": "2629"
+              }
+            ]
+          },
+          {
+            "label": "263: 农药制造",
+            "value": "263",
+            "children": [
+              {
+                "label": "2631: 化学农药制造",
+                "value": "2631"
+              },
+              {
+                "label": "2632: 生物化学农药及微生物农药制造",
+                "value": "2632"
+              }
+            ]
+          },
+          {
+            "label": "264: 涂料、油墨、颜料及类似产品制造",
+            "value": "264",
+            "children": [
+              {
+                "label": "2641: 涂料制造",
+                "value": "2641"
+              },
+              {
+                "label": "2642: 油墨及类似产品制造",
+                "value": "2642"
+              },
+              {
+                "label": "2643: 工业颜料制造",
+                "value": "2643"
+              },
+              {
+                "label": "2644: 工艺美术颜料制造",
+                "value": "2644"
+              },
+              {
+                "label": "2645: 染料制造",
+                "value": "2645"
+              },
+              {
+                "label": "2646: 密封用填料及类似品制造",
+                "value": "2646"
+              }
+            ]
+          },
+          {
+            "label": "265: 合成材料制造",
+            "value": "265",
+            "children": [
+              {
+                "label": "2651: 初级形态塑料及合成树脂制造",
+                "value": "2651"
+              },
+              {
+                "label": "2652: 合成橡胶制造",
+                "value": "2652"
+              },
+              {
+                "label": "2653: 合成纤维单(聚合)体制造",
+                "value": "2653"
+              },
+              {
+                "label": "2659: 其他合成材料制造",
+                "value": "2659"
+              }
+            ]
+          },
+          {
+            "label": "266: 专用化学产品制造",
+            "value": "266",
+            "children": [
+              {
+                "label": "2661: 化学试剂和助剂制造",
+                "value": "2661"
+              },
+              {
+                "label": "2662: 专项化学用品制造",
+                "value": "2662"
+              },
+              {
+                "label": "2663: 林产化学产品制造",
+                "value": "2663"
+              },
+              {
+                "label": "2664: 文化用信息化学品制造",
+                "value": "2664"
+              },
+              {
+                "label": "2665: 医学生产用信息化学品制造",
+                "value": "2665"
+              },
+              {
+                "label": "2666: 环境污染处理专用药剂材料制造",
+                "value": "2666"
+              },
+              {
+                "label": "2667: 动物胶制造",
+                "value": "2667"
+              },
+              {
+                "label": "2669: 其他专用化学产品制造",
+                "value": "2669"
+              }
+            ]
+          },
+          {
+            "label": "267: 炸药、火工及焰火产品制造",
+            "value": "267",
+            "children": [
+              {
+                "label": "2671: 炸药及火工产品制造",
+                "value": "2671"
+              },
+              {
+                "label": "2672: 焰火、鞭炮产品制造 ",
+                "value": "2672"
+              }
+            ]
+          },
+          {
+            "label": "268: 日用化学产品制造",
+            "value": "268",
+            "children": [
+              {
+                "label": "2681: 肥皂及洗涤剂制造",
+                "value": "2681"
+              },
+              {
+                "label": "2682: 化妆品制造",
+                "value": "2682"
+              },
+              {
+                "label": "2683: 口腔清洁用品制造",
+                "value": "2683"
+              },
+              {
+                "label": "2684: 香料、香精制造",
+                "value": "2684"
+              },
+              {
+                "label": "2689: 其他日用化学产品制造",
+                "value": "2689"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "27: 医药制造业 ",
+        "value": "27",
+        "children": [
+          {
+            "label": "2710: 化学药品原料药制造",
+            "value": "2710"
+          },
+          {
+            "label": "2720: 化学药品制剂制造",
+            "value": "2720"
+          },
+          {
+            "label": "2730: 中药饮片加工",
+            "value": "2730"
+          },
+          {
+            "label": "2740: 中成药生产",
+            "value": "2740"
+          },
+          {
+            "label": "2750: 兽用药品制造",
+            "value": "2750"
+          },
+          {
+            "label": "276: 生物药品制品制造",
+            "value": "276",
+            "children": [
+              {
+                "label": "2761: 生物药品制造",
+                "value": "2761"
+              },
+              {
+                "label": "2762: 基因工程药物和疫苗制造",
+                "value": "2762"
+              }
+            ]
+          },
+          {
+            "label": "2770: 卫生材料及医药用品制造",
+            "value": "2770"
+          },
+          {
+            "label": "2780: 药用辅料及包装材料",
+            "value": "2780"
+          }
+        ]
+      },
+      {
+        "label": "28: 化学纤维制造业",
+        "value": "28",
+        "children": [
+          {
+            "label": "281: 纤维素纤维原料及纤维制造",
+            "value": "281",
+            "children": [
+              {
+                "label": "2811: 化纤浆粕制造",
+                "value": "2811"
+              },
+              {
+                "label": "2812: 人造纤维（纤维素纤维）制造",
+                "value": "2812"
+              }
+            ]
+          },
+          {
+            "label": "282: 合成纤维制造",
+            "value": "282",
+            "children": [
+              {
+                "label": "2821: 锦纶纤维制造",
+                "value": "2821"
+              },
+              {
+                "label": "2822: 涤纶纤维制造",
+                "value": "2822"
+              },
+              {
+                "label": "2823: 腈纶纤维制造",
+                "value": "2823"
+              },
+              {
+                "label": "2824: 维纶纤维制造",
+                "value": "2824"
+              },
+              {
+                "label": "2825: 丙纶纤维制造",
+                "value": "2825"
+              },
+              {
+                "label": "2826: 氨纶纤维制造",
+                "value": "2826"
+              },
+              {
+                "label": "2829: 其他合成纤维制造",
+                "value": "2829"
+              }
+            ]
+          },
+          {
+            "label": "283: 生物基材料制造",
+            "value": "283",
+            "children": [
+              {
+                "label": "2831: 生物基化学纤维制造",
+                "value": "2831"
+              },
+              {
+                "label": "2832: 生物基、淀粉基新材料制造",
+                "value": "2832"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "29: 橡胶和塑料制品业",
+        "value": "29",
+        "children": [
+          {
+            "label": "291: 橡胶制品业",
+            "value": "291",
+            "children": [
+              {
+                "label": "2911: 轮胎制造",
+                "value": "2911"
+              },
+              {
+                "label": "2912: 橡胶板、管、带制造",
+                "value": "2912"
+              },
+              {
+                "label": "2913: 橡胶零件制造",
+                "value": "2913"
+              },
+              {
+                "label": "2914: 再生橡胶制造",
+                "value": "2914"
+              },
+              {
+                "label": "2915: 日用及医用橡胶制品制造",
+                "value": "2915"
+              },
+              {
+                "label": "2916: 运动场地用塑胶制造",
+                "value": "2916"
+              },
+              {
+                "label": "2919: 其他橡胶制品制造",
+                "value": "2919"
+              }
+            ]
+          },
+          {
+            "label": "292: 塑料制品业",
+            "value": "292",
+            "children": [
+              {
+                "label": "2921: 塑料薄膜制造",
+                "value": "2921"
+              },
+              {
+                "label": "2922: 塑料板、管、型材制造",
+                "value": "2922"
+              },
+              {
+                "label": "2923: 塑料丝、绳及编织品制造",
+                "value": "2923"
+              },
+              {
+                "label": "2924: 泡沫塑料制造",
+                "value": "2924"
+              },
+              {
+                "label": "2925: 塑料人造革、合成革制造",
+                "value": "2925"
+              },
+              {
+                "label": "2926: 塑料包装箱及容器制造",
+                "value": "2926"
+              },
+              {
+                "label": "2927: 日用塑料制品制造",
+                "value": "2927"
+              },
+              {
+                "label": "2928: 人造草坪制造",
+                "value": "2928"
+              },
+              {
+                "label": "2929: 塑料零件及其他塑料制品制造",
+                "value": "2929"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "30: 非金属矿物制品业",
+        "value": "30",
+        "children": [
+          {
+            "label": "301: 水泥、石灰和石膏制造",
+            "value": "301",
+            "children": [
+              {
+                "label": "3011: 水泥制造",
+                "value": "3011"
+              },
+              {
+                "label": "3012: 石灰和石膏制造",
+                "value": "3012"
+              }
+            ]
+          },
+          {
+            "label": "302: 石膏、水泥制品及类似制品制造",
+            "value": "302",
+            "children": [
+              {
+                "label": "3021: 水泥制品制造",
+                "value": "3021"
+              },
+              {
+                "label": "3022: 砼结构构件制造",
+                "value": "3022"
+              },
+              {
+                "label": "3023: 石棉水泥制品制造",
+                "value": "3023"
+              },
+              {
+                "label": "3024: 轻质建筑材料制造",
+                "value": "3024"
+              },
+              {
+                "label": "3029: 其他水泥类似制品制造",
+                "value": "3029"
+              }
+            ]
+          },
+          {
+            "label": "303: 砖瓦、石材等建筑材料制造",
+            "value": "303",
+            "children": [
+              {
+                "label": "3031: 粘土砖瓦及建筑砌块制造",
+                "value": "3031"
+              },
+              {
+                "label": "3032: 建筑用石加工",
+                "value": "3032"
+              },
+              {
+                "label": "3033: 防水建筑材料制造",
+                "value": "3033"
+              },
+              {
+                "label": "3034: 隔热和隔音材料制造",
+                "value": "3034"
+              },
+              {
+                "label": "3039: 其他建筑材料制造",
+                "value": "3039"
+              }
+            ]
+          },
+          {
+            "label": "304: 玻璃制造",
+            "value": "304",
+            "children": [
+              {
+                "label": "3041: 平板玻璃制造",
+                "value": "3041"
+              },
+              {
+                "label": "3042: 特种玻璃制造",
+                "value": "3042"
+              },
+              {
+                "label": "3049: 其他玻璃制造",
+                "value": "3049"
+              }
+            ]
+          },
+          {
+            "label": "305: 玻璃制品制造",
+            "value": "305",
+            "children": [
+              {
+                "label": "3051: 技术玻璃制品制造",
+                "value": "3051"
+              },
+              {
+                "label": "3052: 光学玻璃制造",
+                "value": "3052"
+              },
+              {
+                "label": "3053: 玻璃仪器制造",
+                "value": "3053"
+              },
+              {
+                "label": "3054: 日用玻璃制品制造",
+                "value": "3054"
+              },
+              {
+                "label": "3055: 玻璃包装容器制造",
+                "value": "3055"
+              },
+              {
+                "label": "3056: 玻璃保温容器制造",
+                "value": "3056"
+              },
+              {
+                "label": "3057: 制镜及类似品加工",
+                "value": "3057"
+              },
+              {
+                "label": "3059: 其他玻璃制品制造",
+                "value": "3059"
+              }
+            ]
+          },
+          {
+            "label": "306: 玻璃纤维和玻璃纤维增强塑料制品制造",
+            "value": "306",
+            "children": [
+              {
+                "label": "3061: 玻璃纤维及制品制造",
+                "value": "3061"
+              },
+              {
+                "label": "3062: 玻璃纤维增强塑料制品制造",
+                "value": "3062"
+              }
+            ]
+          },
+          {
+            "label": "307: 陶瓷制品制造",
+            "value": "307",
+            "children": [
+              {
+                "label": "3071: 建筑陶瓷制品制造",
+                "value": "3071"
+              },
+              {
+                "label": "3072: 卫生陶瓷制品制造",
+                "value": "3072"
+              },
+              {
+                "label": "3073: 特种陶瓷制品制造",
+                "value": "3073"
+              },
+              {
+                "label": "3074: 日用陶瓷制品制造",
+                "value": "3074"
+              },
+              {
+                "label": "3075: 陈设艺术陶瓷制造",
+                "value": "3075"
+              },
+              {
+                "label": "3076: 园艺陶瓷制造",
+                "value": "3076"
+              },
+              {
+                "label": "3079: 其他陶瓷制品制造",
+                "value": "3079"
+              }
+            ]
+          },
+          {
+            "label": "308: 耐火材料制品制造",
+            "value": "308",
+            "children": [
+              {
+                "label": "3081: 石棉制品制造",
+                "value": "3081"
+              },
+              {
+                "label": "3082: 云母制品制造",
+                "value": "3082"
+              },
+              {
+                "label": "3089: 耐火陶瓷制品及其他耐火材料制造",
+                "value": "3089"
+              }
+            ]
+          },
+          {
+            "label": "309: 石墨及其他非金属矿物制品制造",
+            "value": "309",
+            "children": [
+              {
+                "label": "3091: 石墨及碳素制品制造",
+                "value": "3091"
+              },
+              {
+                "label": "3099: 其他非金属矿物制品制造",
+                "value": "3099"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "31: 黑色金属冶炼和压延加工业 ",
+        "value": "31",
+        "children": [
+          {
+            "label": "3110: 炼铁",
+            "value": "3110"
+          },
+          {
+            "label": "3120: 炼钢",
+            "value": "3120"
+          },
+          {
+            "label": "3130: 钢压延加工",
+            "value": "3130"
+          },
+          {
+            "label": "3140: 铁合金冶炼",
+            "value": "3140"
+          }
+        ]
+      },
+      {
+        "label": "32: 有色金属冶炼和压延加工业 ",
+        "value": "32",
+        "children": [
+          {
+            "label": "321: 常用有色金属冶炼",
+            "value": "321",
+            "children": [
+              {
+                "label": "3211: 铜冶炼",
+                "value": "3211"
+              },
+              {
+                "label": "3212: 铅锌冶炼",
+                "value": "3212"
+              },
+              {
+                "label": "3213: 镍钴冶炼",
+                "value": "3213"
+              },
+              {
+                "label": "3214: 锡冶炼",
+                "value": "3214"
+              },
+              {
+                "label": "3215: 锑冶炼",
+                "value": "3215"
+              },
+              {
+                "label": "3216: 铝冶炼",
+                "value": "3216"
+              },
+              {
+                "label": "3217: 镁冶炼",
+                "value": "3217"
+              },
+              {
+                "label": "3218: 硅冶炼",
+                "value": "3218"
+              },
+              {
+                "label": "3219: 其他常用有色金属冶炼",
+                "value": "3219"
+              }
+            ]
+          },
+          {
+            "label": "322: 贵金属冶炼",
+            "value": "322",
+            "children": [
+              {
+                "label": "3221: 金冶炼",
+                "value": "3221"
+              },
+              {
+                "label": "3222: 银冶炼",
+                "value": "3222"
+              },
+              {
+                "label": "3229: 其他贵金属冶炼",
+                "value": "3229"
+              }
+            ]
+          },
+          {
+            "label": "323: 稀有稀土金属冶炼",
+            "value": "323",
+            "children": [
+              {
+                "label": "3231: 钨钼冶炼",
+                "value": "3231"
+              },
+              {
+                "label": "3232: 稀土金属冶炼",
+                "value": "3232"
+              },
+              {
+                "label": "3239: 其他稀有金属冶炼",
+                "value": "3239"
+              }
+            ]
+          },
+          {
+            "label": "3240: 有色金属合金制造",
+            "value": "3240"
+          },
+          {
+            "label": "325: 有色金属压延加工",
+            "value": "325",
+            "children": [
+              {
+                "label": "3251: 铜压延加工",
+                "value": "3251"
+              },
+              {
+                "label": "3252: 铝压延加工",
+                "value": "3252"
+              },
+              {
+                "label": "3253: 贵金属压延加工",
+                "value": "3253"
+              },
+              {
+                "label": "3254: 稀有稀土金属压延加工",
+                "value": "3254"
+              },
+              {
+                "label": "3259: 其他有色金属压延加工",
+                "value": "3259"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "33: 金属制品业 ",
+        "value": "33",
+        "children": [
+          {
+            "label": "331: 结构性金属制品制造",
+            "value": "331",
+            "children": [
+              {
+                "label": "3311: 金属结构制造",
+                "value": "3311"
+              },
+              {
+                "label": "3312: 金属门窗制造",
+                "value": "3312"
+              }
+            ]
+          },
+          {
+            "label": "332: 金属工具制造",
+            "value": "332",
+            "children": [
+              {
+                "label": "3321: 切削工具制造",
+                "value": "3321"
+              },
+              {
+                "label": "3322: 手工具制造",
+                "value": "3322"
+              },
+              {
+                "label": "3323: 农用及园林用金属工具制造",
+                "value": "3323"
+              },
+              {
+                "label": "3324: 刀剪及类似日用金属工具制造",
+                "value": "3324"
+              },
+              {
+                "label": "3329: 其他金属工具制造",
+                "value": "3329"
+              }
+            ]
+          },
+          {
+            "label": "333: 集装箱及金属包装容器制造",
+            "value": "333",
+            "children": [
+              {
+                "label": "3331: 集装箱制造",
+                "value": "3331"
+              },
+              {
+                "label": "3332: 金属压力容器制造",
+                "value": "3332"
+              },
+              {
+                "label": "3333: 金属包装容器及材料制造",
+                "value": "3333"
+              }
+            ]
+          },
+          {
+            "label": "3340: 金属丝绳及其制品制造",
+            "value": "3340"
+          },
+          {
+            "label": "335: 建筑、安全用金属制品制造",
+            "value": "335",
+            "children": [
+              {
+                "label": "3351: 建筑、家具用金属配件制造",
+                "value": "3351"
+              },
+              {
+                "label": "3352: 建筑装饰及水暖管道零件制造",
+                "value": "3352"
+              },
+              {
+                "label": "3353: 安全、消防用金属制品制造",
+                "value": "3353"
+              },
+              {
+                "label": "3359: 其他建筑、安全用金属制品制造",
+                "value": "3359"
+              }
+            ]
+          },
+          {
+            "label": "3360: 金属表面处理及热处理加工",
+            "value": "3360"
+          },
+          {
+            "label": "337: 搪瓷制品制造",
+            "value": "337",
+            "children": [
+              {
+                "label": "3371: 生产专用搪瓷制品制造",
+                "value": "3371"
+              },
+              {
+                "label": "3372: 建筑装饰搪瓷制品制造",
+                "value": "3372"
+              },
+              {
+                "label": "3373: 搪瓷卫生洁具制造",
+                "value": "3373"
+              },
+              {
+                "label": "3379: 搪瓷日用品及其他搪瓷制品制造",
+                "value": "3379"
+              }
+            ]
+          },
+          {
+            "label": "338: 金属制日用品制造",
+            "value": "338",
+            "children": [
+              {
+                "label": "3381: 金属制厨房用器具制造",
+                "value": "3381"
+              },
+              {
+                "label": "3382: 金属制餐具和器皿制造",
+                "value": "3382"
+              },
+              {
+                "label": "3383: 金属制卫生器具制造",
+                "value": "3383"
+              },
+              {
+                "label": "3389: 其他金属制日用品制造",
+                "value": "3389"
+              }
+            ]
+          },
+          {
+            "label": "339: 其他金属制品制造",
+            "value": "339",
+            "children": [
+              {
+                "label": "3391: 黑色金属铸造",
+                "value": "3391"
+              },
+              {
+                "label": "3392: 有色金属铸造",
+                "value": "3392"
+              },
+              {
+                "label": "3393: 锻件及粉末冶金制品制造",
+                "value": "3393"
+              },
+              {
+                "label": "3394: 交通及公共管理用金属标牌制造",
+                "value": "3394"
+              },
+              {
+                "label": "3399: 其他未列明金属制品制造",
+                "value": "3399"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "34: 通用设备制造业",
+        "value": "34",
+        "children": [
+          {
+            "label": "341: 锅炉及原动设备制造",
+            "value": "341",
+            "children": [
+              {
+                "label": "3411: 锅炉及辅助设备制造",
+                "value": "3411"
+              },
+              {
+                "label": "3412: 内燃机及配件制造",
+                "value": "3412"
+              },
+              {
+                "label": "3413: 汽轮机及辅机制造",
+                "value": "3413"
+              },
+              {
+                "label": "3414: 水轮机及辅机制造",
+                "value": "3414"
+              },
+              {
+                "label": "3415: 风能原动设备制造",
+                "value": "3415"
+              },
+              {
+                "label": "3419: 其他原动设备制造",
+                "value": "3419"
+              }
+            ]
+          },
+          {
+            "label": "342: 金属加工机械制造",
+            "value": "342",
+            "children": [
+              {
+                "label": "3421: 金属切削机床制造",
+                "value": "3421"
+              },
+              {
+                "label": "3422: 金属成形机床制造",
+                "value": "3422"
+              },
+              {
+                "label": "3423: 铸造机械制造",
+                "value": "3423"
+              },
+              {
+                "label": "3424: 金属切割及焊接设备制造",
+                "value": "3424"
+              },
+              {
+                "label": "3425: 机床功能部件及附件制造",
+                "value": "3425"
+              },
+              {
+                "label": "3429: 其他金属加工机械制造",
+                "value": "3429"
+              }
+            ]
+          },
+          {
+            "label": "343: 物料搬运设备制造",
+            "value": "343",
+            "children": [
+              {
+                "label": "3431: 轻小型起重设备制造",
+                "value": "3431"
+              },
+              {
+                "label": "3432: 生产专用起重机制造",
+                "value": "3432"
+              },
+              {
+                "label": "3433: 生产专用车辆制造",
+                "value": "3433"
+              },
+              {
+                "label": "3434: 连续搬运设备制造",
+                "value": "3434"
+              },
+              {
+                "label": "3435: 电梯、自动扶梯及升降机制造",
+                "value": "3435"
+              },
+              {
+                "label": "3436: 客运索道制造",
+                "value": "3436"
+              },
+              {
+                "label": "3437: 机械式停车设备制造",
+                "value": "3437"
+              },
+              {
+                "label": "3439: 其他物料搬运设备制造",
+                "value": "3439"
+              }
+            ]
+          },
+          {
+            "label": "344: 泵、阀门、压缩机及类似机械制造",
+            "value": "344",
+            "children": [
+              {
+                "label": "3441: 泵及真空设备制造",
+                "value": "3441"
+              },
+              {
+                "label": "3442: 气体压缩机械制造",
+                "value": "3442"
+              },
+              {
+                "label": "3443: 阀门和旋塞制造",
+                "value": "3443"
+              },
+              {
+                "label": "3444: 液压动力机械及元件制造",
+                "value": "3444"
+              },
+              {
+                "label": "3445: 液力动力机械元件制造",
+                "value": "3445"
+              },
+              {
+                "label": "3446:  气压动力机械及元件制造",
+                "value": "3446"
+              }
+            ]
+          },
+          {
+            "label": "345: 轴承、齿轮和传动部件制造",
+            "value": "345",
+            "children": [
+              {
+                "label": "3451: 滚动轴承制造",
+                "value": "3451"
+              },
+              {
+                "label": "3452: 滑动轴承制造",
+                "value": "3452"
+              },
+              {
+                "label": "3453: 齿轮及齿轮减、变速箱制造",
+                "value": "3453"
+              },
+              {
+                "label": "3459: 其他传动部件制造",
+                "value": "3459"
+              }
+            ]
+          },
+          {
+            "label": "346: 烘炉、风机、包装等设备制造",
+            "value": "346",
+            "children": [
+              {
+                "label": "3461: 烘炉、熔炉及电炉制造",
+                "value": "3461"
+              },
+              {
+                "label": "3462: 风机、风扇制造",
+                "value": "3462"
+              },
+              {
+                "label": "3463: 气体、液体分离及纯净设备制造",
+                "value": "3463"
+              },
+              {
+                "label": "3464: 制冷、空调设备制造",
+                "value": "3464"
+              },
+              {
+                "label": "3465: 风动和电动工具制造",
+                "value": "3465"
+              },
+              {
+                "label": "3466: 喷枪及类似器具制造 ",
+                "value": "3466"
+              },
+              {
+                "label": "3467: 包装专用设备制造",
+                "value": "3467"
+              }
+            ]
+          },
+          {
+            "label": "347: 文化、办公用机械制造",
+            "value": "347",
+            "children": [
+              {
+                "label": "3471: 电影机械制造",
+                "value": "3471"
+              },
+              {
+                "label": "3472: 幻灯及投影设备制造",
+                "value": "3472"
+              },
+              {
+                "label": "3473: 照相机及器材制造",
+                "value": "3473"
+              },
+              {
+                "label": "3474: 复印和胶印设备制造",
+                "value": "3474"
+              },
+              {
+                "label": "3475: 计算器及货币专用设备制造",
+                "value": "3475"
+              },
+              {
+                "label": "3479: 其他文化、办公用机械制造",
+                "value": "3479"
+              }
+            ]
+          },
+          {
+            "label": "348: 通用零部件制造",
+            "value": "348",
+            "children": [
+              {
+                "label": "3481: 金属密封件制造",
+                "value": "3481"
+              },
+              {
+                "label": "3482: 紧固件制造",
+                "value": "3482"
+              },
+              {
+                "label": "3483: 弹簧制造",
+                "value": "3483"
+              },
+              {
+                "label": "3484: 机械零部件加工",
+                "value": "3484"
+              },
+              {
+                "label": "3489: 其他通用零部件制造",
+                "value": "3489"
+              }
+            ]
+          },
+          {
+            "label": "349: 其他通用设备制造",
+            "value": "349",
+            "children": [
+              {
+                "label": "3491: 工业机器人制造",
+                "value": "3491"
+              },
+              {
+                "label": "3492: 特殊作业机器人制造",
+                "value": "3492"
+              },
+              {
+                "label": "3493: 增材制造装备制造",
+                "value": "3493"
+              },
+              {
+                "label": "3499: 其他未列明通用设备制造业",
+                "value": "3499"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "35: 专用设备制造业 ",
+        "value": "35",
+        "children": [
+          {
+            "label": "351: 采矿、冶金、建筑专用设备制造",
+            "value": "351",
+            "children": [
+              {
+                "label": "3511: 矿山机械制造",
+                "value": "3511"
+              },
+              {
+                "label": "3512: 石油钻采专用设备制造",
+                "value": "3512"
+              },
+              {
+                "label": "3513: 深海石油钻探设备制造",
+                "value": "3513"
+              },
+              {
+                "label": "3514: 建筑工程用机械制造",
+                "value": "3514"
+              },
+              {
+                "label": "3515: 建筑材料生产专用机械制造",
+                "value": "3515"
+              },
+              {
+                "label": "3516: 冶金专用设备制造",
+                "value": "3516"
+              },
+              {
+                "label": "3517: 隧道施工专用机械制造",
+                "value": "3517"
+              }
+            ]
+          },
+          {
+            "label": "352: 化工、木材、非金属加工专用设备制造",
+            "value": "352",
+            "children": [
+              {
+                "label": "3521: 炼油、化工生产专用设备制造",
+                "value": "3521"
+              },
+              {
+                "label": "3522: 橡胶加工专用设备制造",
+                "value": "3522"
+              },
+              {
+                "label": "3523: 塑料加工专用设备制造",
+                "value": "3523"
+              },
+              {
+                "label": "3524: 木竹材加工机械制造",
+                "value": "3524"
+              },
+              {
+                "label": "3525: 模具制造",
+                "value": "3525"
+              },
+              {
+                "label": "3529: 其他非金属加工专用设备制造",
+                "value": "3529"
+              }
+            ]
+          },
+          {
+            "label": "353: 食品、饮料、烟草及饲料生产专用设备制造　　　",
+            "value": "353",
+            "children": [
+              {
+                "label": "3531: 食品、酒、饮料及茶生产专用设备制造",
+                "value": "3531"
+              },
+              {
+                "label": "3532: 农副食品加工专用设备制造",
+                "value": "3532"
+              },
+              {
+                "label": "3533: 烟草生产专用设备制造",
+                "value": "3533"
+              },
+              {
+                "label": "3534: 饲料生产专用设备制造",
+                "value": "3534"
+              }
+            ]
+          },
+          {
+            "label": "354: 印刷、制药、日化及日用品生产专用设备制造",
+            "value": "354",
+            "children": [
+              {
+                "label": "3541: 制浆和造纸专用设备制造",
+                "value": "3541"
+              },
+              {
+                "label": "3542: 印刷专用设备制造",
+                "value": "3542"
+              },
+              {
+                "label": "3543: 日用化工专用设备制造",
+                "value": "3543"
+              },
+              {
+                "label": "3544: 制药专用设备制造",
+                "value": "3544"
+              },
+              {
+                "label": "3545: 照明器具生产专用设备制造",
+                "value": "3545"
+              },
+              {
+                "label": "3546: 玻璃、陶瓷和搪瓷制品生产专用设备制造",
+                "value": "3546"
+              },
+              {
+                "label": "3549: 其他日用品生产专用设备制造",
+                "value": "3549"
+              }
+            ]
+          },
+          {
+            "label": "355: 纺织、服装和皮革加工专用设备制造",
+            "value": "355",
+            "children": [
+              {
+                "label": "3551: 纺织专用设备制造",
+                "value": "3551"
+              },
+              {
+                "label": "3552: 皮革、毛皮及其制品加工专用设备制造",
+                "value": "3552"
+              },
+              {
+                "label": "3553: 缝制机械制造",
+                "value": "3553"
+              },
+              {
+                "label": "3554: 洗涤机械制造",
+                "value": "3554"
+              }
+            ]
+          },
+          {
+            "label": "356: 电子和电工机械专用设备制造",
+            "value": "356",
+            "children": [
+              {
+                "label": "3561: 电工机械专用设备制造",
+                "value": "3561"
+              },
+              {
+                "label": "3562: 半导体器件专用设备制造",
+                "value": "3562"
+              },
+              {
+                "label": "3563: 电子元器件与机电组件设备制造",
+                "value": "3563"
+              },
+              {
+                "label": "3569: 其他电子专用设备制造",
+                "value": "3569"
+              }
+            ]
+          },
+          {
+            "label": "357: 农、林、牧、渔专用机械制造",
+            "value": "357",
+            "children": [
+              {
+                "label": "3571: 拖拉机制造",
+                "value": "3571"
+              },
+              {
+                "label": "3572: 机械化农业及园艺机具制造",
+                "value": "3572"
+              },
+              {
+                "label": "3573: 营林及木竹采伐机械制造",
+                "value": "3573"
+              },
+              {
+                "label": "3574: 畜牧机械制造",
+                "value": "3574"
+              },
+              {
+                "label": "3575: 渔业机械制造",
+                "value": "3575"
+              },
+              {
+                "label": "3576: 农林牧渔机械配件制造",
+                "value": "3576"
+              },
+              {
+                "label": "3577: 棉花加工机械制造",
+                "value": "3577"
+              },
+              {
+                "label": "3579: 其他农、林、牧、渔业机械制造",
+                "value": "3579"
+              }
+            ]
+          },
+          {
+            "label": "358: 医疗仪器设备及器械制造",
+            "value": "358",
+            "children": [
+              {
+                "label": "3581: 医疗诊断、监护及治疗设备制造",
+                "value": "3581"
+              },
+              {
+                "label": "3582: 口腔科用设备及器具制造",
+                "value": "3582"
+              },
+              {
+                "label": "3583: 医疗实验室及医用消毒设备和器具制造",
+                "value": "3583"
+              },
+              {
+                "label": "3584: 医疗、外科及兽医用器械制造",
+                "value": "3584"
+              },
+              {
+                "label": "3585: 机械治疗及病房护理设备制造",
+                "value": "3585"
+              },
+              {
+                "label": "3586: 康复辅具制造",
+                "value": "3586"
+              },
+              {
+                "label": "3587: 眼镜制造",
+                "value": "3587"
+              },
+              {
+                "label": "3589: 其他医疗设备及器械制造",
+                "value": "3589"
+              }
+            ]
+          },
+          {
+            "label": "359: 环保、邮政、社会公共服务及其他专用设备制造",
+            "value": "359",
+            "children": [
+              {
+                "label": "3591: 环境保护专用设备制造",
+                "value": "3591"
+              },
+              {
+                "label": "3592: 地质勘查专用设备制造",
+                "value": "3592"
+              },
+              {
+                "label": "3593: 邮政专用机械及器材制造",
+                "value": "3593"
+              },
+              {
+                "label": "3594: 商业、饮食、服务专用设备制造",
+                "value": "3594"
+              },
+              {
+                "label": "3595: 社会公共安全设备及器材制造",
+                "value": "3595"
+              },
+              {
+                "label": "3596: 交通安全、管制及类似专用设备制造",
+                "value": "3596"
+              },
+              {
+                "label": "3597: 水资源专用机械制造",
+                "value": "3597"
+              },
+              {
+                "label": "3599: 其他专用设备制造",
+                "value": "3599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "36: 汽车制造业",
+        "value": "36",
+        "children": [
+          {
+            "label": "361: 汽车整车制造",
+            "value": "361",
+            "children": [
+              {
+                "label": "3611: 汽柴油车整车制造",
+                "value": "3611"
+              },
+              {
+                "label": "3612: 新能源车整车制造",
+                "value": "3612"
+              }
+            ]
+          },
+          {
+            "label": "3620: 汽车用发动机制造",
+            "value": "3620"
+          },
+          {
+            "label": "3630: 改装汽车制造",
+            "value": "3630"
+          },
+          {
+            "label": "3640: 低速汽车制造",
+            "value": "3640"
+          },
+          {
+            "label": "3650: 电车制造",
+            "value": "3650"
+          },
+          {
+            "label": "3660: 汽车车身、挂车制造",
+            "value": "3660"
+          },
+          {
+            "label": "3670: 汽车零部件及配件制造",
+            "value": "3670"
+          }
+        ]
+      },
+      {
+        "label": "37: 铁路、船舶、航空航天和其他运输设备制造业",
+        "value": "37",
+        "children": [
+          {
+            "label": "371: 铁路运输设备制造",
+            "value": "371",
+            "children": [
+              {
+                "label": "3711: 高铁车组制造",
+                "value": "3711"
+              },
+              {
+                "label": "3712: 铁路机车车辆制造",
+                "value": "3712"
+              },
+              {
+                "label": "3713: 窄轨机车车辆制造",
+                "value": "3713"
+              },
+              {
+                "label": "3714: 高铁设备、配件制造",
+                "value": "3714"
+              },
+              {
+                "label": "3715: 铁路机车车辆配件制造",
+                "value": "3715"
+              },
+              {
+                "label": "3716: 铁路专用设备及器材、配件制造",
+                "value": "3716"
+              },
+              {
+                "label": "3719: 其他铁路运输设备制造",
+                "value": "3719"
+              }
+            ]
+          },
+          {
+            "label": "3720: 城市轨道交通设备制造",
+            "value": "3720"
+          },
+          {
+            "label": "373: 船舶及相关装置制造",
+            "value": "373",
+            "children": [
+              {
+                "label": "3731: 金属船舶制造",
+                "value": "3731"
+              },
+              {
+                "label": "3732: 非金属船舶制造",
+                "value": "3732"
+              },
+              {
+                "label": "3733: 娱乐船和运动船制造",
+                "value": "3733"
+              },
+              {
+                "label": "3734: 船用配套设备制造",
+                "value": "3734"
+              },
+              {
+                "label": "3735: 船舶改装",
+                "value": "3735"
+              },
+              {
+                "label": "3736: 船舶拆除",
+                "value": "3736"
+              },
+              {
+                "label": "3737: 海洋工程装备制造",
+                "value": "3737"
+              },
+              {
+                "label": "3739: 航标器材及其他相关装置制造",
+                "value": "3739"
+              }
+            ]
+          },
+          {
+            "label": "374: 航空、航天器及设备制造",
+            "value": "374",
+            "children": [
+              {
+                "label": "3741: 飞机制造",
+                "value": "3741"
+              },
+              {
+                "label": "3742: 航天器及运载火箭制造",
+                "value": "3742"
+              },
+              {
+                "label": "3743: 航天相关设备制造",
+                "value": "3743"
+              },
+              {
+                "label": "3744: 航空相关设备制造",
+                "value": "3744"
+              },
+              {
+                "label": "3749: 其他航空航天器制造",
+                "value": "3749"
+              }
+            ]
+          },
+          {
+            "label": "375: 摩托车制造",
+            "value": "375",
+            "children": [
+              {
+                "label": "3751: 摩托车整车制造",
+                "value": "3751"
+              },
+              {
+                "label": "3752: 摩托车零部件及配件制造",
+                "value": "3752"
+              }
+            ]
+          },
+          {
+            "label": "376: 自行车和残疾人座车制造",
+            "value": "376",
+            "children": [
+              {
+                "label": "3761: 自行车制造",
+                "value": "3761"
+              },
+              {
+                "label": "3762: 残疾人座车制造",
+                "value": "3762"
+              }
+            ]
+          },
+          {
+            "label": "3770: 助动车制造",
+            "value": "3770"
+          },
+          {
+            "label": "3780: 非公路休闲车及零配件制造",
+            "value": "3780"
+          },
+          {
+            "label": "379: 潜水救捞及其他未列明运输设备制造",
+            "value": "379",
+            "children": [
+              {
+                "label": "3791: 潜水装备制造",
+                "value": "3791"
+              },
+              {
+                "label": "3792: 水下救捞装备制造",
+                "value": "3792"
+              },
+              {
+                "label": "3799: 其他未列明运输设备制造",
+                "value": "3799"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "38: 电气机械和器材制造业 ",
+        "value": "38",
+        "children": [
+          {
+            "label": "381: 电机制造",
+            "value": "381",
+            "children": [
+              {
+                "label": "3811: 发电机及发电机组制造",
+                "value": "3811"
+              },
+              {
+                "label": "3812: 电动机制造",
+                "value": "3812"
+              },
+              {
+                "label": "3813: 微特电机及组件制造",
+                "value": "3813"
+              },
+              {
+                "label": "3819: 其他电机制造",
+                "value": "3819"
+              }
+            ]
+          },
+          {
+            "label": "382: 输配电及控制设备制造",
+            "value": "382",
+            "children": [
+              {
+                "label": "3821: 变压器、整流器和电感器制造",
+                "value": "3821"
+              },
+              {
+                "label": "3822: 电容器及其配套设备制造",
+                "value": "3822"
+              },
+              {
+                "label": "3823: 配电开关控制设备制造",
+                "value": "3823"
+              },
+              {
+                "label": "3824: 电力电子元器件制造",
+                "value": "3824"
+              },
+              {
+                "label": "3825: 光伏设备及元器件制造",
+                "value": "3825"
+              },
+              {
+                "label": "3829: 其他输配电及控制设备制造",
+                "value": "3829"
+              }
+            ]
+          },
+          {
+            "label": "383: 电线、电缆、光缆及电工器材制造",
+            "value": "383",
+            "children": [
+              {
+                "label": "3831: 电线、电缆制造",
+                "value": "3831"
+              },
+              {
+                "label": "3832: 光纤制造",
+                "value": "3832"
+              },
+              {
+                "label": "3833: 光缆制造",
+                "value": "3833"
+              },
+              {
+                "label": "3834: 绝缘制品制造",
+                "value": "3834"
+              },
+              {
+                "label": "3839: 其他电工器材制造",
+                "value": "3839"
+              }
+            ]
+          },
+          {
+            "label": "384: 电池制造",
+            "value": "384",
+            "children": [
+              {
+                "label": "3841: 锂离子电池制造",
+                "value": "3841"
+              },
+              {
+                "label": "3842: 镍氢电池制造",
+                "value": "3842"
+              },
+              {
+                "label": "3843: 铅蓄电池制造",
+                "value": "3843"
+              },
+              {
+                "label": "3844: 锌锰电池制造",
+                "value": "3844"
+              },
+              {
+                "label": "3849: 其他电池制造",
+                "value": "3849"
+              }
+            ]
+          },
+          {
+            "label": "385: 家用电力器具制造",
+            "value": "385",
+            "children": [
+              {
+                "label": "3851: 家用制冷电器具制造",
+                "value": "3851"
+              },
+              {
+                "label": "3852: 家用空气调节器制造",
+                "value": "3852"
+              },
+              {
+                "label": "3853: 家用通风电器具制造",
+                "value": "3853"
+              },
+              {
+                "label": "3854: 家用厨房电器具制造",
+                "value": "3854"
+              },
+              {
+                "label": "3855: 家用清洁卫生电器具制造",
+                "value": "3855"
+              },
+              {
+                "label": "3856: 家用美容、保健护理电器具制造",
+                "value": "3856"
+              },
+              {
+                "label": "3857: 家用电力器具专用配件制造",
+                "value": "3857"
+              },
+              {
+                "label": "3859: 其他家用电力器具制造",
+                "value": "3859"
+              }
+            ]
+          },
+          {
+            "label": "386: 非电力家用器具制造",
+            "value": "386",
+            "children": [
+              {
+                "label": "3861: 燃气及类似能源家用器具制造",
+                "value": "3861"
+              },
+              {
+                "label": "3862: 太阳能器具制造 ",
+                "value": "3862"
+              },
+              {
+                "label": "3869: 其他非电力家用器具制造",
+                "value": "3869"
+              }
+            ]
+          },
+          {
+            "label": "387: 照明器具制造",
+            "value": "387",
+            "children": [
+              {
+                "label": "3871: 电光源制造",
+                "value": "3871"
+              },
+              {
+                "label": "3872: 照明灯具制造",
+                "value": "3872"
+              },
+              {
+                "label": "3873: 舞台及场地用灯制造",
+                "value": "3873"
+              },
+              {
+                "label": "3874: 智能照明器具制造",
+                "value": "3874"
+              },
+              {
+                "label": "3879: 灯用电器附件及其他照明器具制造",
+                "value": "3879"
+              }
+            ]
+          },
+          {
+            "label": "389: 其他电气机械及器材制造",
+            "value": "389",
+            "children": [
+              {
+                "label": "3891: 电气信号设备装置制造",
+                "value": "3891"
+              },
+              {
+                "label": "3899: 其他未列明电气机械及器材制造",
+                "value": "3899"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "39: 计算机、通信和其他电子设备制造业",
+        "value": "39",
+        "children": [
+          {
+            "label": "391: 计算机制造",
+            "value": "391",
+            "children": [
+              {
+                "label": "3911: 计算机整机制造",
+                "value": "3911"
+              },
+              {
+                "label": "3912: 计算机零部件制造",
+                "value": "3912"
+              },
+              {
+                "label": "3913: 计算机外围设备制造",
+                "value": "3913"
+              },
+              {
+                "label": "3914: 工业控制计算机及系统制造",
+                "value": "3914"
+              },
+              {
+                "label": "3915: 信息安全设备制造",
+                "value": "3915"
+              },
+              {
+                "label": "3919: 其他计算机制造",
+                "value": "3919"
+              }
+            ]
+          },
+          {
+            "label": "392: 通信设备制造",
+            "value": "392",
+            "children": [
+              {
+                "label": "3921: 通信系统设备制造",
+                "value": "3921"
+              },
+              {
+                "label": "3922: 通信终端设备制造",
+                "value": "3922"
+              }
+            ]
+          },
+          {
+            "label": "393: 广播电视设备制造",
+            "value": "393",
+            "children": [
+              {
+                "label": "3931: 广播电视节目制作及发射设备制造",
+                "value": "3931"
+              },
+              {
+                "label": "3932: 广播电视接收设备制造",
+                "value": "3932"
+              },
+              {
+                "label": "3933: 广播电视专用配件制造",
+                "value": "3933"
+              },
+              {
+                "label": "3934: 专业音响设备制造",
+                "value": "3934"
+              },
+              {
+                "label": "3939: 应用电视设备及其他广播电视设备制造",
+                "value": "3939"
+              }
+            ]
+          },
+          {
+            "label": "3940: 雷达及配套设备制造",
+            "value": "3940"
+          },
+          {
+            "label": "395: 视听设备制造",
+            "value": "395",
+            "children": [
+              {
+                "label": "3951: 电视机制造",
+                "value": "3951"
+              },
+              {
+                "label": "3952: 音响设备制造",
+                "value": "3952"
+              },
+              {
+                "label": "3953: 影视录放设备制造",
+                "value": "3953"
+              }
+            ]
+          },
+          {
+            "label": "396: 智能消费设备制造",
+            "value": "396",
+            "children": [
+              {
+                "label": "3961: 可穿戴智能设备制造",
+                "value": "3961"
+              },
+              {
+                "label": "3962: 智能车载设备制造",
+                "value": "3962"
+              },
+              {
+                "label": "3963: 智能无人飞行器制造",
+                "value": "3963"
+              },
+              {
+                "label": "3964: 服务消费机器人制造",
+                "value": "3964"
+              },
+              {
+                "label": "3969: 其他智能消费设备制造",
+                "value": "3969"
+              }
+            ]
+          },
+          {
+            "label": "397: 电子器件制造",
+            "value": "397",
+            "children": [
+              {
+                "label": "3971: 电子真空器件制造",
+                "value": "3971"
+              },
+              {
+                "label": "3972: 半导体分立器件制造",
+                "value": "3972"
+              },
+              {
+                "label": "3973: 集成电路制造",
+                "value": "3973"
+              },
+              {
+                "label": "3974: 显示器件制造",
+                "value": "3974"
+              },
+              {
+                "label": "3975: 半导体照明器件制造",
+                "value": "3975"
+              },
+              {
+                "label": "3976: 光电子器件制造",
+                "value": "3976"
+              },
+              {
+                "label": "3979: 其他电子器件制造",
+                "value": "3979"
+              }
+            ]
+          },
+          {
+            "label": "398: 电子元件及电子专用材料制造",
+            "value": "398",
+            "children": [
+              {
+                "label": "3981: 电阻电容电感元件制造",
+                "value": "3981"
+              },
+              {
+                "label": "3982: 电子电路制造",
+                "value": "3982"
+              },
+              {
+                "label": "3983: 敏感元件及传感器制造",
+                "value": "3983"
+              },
+              {
+                "label": "3984: 电声器件及零件制造",
+                "value": "3984"
+              },
+              {
+                "label": "3985: 电子专用材料制造",
+                "value": "3985"
+              },
+              {
+                "label": "3989: 其他电子元件制造",
+                "value": "3989"
+              }
+            ]
+          },
+          {
+            "label": "3990: 其他电子设备制造",
+            "value": "3990"
+          }
+        ]
+      },
+      {
+        "label": "40: 仪器仪表制造业",
+        "value": "40",
+        "children": [
+          {
+            "label": "401: 通用仪器仪表制造",
+            "value": "401",
+            "children": [
+              {
+                "label": "4011: 工业自动控制系统装置制造",
+                "value": "4011"
+              },
+              {
+                "label": "4012: 电工仪器仪表制造",
+                "value": "4012"
+              },
+              {
+                "label": "4013: 绘图、计算及测量仪器制造",
+                "value": "4013"
+              },
+              {
+                "label": "4014: 实验分析仪器制造",
+                "value": "4014"
+              },
+              {
+                "label": "4015: 试验机制造",
+                "value": "4015"
+              },
+              {
+                "label": "4016: 供应用仪器仪表制造",
+                "value": "4016"
+              },
+              {
+                "label": "4019: 其他通用仪器制造",
+                "value": "4019"
+              }
+            ]
+          },
+          {
+            "label": "402: 专用仪器仪表制造",
+            "value": "402",
+            "children": [
+              {
+                "label": "4021: 环境监测专用仪器仪表制造",
+                "value": "4021"
+              },
+              {
+                "label": "4022: 运输设备及生产用计数仪表制造",
+                "value": "4022"
+              },
+              {
+                "label": "4023: 导航、测绘、气象及海洋专用仪器制造",
+                "value": "4023"
+              },
+              {
+                "label": "4024: 农林牧渔专用仪器仪表制造",
+                "value": "4024"
+              },
+              {
+                "label": "4025: 地质勘探和地震专用仪器制造",
+                "value": "4025"
+              },
+              {
+                "label": "4026: 教学专用仪器制造",
+                "value": "4026"
+              },
+              {
+                "label": "4027: 核子及核辐射测量仪器制造",
+                "value": "4027"
+              },
+              {
+                "label": "4028: 电子测量仪器制造 ",
+                "value": "4028"
+              },
+              {
+                "label": "4029: 其他专用仪器制造",
+                "value": "4029"
+              }
+            ]
+          },
+          {
+            "label": "4030: 钟表与计时仪器制造",
+            "value": "4030"
+          },
+          {
+            "label": "4040: 光学仪器制造",
+            "value": "4040"
+          },
+          {
+            "label": "4050: 衡器制造",
+            "value": "4050"
+          },
+          {
+            "label": "4090: 其他仪器仪表制造业",
+            "value": "4090"
+          }
+        ]
+      },
+      {
+        "label": "41: 其他制造业",
+        "value": "41",
+        "children": [
+          {
+            "label": "411: 日用杂品制造",
+            "value": "411",
+            "children": [
+              {
+                "label": "4111: 鬃毛加工、制刷及清扫工具制造",
+                "value": "4111"
+              },
+              {
+                "label": "4119: 其他日用杂品制造",
+                "value": "4119"
+              }
+            ]
+          },
+          {
+            "label": "4120: 核辐射加工",
+            "value": "4120"
+          },
+          {
+            "label": "4190: 其他未列明制造业",
+            "value": "4190"
+          }
+        ]
+      },
+      {
+        "label": "42: 废弃资源综合利用业",
+        "value": "42",
+        "children": [
+          {
+            "label": "4210: 金属废料和碎屑加工处理",
+            "value": "4210"
+          },
+          {
+            "label": "4220: 非金属废料和碎屑加工处理",
+            "value": "4220"
+          }
+        ]
+      },
+      {
+        "label": "43: 金属制品、机械和设备修理业",
+        "value": "43",
+        "children": [
+          {
+            "label": "4310: 金属制品修理",
+            "value": "4310"
+          },
+          {
+            "label": "4320: 通用设备修理",
+            "value": "4320"
+          },
+          {
+            "label": "4330: 专用设备修理",
+            "value": "4330"
+          },
+          {
+            "label": "434: 铁路、船舶、航空航天等运输设备修理",
+            "value": "434",
+            "children": [
+              {
+                "label": "4341: 铁路运输设备修理",
+                "value": "4341"
+              },
+              {
+                "label": "4342: 船舶修理",
+                "value": "4342"
+              },
+              {
+                "label": "4343: 航空航天器修理",
+                "value": "4343"
+              },
+              {
+                "label": "4349: 其他运输设备修理",
+                "value": "4349"
+              }
+            ]
+          },
+          {
+            "label": "4350: 电气设备修理",
+            "value": "4350"
+          },
+          {
+            "label": "4360: 仪器仪表修理",
+            "value": "4360"
+          },
+          {
+            "label": "4390: 其他机械和设备修理业",
+            "value": "4390"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "D: 电力、热力、燃气及水生产和供应业",
+    "value": "D",
+    "children": [
+      {
+        "label": "44: 电力、热力生产和供应业",
+        "value": "44",
+        "children": [
+          {
+            "label": "441: 电力生产",
+            "value": "441",
+            "children": [
+              {
+                "label": "4411: 火力发电",
+                "value": "4411"
+              },
+              {
+                "label": "4412: 热电联产",
+                "value": "4412"
+              },
+              {
+                "label": "4413: 水力发电",
+                "value": "4413"
+              },
+              {
+                "label": "4414: 核力发电",
+                "value": "4414"
+              },
+              {
+                "label": "4415: 风力发电",
+                "value": "4415"
+              },
+              {
+                "label": "4416: 太阳能发电",
+                "value": "4416"
+              },
+              {
+                "label": "4417: 生物质能发电",
+                "value": "4417"
+              },
+              {
+                "label": "4419: 其他电力生产",
+                "value": "4419"
+              }
+            ]
+          },
+          {
+            "label": "4420: 电力供应",
+            "value": "4420"
+          },
+          {
+            "label": "4430: 热力生产和供应",
+            "value": "4430"
+          }
+        ]
+      },
+      {
+        "label": "45: 燃气生产和供应业",
+        "value": "45",
+        "children": [
+          {
+            "label": "451: 燃气生产和供应业",
+            "value": "451",
+            "children": [
+              {
+                "label": "4511: 天然气生产和供应业",
+                "value": "4511"
+              },
+              {
+                "label": "4512: 液化石油气生产和供应业",
+                "value": "4512"
+              },
+              {
+                "label": "4513: 煤气生产和供应业",
+                "value": "4513"
+              }
+            ]
+          },
+          {
+            "label": "4520: 生物质燃气生产和供应业",
+            "value": "4520"
+          }
+        ]
+      },
+      {
+        "label": "46: 水的生产和供应业",
+        "value": "46",
+        "children": [
+          {
+            "label": "4610: 自来水生产和供应",
+            "value": "4610"
+          },
+          {
+            "label": "4620: ?污水处理及其再生利用",
+            "value": "4620"
+          },
+          {
+            "label": "4630: 海水淡化处理",
+            "value": "4630"
+          },
+          {
+            "label": "4690: 其他水的处理、利用与分配",
+            "value": "4690"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "E: 建筑业",
+    "value": "E",
+    "children": [
+      {
+        "label": "47: 房屋建筑业",
+        "value": "47",
+        "children": [
+          {
+            "label": "4710: 住宅房屋建筑",
+            "value": "4710"
+          },
+          {
+            "label": "4720: 体育场馆建筑",
+            "value": "4720"
+          },
+          {
+            "label": "4790: 其他房屋建筑业",
+            "value": "4790"
+          }
+        ]
+      },
+      {
+        "label": "48: 土木工程建筑业",
+        "value": "48",
+        "children": [
+          {
+            "label": "481: 铁路、道路、隧道和桥梁工程建筑",
+            "value": "481",
+            "children": [
+              {
+                "label": "4811: 铁路工程建筑",
+                "value": "4811"
+              },
+              {
+                "label": "4812: 公路工程建筑",
+                "value": "4812"
+              },
+              {
+                "label": "4813: 市政道路工程建筑 ",
+                "value": "4813"
+              },
+              {
+                "label": "4814: 城市轨道交通工程建筑",
+                "value": "4814"
+              },
+              {
+                "label": "4819: 其他道路、隧道和桥梁工程建筑 ",
+                "value": "4819"
+              }
+            ]
+          },
+          {
+            "label": "482: 水利和水运工程建筑",
+            "value": "482",
+            "children": [
+              {
+                "label": "4821: 水源及供水设施工程建筑",
+                "value": "4821"
+              },
+              {
+                "label": "4822: 河湖治理及防洪设施工程建筑",
+                "value": "4822"
+              },
+              {
+                "label": "4823: 港口及航运设施工程建筑",
+                "value": "4823"
+              }
+            ]
+          },
+          {
+            "label": "483: 海洋工程建筑",
+            "value": "483",
+            "children": [
+              {
+                "label": "4831: 海洋油气资源开发利用工程建筑",
+                "value": "4831"
+              },
+              {
+                "label": "4832: 海洋能源开发利用工程建筑",
+                "value": "4832"
+              },
+              {
+                "label": "4833: 海底隧道工程建筑",
+                "value": "4833"
+              },
+              {
+                "label": "4834: 海底设施铺设工程建筑",
+                "value": "4834"
+              },
+              {
+                "label": "4839: 其他海洋工程建筑",
+                "value": "4839"
+              }
+            ]
+          },
+          {
+            "label": "4840: 工矿工程建筑",
+            "value": "4840"
+          },
+          {
+            "label": "485: 架线和管道工程建筑",
+            "value": "485",
+            "children": [
+              {
+                "label": "4851: 架线及设备工程建筑",
+                "value": "4851"
+              },
+              {
+                "label": "4852: 管道工程建筑",
+                "value": "4852"
+              },
+              {
+                "label": "4853: 地下综合管廊工程建筑",
+                "value": "4853"
+              }
+            ]
+          },
+          {
+            "label": "486: 节能环保工程施工",
+            "value": "486",
+            "children": [
+              {
+                "label": "4861: 节能工程施工",
+                "value": "4861"
+              },
+              {
+                "label": "4862: 环保工程施工",
+                "value": "4862"
+              },
+              {
+                "label": "4863: 生态保护工程施工",
+                "value": "4863"
+              }
+            ]
+          },
+          {
+            "label": "487: 电力工程施工",
+            "value": "487",
+            "children": [
+              {
+                "label": "4871: 火力发电工程施工",
+                "value": "4871"
+              },
+              {
+                "label": "4872: 水力发电工程施工",
+                "value": "4872"
+              },
+              {
+                "label": "4873: 核电工程施工",
+                "value": "4873"
+              },
+              {
+                "label": "4874: 风能发电工程施工",
+                "value": "4874"
+              },
+              {
+                "label": "4875: 太阳能发电工程施工",
+                "value": "4875"
+              },
+              {
+                "label": "4879: 其他电力工程施工",
+                "value": "4879"
+              }
+            ]
+          },
+          {
+            "label": "489: 其他土木工程建筑",
+            "value": "489",
+            "children": [
+              {
+                "label": "4891: 园林绿化工程施工",
+                "value": "4891"
+              },
+              {
+                "label": "4892: 体育场地设施工程施工",
+                "value": "4892"
+              },
+              {
+                "label": "4893: 游乐设施工程施工",
+                "value": "4893"
+              },
+              {
+                "label": "4899: 其他土木工程建筑施工",
+                "value": "4899"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "49: 建筑安装业",
+        "value": "49",
+        "children": [
+          {
+            "label": "4910: 电气安装",
+            "value": "4910"
+          },
+          {
+            "label": "4920: 管道和设备安装",
+            "value": "4920"
+          },
+          {
+            "label": "499: 其他建筑安装业",
+            "value": "499",
+            "children": [
+              {
+                "label": "4991: 体育场地设施安装",
+                "value": "4991"
+              },
+              {
+                "label": "4999: 其他建筑安装",
+                "value": "4999"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "50: 建筑装饰、装修和其他建筑业",
+        "value": "50",
+        "children": [
+          {
+            "label": "501: 建筑装饰和装修业",
+            "value": "501",
+            "children": [
+              {
+                "label": "5011: 公共建筑装饰和装修",
+                "value": "5011"
+              },
+              {
+                "label": "5012: 住宅装饰和装修",
+                "value": "5012"
+              },
+              {
+                "label": "5013: 建筑幕墙装饰和装修",
+                "value": "5013"
+              }
+            ]
+          },
+          {
+            "label": "502: 建筑物拆除和场地准备活动",
+            "value": "502",
+            "children": [
+              {
+                "label": "5021: 建筑物拆除活动",
+                "value": "5021"
+              },
+              {
+                "label": "5022: 场地准备活动",
+                "value": "5022"
+              }
+            ]
+          },
+          {
+            "label": "5030: 提供施工设备服务",
+            "value": "5030"
+          },
+          {
+            "label": "5090: 其他未列明建筑业",
+            "value": "5090"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "F: 批发和零售业",
+    "value": "F",
+    "children": [
+      {
+        "label": "51: 批发业",
+        "value": "51",
+        "children": [
+          {
+            "label": "511: 农、林、牧、渔产品批发",
+            "value": "511",
+            "children": [
+              {
+                "label": "5111: 谷物、豆及薯类批发",
+                "value": "5111"
+              },
+              {
+                "label": "5112: 种子批发",
+                "value": "5112"
+              },
+              {
+                "label": "5113: 畜牧渔业饲料批发",
+                "value": "5113"
+              },
+              {
+                "label": "5114: 棉、麻批发",
+                "value": "5114"
+              },
+              {
+                "label": "5115: 林业产品批发",
+                "value": "5115"
+              },
+              {
+                "label": "5116: 牲畜批发",
+                "value": "5116"
+              },
+              {
+                "label": "5117: 渔业产品批发",
+                "value": "5117"
+              },
+              {
+                "label": "5119: 其他农牧产品批发",
+                "value": "5119"
+              }
+            ]
+          },
+          {
+            "label": "512: 食品、饮料及烟草制品批发",
+            "value": "512",
+            "children": [
+              {
+                "label": "5121: 米、面制品及食用油批发",
+                "value": "5121"
+              },
+              {
+                "label": "5122: 糕点、糖果及糖批发",
+                "value": "5122"
+              },
+              {
+                "label": "5123: 果品、蔬菜批发",
+                "value": "5123"
+              },
+              {
+                "label": "5124: 肉、禽、蛋、奶及水产品批发",
+                "value": "5124"
+              },
+              {
+                "label": "5125: 盐及调味品批发",
+                "value": "5125"
+              },
+              {
+                "label": "5126: 营养和保健品批发",
+                "value": "5126"
+              },
+              {
+                "label": "5127: 酒、饮料及茶叶批发",
+                "value": "5127"
+              },
+              {
+                "label": "5128: 烟草制品批发",
+                "value": "5128"
+              },
+              {
+                "label": "5129: 其他食品批发",
+                "value": "5129"
+              }
+            ]
+          },
+          {
+            "label": "513: 纺织、服装及家庭用品批发",
+            "value": "513",
+            "children": [
+              {
+                "label": "5131: 纺织品、针织品及原料批发",
+                "value": "5131"
+              },
+              {
+                "label": "5132: 服装批发",
+                "value": "5132"
+              },
+              {
+                "label": "5133: 鞋帽批发",
+                "value": "5133"
+              },
+              {
+                "label": "5134: 化妆品及卫生用品批发",
+                "value": "5134"
+              },
+              {
+                "label": "5135: 厨具卫具及日用杂品批发",
+                "value": "5135"
+              },
+              {
+                "label": "5136: 灯具、装饰物品批发",
+                "value": "5136"
+              },
+              {
+                "label": "5137: 家用视听设备批发",
+                "value": "5137"
+              },
+              {
+                "label": "5138: 日用家电批发",
+                "value": "5138"
+              },
+              {
+                "label": "5139: 其他家庭用品批发",
+                "value": "5139"
+              }
+            ]
+          },
+          {
+            "label": "514: 文化、体育用品及器材批发",
+            "value": "514",
+            "children": [
+              {
+                "label": "5141: 文具用品批发",
+                "value": "5141"
+              },
+              {
+                "label": "5142: 体育用品及器材批发",
+                "value": "5142"
+              },
+              {
+                "label": "5143: 图书批发",
+                "value": "5143"
+              },
+              {
+                "label": "5144: 报刊批发",
+                "value": "5144"
+              },
+              {
+                "label": "5145: 音像制品、电子和数字出版物批发",
+                "value": "5145"
+              },
+              {
+                "label": "5146: 首饰、工艺品及收藏品批发",
+                "value": "5146"
+              },
+              {
+                "label": "5147: 乐器批发",
+                "value": "5147"
+              },
+              {
+                "label": "5149: 其他文化用品批发",
+                "value": "5149"
+              }
+            ]
+          },
+          {
+            "label": "515: 医药及医疗器材批发",
+            "value": "515",
+            "children": [
+              {
+                "label": "5151: 西药批发",
+                "value": "5151"
+              },
+              {
+                "label": "5152: 中药批发",
+                "value": "5152"
+              },
+              {
+                "label": "5153: 动物用药品批发",
+                "value": "5153"
+              },
+              {
+                "label": "5154: 医疗用品及器材批发",
+                "value": "5154"
+              }
+            ]
+          },
+          {
+            "label": "516: 矿产品、建材及化工产品批发",
+            "value": "516",
+            "children": [
+              {
+                "label": "5161: 煤炭及制品批发",
+                "value": "5161"
+              },
+              {
+                "label": "5162: 石油及制品批发",
+                "value": "5162"
+              },
+              {
+                "label": "5163: 非金属矿及制品批发",
+                "value": "5163"
+              },
+              {
+                "label": "5164: 金属及金属矿批发",
+                "value": "5164"
+              },
+              {
+                "label": "5165: 建材批发",
+                "value": "5165"
+              },
+              {
+                "label": "5166: 化肥批发",
+                "value": "5166"
+              },
+              {
+                "label": "5167: 农药批发",
+                "value": "5167"
+              },
+              {
+                "label": "5168: 农用薄膜批发",
+                "value": "5168"
+              },
+              {
+                "label": "5169: 其他化工产品批发",
+                "value": "5169"
+              }
+            ]
+          },
+          {
+            "label": "517: 机械设备、五金产品及电子产品批发",
+            "value": "517",
+            "children": [
+              {
+                "label": "5171: 农业机械批发",
+                "value": "5171"
+              },
+              {
+                "label": "5172: 汽车及零配件批发",
+                "value": "5172"
+              },
+              {
+                "label": "5173: 摩托车及零配件批发",
+                "value": "5173"
+              },
+              {
+                "label": "5174: 五金产品批发",
+                "value": "5174"
+              },
+              {
+                "label": "5175: 电气设备批发",
+                "value": "5175"
+              },
+              {
+                "label": "5176: 计算机、软件及辅助设备批发",
+                "value": "5176"
+              },
+              {
+                "label": "5177: 通讯设备批发",
+                "value": "5177"
+              },
+              {
+                "label": "5178: 广播影视设备批发",
+                "value": "5178"
+              },
+              {
+                "label": "5179: 其他机械设备及电子产品批发",
+                "value": "5179"
+              }
+            ]
+          },
+          {
+            "label": "518: 贸易经纪与代理",
+            "value": "518",
+            "children": [
+              {
+                "label": "5181: 贸易代理",
+                "value": "5181"
+              },
+              {
+                "label": "5182: 一般物品拍卖 ",
+                "value": "5182"
+              },
+              {
+                "label": "5183: 艺术品、收藏品拍卖",
+                "value": "5183"
+              },
+              {
+                "label": "5184: 艺术品代理",
+                "value": "5184"
+              },
+              {
+                "label": "5189: 其他贸易经纪与代理",
+                "value": "5189"
+              }
+            ]
+          },
+          {
+            "label": "519: 其他批发业",
+            "value": "519",
+            "children": [
+              {
+                "label": "5191: 再生物资回收与批发",
+                "value": "5191"
+              },
+              {
+                "label": "5192: 宠物食品用品批发",
+                "value": "5192"
+              },
+              {
+                "label": "5193: 互联网批发",
+                "value": "5193"
+              },
+              {
+                "label": "5199: 其他未列明批发业",
+                "value": "5199"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "52: 零售业",
+        "value": "52",
+        "children": [
+          {
+            "label": "521: 综合零售",
+            "value": "521",
+            "children": [
+              {
+                "label": "5211: 百货零售",
+                "value": "5211"
+              },
+              {
+                "label": "5212: 超级市场零售",
+                "value": "5212"
+              },
+              {
+                "label": "5213: 便利店零售",
+                "value": "5213"
+              },
+              {
+                "label": "5219: 其他综合零售",
+                "value": "5219"
+              }
+            ]
+          },
+          {
+            "label": "522: 食品、饮料及烟草制品专门零售",
+            "value": "522",
+            "children": [
+              {
+                "label": "5221: 粮油零售",
+                "value": "5221"
+              },
+              {
+                "label": "5222: 糕点、面包零售",
+                "value": "5222"
+              },
+              {
+                "label": "5223: 果品、蔬菜零售",
+                "value": "5223"
+              },
+              {
+                "label": "5224: 肉、禽、蛋、奶及水产品零售",
+                "value": "5224"
+              },
+              {
+                "label": "5225: 营养和保健品零售",
+                "value": "5225"
+              },
+              {
+                "label": "5226: 酒、饮料及茶叶零售",
+                "value": "5226"
+              },
+              {
+                "label": "5227: 烟草制品零售",
+                "value": "5227"
+              },
+              {
+                "label": "5229: 其他食品零售",
+                "value": "5229"
+              }
+            ]
+          },
+          {
+            "label": "523: 纺织、服装及日用品专门零售",
+            "value": "523",
+            "children": [
+              {
+                "label": "5231: 纺织品及针织品零售",
+                "value": "5231"
+              },
+              {
+                "label": "5232: 服装零售",
+                "value": "5232"
+              },
+              {
+                "label": "5233: 鞋帽零售",
+                "value": "5233"
+              },
+              {
+                "label": "5234: 化妆品及卫生用品零售",
+                "value": "5234"
+              },
+              {
+                "label": "5235: 厨具卫具及日用杂品零售",
+                "value": "5235"
+              },
+              {
+                "label": "5236: 钟表、眼镜零售",
+                "value": "5236"
+              },
+              {
+                "label": "5237: 箱包零售",
+                "value": "5237"
+              },
+              {
+                "label": "5238: 自行车等代步设备零售",
+                "value": "5238"
+              },
+              {
+                "label": "5239: 其他日用品零售",
+                "value": "5239"
+              }
+            ]
+          },
+          {
+            "label": "524: 文化、体育用品及器材专门零售",
+            "value": "524",
+            "children": [
+              {
+                "label": "5241: 文具用品零售",
+                "value": "5241"
+              },
+              {
+                "label": "5242: 体育用品及器材零售",
+                "value": "5242"
+              },
+              {
+                "label": "5243: 图书、报刊零售",
+                "value": "5243"
+              },
+              {
+                "label": "5244: 音像制品、电子和数字出版物零售",
+                "value": "5244"
+              },
+              {
+                "label": "5245: 珠宝首饰零售",
+                "value": "5245"
+              },
+              {
+                "label": "5246: 工艺美术品及收藏品零售",
+                "value": "5246"
+              },
+              {
+                "label": "5247: 乐器零售",
+                "value": "5247"
+              },
+              {
+                "label": "5248: 照相器材零售",
+                "value": "5248"
+              },
+              {
+                "label": "5249: 其他文化用品零售",
+                "value": "5249"
+              }
+            ]
+          },
+          {
+            "label": "525: 医药及医疗器材专门零售",
+            "value": "525",
+            "children": [
+              {
+                "label": "5251: 西药零售",
+                "value": "5251"
+              },
+              {
+                "label": "5252: 中药零售",
+                "value": "5252"
+              },
+              {
+                "label": "5253: 动物用药品零售",
+                "value": "5253"
+              },
+              {
+                "label": "5254: 医疗用品及器材零售",
+                "value": "5254"
+              },
+              {
+                "label": "5255: 保健辅助治疗器材零售",
+                "value": "5255"
+              }
+            ]
+          },
+          {
+            "label": "526: 汽车、摩托车、零配件和燃料及其他动力销售",
+            "value": "526",
+            "children": [
+              {
+                "label": "5261: 汽车新车零售",
+                "value": "5261"
+              },
+              {
+                "label": "5262: 汽车旧车零售",
+                "value": "5262"
+              },
+              {
+                "label": "5263: 汽车零配件零售",
+                "value": "5263"
+              },
+              {
+                "label": "5264: 摩托车及零配件零售",
+                "value": "5264"
+              },
+              {
+                "label": "5265: 机动车燃油零售",
+                "value": "5265"
+              },
+              {
+                "label": "5266: 机动车燃气零售",
+                "value": "5266"
+              },
+              {
+                "label": "5267: 机动车充电销售",
+                "value": "5267"
+              }
+            ]
+          },
+          {
+            "label": "527: 家用电器及电子产品专门零售 ",
+            "value": "527",
+            "children": [
+              {
+                "label": "5271: 家用视听设备零售",
+                "value": "5271"
+              },
+              {
+                "label": "5272: 日用家电零售",
+                "value": "5272"
+              },
+              {
+                "label": "5273: 计算机、软件及辅助设备零售",
+                "value": "5273"
+              },
+              {
+                "label": "5274: 通信设备零售",
+                "value": "5274"
+              },
+              {
+                "label": "5279: 其他电子产品零售",
+                "value": "5279"
+              }
+            ]
+          },
+          {
+            "label": "528: 五金、家具及室内装饰材料专门零售",
+            "value": "528",
+            "children": [
+              {
+                "label": "5281: 五金零售",
+                "value": "5281"
+              },
+              {
+                "label": "5282: 灯具零售",
+                "value": "5282"
+              },
+              {
+                "label": "5283: 家具零售",
+                "value": "5283"
+              },
+              {
+                "label": "5284: 涂料零售",
+                "value": "5284"
+              },
+              {
+                "label": "5285: 卫生洁具零售",
+                "value": "5285"
+              },
+              {
+                "label": "5286: 木质装饰材料零售",
+                "value": "5286"
+              },
+              {
+                "label": "5287: 陶瓷、石材装饰材料零售",
+                "value": "5287"
+              },
+              {
+                "label": "5289: 其他室内装饰材料零售",
+                "value": "5289"
+              }
+            ]
+          },
+          {
+            "label": "529: 货摊、无店铺及其他零售业",
+            "value": "529",
+            "children": [
+              {
+                "label": "5291: 流动货摊零售",
+                "value": "5291"
+              },
+              {
+                "label": "5292: 互联网零售",
+                "value": "5292"
+              },
+              {
+                "label": "5293: 邮购及电视、电话零售",
+                "value": "5293"
+              },
+              {
+                "label": "5294: 自动售货机零售",
+                "value": "5294"
+              },
+              {
+                "label": "5295: 旧货零售",
+                "value": "5295"
+              },
+              {
+                "label": "5296: 生活用燃料零售",
+                "value": "5296"
+              },
+              {
+                "label": "5297: 宠物食品用品零售",
+                "value": "5297"
+              },
+              {
+                "label": "5299: 其他未列明零售业",
+                "value": "5299"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "G: 交通运输、仓储和邮政业",
+    "value": "G",
+    "children": [
+      {
+        "label": "53: 铁路运输业",
+        "value": "53",
+        "children": [
+          {
+            "label": "531: 铁路旅客运输",
+            "value": "531",
+            "children": [
+              {
+                "label": "5311: 高速铁路旅客运输",
+                "value": "5311"
+              },
+              {
+                "label": "5312: 城际铁路旅客运输",
+                "value": "5312"
+              },
+              {
+                "label": "5313: 普通铁路旅客运输",
+                "value": "5313"
+              }
+            ]
+          },
+          {
+            "label": "5320: 铁路货物运输",
+            "value": "5320"
+          },
+          {
+            "label": "533: 铁路运输辅助活动",
+            "value": "533",
+            "children": [
+              {
+                "label": "5331: 客运火车站",
+                "value": "5331"
+              },
+              {
+                "label": "5332: 货运火车站（场）",
+                "value": "5332"
+              },
+              {
+                "label": "5333: 铁路运输维护活动",
+                "value": "5333"
+              },
+              {
+                "label": "5339: 其他铁路运输辅助活动",
+                "value": "5339"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "54: 道路运输业",
+        "value": "54",
+        "children": [
+          {
+            "label": "541: 城市公共交通运输",
+            "value": "541",
+            "children": [
+              {
+                "label": "5411: 公共电汽车客运",
+                "value": "5411"
+              },
+              {
+                "label": "5412: 城市轨道交通",
+                "value": "5412"
+              },
+              {
+                "label": "5413: 出租车客运",
+                "value": "5413"
+              },
+              {
+                "label": "5414: 公共自行车服务",
+                "value": "5414"
+              },
+              {
+                "label": "5419: 其他城市公共交通运输 ",
+                "value": "5419"
+              }
+            ]
+          },
+          {
+            "label": "542: 公路旅客运输",
+            "value": "542",
+            "children": [
+              {
+                "label": "5421: 长途客运",
+                "value": "5421"
+              },
+              {
+                "label": "5422: 旅游客运",
+                "value": "5422"
+              },
+              {
+                "label": "5429: 其他公路客运",
+                "value": "5429"
+              }
+            ]
+          },
+          {
+            "label": "543: 道路货物运输",
+            "value": "543",
+            "children": [
+              {
+                "label": "5431: 普通货物道路运输",
+                "value": "5431"
+              },
+              {
+                "label": "5432: 冷藏车道路运输",
+                "value": "5432"
+              },
+              {
+                "label": "5433: 集装箱道路运输",
+                "value": "5433"
+              },
+              {
+                "label": "5434: 大型货物道路运输",
+                "value": "5434"
+              },
+              {
+                "label": "5435: 危险货物道路运输",
+                "value": "5435"
+              },
+              {
+                "label": "5436: 邮件包裹道路运输",
+                "value": "5436"
+              },
+              {
+                "label": "5437: 城市配送",
+                "value": "5437"
+              },
+              {
+                "label": "5438: 搬家运输",
+                "value": "5438"
+              },
+              {
+                "label": "5439: 其他道路货物运输",
+                "value": "5439"
+              }
+            ]
+          },
+          {
+            "label": "544: 道路运输辅助活动",
+            "value": "544",
+            "children": [
+              {
+                "label": "5441: 客运汽车站",
+                "value": "5441"
+              },
+              {
+                "label": "5442: 货运枢纽（站）",
+                "value": "5442"
+              },
+              {
+                "label": "5443: 公路管理与养护",
+                "value": "5443"
+              },
+              {
+                "label": "5449: 其他道路运输辅助活动",
+                "value": "5449"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "55: 水上运输业",
+        "value": "55",
+        "children": [
+          {
+            "label": "551: 水上旅客运输",
+            "value": "551",
+            "children": [
+              {
+                "label": "5511: 海上旅客运输",
+                "value": "5511"
+              },
+              {
+                "label": "5512: 内河旅客运输",
+                "value": "5512"
+              },
+              {
+                "label": "5513: 客运轮渡运输",
+                "value": "5513"
+              }
+            ]
+          },
+          {
+            "label": "552: 水上货物运输",
+            "value": "552",
+            "children": [
+              {
+                "label": "5521: 远洋货物运输",
+                "value": "5521"
+              },
+              {
+                "label": "5522: 沿海货物运输",
+                "value": "5522"
+              },
+              {
+                "label": "5523: 内河货物运输",
+                "value": "5523"
+              }
+            ]
+          },
+          {
+            "label": "553: 水上运输辅助活动",
+            "value": "553",
+            "children": [
+              {
+                "label": "5531: 客运港口",
+                "value": "5531"
+              },
+              {
+                "label": "5532: 货运港口",
+                "value": "5532"
+              },
+              {
+                "label": "5539: 其他水上运输辅助活动",
+                "value": "5539"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "56: 航空运输业 ",
+        "value": "56",
+        "children": [
+          {
+            "label": "561: 航空客货运输",
+            "value": "561",
+            "children": [
+              {
+                "label": "5611: 航空旅客运输",
+                "value": "5611"
+              },
+              {
+                "label": "5612: 航空货物运输",
+                "value": "5612"
+              }
+            ]
+          },
+          {
+            "label": "562: 通用航空服务",
+            "value": "562",
+            "children": [
+              {
+                "label": "5621: 通用航空生产服务",
+                "value": "5621"
+              },
+              {
+                "label": "5622: 观光游览航空服务",
+                "value": "5622"
+              },
+              {
+                "label": "5623: 体育航空运动服务",
+                "value": "5623"
+              },
+              {
+                "label": "5629: 其他通用航空服务",
+                "value": "5629"
+              }
+            ]
+          },
+          {
+            "label": "563: 航空运输辅助活动",
+            "value": "563",
+            "children": [
+              {
+                "label": "5631: 机场",
+                "value": "5631"
+              },
+              {
+                "label": "5632: 空中交通管理",
+                "value": "5632"
+              },
+              {
+                "label": "5639: 其他航空运输辅助活动",
+                "value": "5639"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "57: 管道运输业 ",
+        "value": "57",
+        "children": [
+          {
+            "label": "5710: 海底管道运输",
+            "value": "5710"
+          },
+          {
+            "label": "5720: 陆地管道运输",
+            "value": "5720"
+          }
+        ]
+      },
+      {
+        "label": "58: 多式联运和运输代理业",
+        "value": "58",
+        "children": [
+          {
+            "label": "5810: 多式联运",
+            "value": "5810"
+          },
+          {
+            "label": "582: 运输代理业",
+            "value": "582",
+            "children": [
+              {
+                "label": "5821: 货物运输代理",
+                "value": "5821"
+              },
+              {
+                "label": "5822: 旅客票务代理",
+                "value": "5822"
+              },
+              {
+                "label": "5829: 其他运输代理业",
+                "value": "5829"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "59: 装卸搬运和仓储业 ",
+        "value": "59",
+        "children": [
+          {
+            "label": "5910: 装卸搬运",
+            "value": "5910"
+          },
+          {
+            "label": "5920: 通用仓储",
+            "value": "5920"
+          },
+          {
+            "label": "5930: 低温仓储",
+            "value": "5930"
+          },
+          {
+            "label": "594: 危险品仓储",
+            "value": "594",
+            "children": [
+              {
+                "label": "5941: 油气仓储",
+                "value": "5941"
+              },
+              {
+                "label": "5942: 危险化学品仓储",
+                "value": "5942"
+              },
+              {
+                "label": "5949: 其他危险品仓储",
+                "value": "5949"
+              }
+            ]
+          },
+          {
+            "label": "595: 谷物、棉花等农产品仓储",
+            "value": "595",
+            "children": [
+              {
+                "label": "5951: 谷物仓储",
+                "value": "5951"
+              },
+              {
+                "label": "5952: 棉花仓储",
+                "value": "5952"
+              },
+              {
+                "label": "5959: 其他农产品仓储",
+                "value": "5959"
+              }
+            ]
+          },
+          {
+            "label": "5960: 中药材仓储",
+            "value": "5960"
+          },
+          {
+            "label": "5990: 其他仓储业",
+            "value": "5990"
+          }
+        ]
+      },
+      {
+        "label": "60: 邮政业",
+        "value": "60",
+        "children": [
+          {
+            "label": "6010: 邮政基本服务",
+            "value": "6010"
+          },
+          {
+            "label": "6020: 快递服务",
+            "value": "6020"
+          },
+          {
+            "label": "6090: 其他寄递服务",
+            "value": "6090"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "H: 住宿和餐饮业",
+    "value": "H",
+    "children": [
+      {
+        "label": "61: 住宿业",
+        "value": "61",
+        "children": [
+          {
+            "label": "6110: 旅游饭店",
+            "value": "6110"
+          },
+          {
+            "label": "612: 一般旅馆",
+            "value": "612",
+            "children": [
+              {
+                "label": "6121: 经济型连锁酒店",
+                "value": "6121"
+              },
+              {
+                "label": "6129: 其他一般旅馆",
+                "value": "6129"
+              }
+            ]
+          },
+          {
+            "label": "6130: 民宿服务",
+            "value": "6130"
+          },
+          {
+            "label": "6140: 露营地服务",
+            "value": "6140"
+          },
+          {
+            "label": "6190: 其他住宿业",
+            "value": "6190"
+          }
+        ]
+      },
+      {
+        "label": "62: 餐饮业",
+        "value": "62",
+        "children": [
+          {
+            "label": "6210: 正餐服务",
+            "value": "6210"
+          },
+          {
+            "label": "6220: 快餐服务",
+            "value": "6220"
+          },
+          {
+            "label": "623: 饮料及冷饮服务",
+            "value": "623",
+            "children": [
+              {
+                "label": "6231: 茶馆服务",
+                "value": "6231"
+              },
+              {
+                "label": "6232: 咖啡馆服务",
+                "value": "6232"
+              },
+              {
+                "label": "6233: 酒吧服务 ",
+                "value": "6233"
+              },
+              {
+                "label": "6239: 其他饮料及冷饮服务",
+                "value": "6239"
+              }
+            ]
+          },
+          {
+            "label": "624: 餐饮配送及外卖送餐服务",
+            "value": "624",
+            "children": [
+              {
+                "label": "6241: 餐饮配送服务",
+                "value": "6241"
+              },
+              {
+                "label": "6242: 外卖送餐服务",
+                "value": "6242"
+              }
+            ]
+          },
+          {
+            "label": "629: 其他餐饮业",
+            "value": "629",
+            "children": [
+              {
+                "label": "6291: 小吃服务",
+                "value": "6291"
+              },
+              {
+                "label": "6299: 其他未列明餐饮业",
+                "value": "6299"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "I: 信息传输、软件和信息技术服务业",
+    "value": "I",
+    "children": [
+      {
+        "label": "63: 电信、广播电视和卫星传输服务",
+        "value": "63",
+        "children": [
+          {
+            "label": "631: 电信",
+            "value": "631",
+            "children": [
+              {
+                "label": "6311: 固定电信服务",
+                "value": "6311"
+              },
+              {
+                "label": "6312: 移动电信服务",
+                "value": "6312"
+              },
+              {
+                "label": "6319: 其他电信服务",
+                "value": "6319"
+              }
+            ]
+          },
+          {
+            "label": "632: 广播电视传输服务",
+            "value": "632",
+            "children": [
+              {
+                "label": "6321: 有线广播电视传输服务",
+                "value": "6321"
+              },
+              {
+                "label": "6322: 无线广播电视传输服务",
+                "value": "6322"
+              }
+            ]
+          },
+          {
+            "label": "633: 卫星传输服务",
+            "value": "633",
+            "children": [
+              {
+                "label": "6331: 广播电视卫星传输服务",
+                "value": "6331"
+              },
+              {
+                "label": "6339: 其他卫星传输服务",
+                "value": "6339"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "64: 互联网和相关服务",
+        "value": "64",
+        "children": [
+          {
+            "label": "6410: 互联网接入及相关服务",
+            "value": "6410"
+          },
+          {
+            "label": "642: 互联网信息服务",
+            "value": "642",
+            "children": [
+              {
+                "label": "6421: 互联网搜索服务",
+                "value": "6421"
+              },
+              {
+                "label": "6422: 互联网游戏服务",
+                "value": "6422"
+              },
+              {
+                "label": "6429: 互联网其他信息服务",
+                "value": "6429"
+              }
+            ]
+          },
+          {
+            "label": "643: 互联网平台",
+            "value": "643",
+            "children": [
+              {
+                "label": "6431: 互联网生产服务平台",
+                "value": "6431"
+              },
+              {
+                "label": "6432: 互联网生活服务平台",
+                "value": "6432"
+              },
+              {
+                "label": "6433: 互联网科技创新平台",
+                "value": "6433"
+              },
+              {
+                "label": "6434: 互联网公共服务平台",
+                "value": "6434"
+              },
+              {
+                "label": "6439: 其他互联网平台",
+                "value": "6439"
+              }
+            ]
+          },
+          {
+            "label": "6440: 互联网安全服务",
+            "value": "6440"
+          },
+          {
+            "label": "6450: 互联网数据服务",
+            "value": "6450"
+          },
+          {
+            "label": "6490: 其他互联网服务",
+            "value": "6490"
+          }
+        ]
+      },
+      {
+        "label": "65: 软件和信息技术服务业",
+        "value": "65",
+        "children": [
+          {
+            "label": "651: 软件开发",
+            "value": "651",
+            "children": [
+              {
+                "label": "6511: 基础软件开发",
+                "value": "6511"
+              },
+              {
+                "label": "6512: 支撑软件开发",
+                "value": "6512"
+              },
+              {
+                "label": "6513: 应用软件开发",
+                "value": "6513"
+              },
+              {
+                "label": "6519: 其他软件开发",
+                "value": "6519"
+              }
+            ]
+          },
+          {
+            "label": "6520: 集成电路设计",
+            "value": "6520"
+          },
+          {
+            "label": "653: 信息系统集成和物联网技术服务",
+            "value": "653",
+            "children": [
+              {
+                "label": "6531: 信息系统集成服务",
+                "value": "6531"
+              },
+              {
+                "label": "6532: 物联网技术服务",
+                "value": "6532"
+              }
+            ]
+          },
+          {
+            "label": "6540: 运行维护服务",
+            "value": "6540"
+          },
+          {
+            "label": "6550: 信息处理和存储支持服务",
+            "value": "6550"
+          },
+          {
+            "label": "6560: 信息技术咨询服务",
+            "value": "6560"
+          },
+          {
+            "label": "657: 数字内容服务",
+            "value": "657",
+            "children": [
+              {
+                "label": "6571: 地理遥感信息服务",
+                "value": "6571"
+              },
+              {
+                "label": "6572: 动漫、游戏数字内容服务",
+                "value": "6572"
+              },
+              {
+                "label": "6579: 其他数字内容服务",
+                "value": "6579"
+              }
+            ]
+          },
+          {
+            "label": "659: 其他信息技术服务业",
+            "value": "659",
+            "children": [
+              {
+                "label": "6591: 呼叫中心",
+                "value": "6591"
+              },
+              {
+                "label": "6599: 其他未列明信息技术服务业",
+                "value": "6599"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "J: 金融业",
+    "value": "J",
+    "children": [
+      {
+        "label": "66: 货币金融服务",
+        "value": "66",
+        "children": [
+          {
+            "label": "6610: 中央银行服务",
+            "value": "6610"
+          },
+          {
+            "label": "662: 货币银行服务",
+            "value": "662",
+            "children": [
+              {
+                "label": "6621: 商业银行服务",
+                "value": "6621"
+              },
+              {
+                "label": "6622: 政策性银行服务",
+                "value": "6622"
+              },
+              {
+                "label": "6623: 信用合作社服务",
+                "value": "6623"
+              },
+              {
+                "label": "6624: 农村资金互助社服务",
+                "value": "6624"
+              },
+              {
+                "label": "6629: 其他货币银行服务",
+                "value": "6629"
+              }
+            ]
+          },
+          {
+            "label": "663: 非货币银行服务",
+            "value": "663",
+            "children": [
+              {
+                "label": "6631: 融资租赁服务",
+                "value": "6631"
+              },
+              {
+                "label": "6632: 财务公司服务 ",
+                "value": "6632"
+              },
+              {
+                "label": "6633: 典当",
+                "value": "6633"
+              },
+              {
+                "label": "6634: 汽车金融公司服务",
+                "value": "6634"
+              },
+              {
+                "label": "6635: 小额贷款公司服务 ",
+                "value": "6635"
+              },
+              {
+                "label": "6636: 消费金融公司服务 ",
+                "value": "6636"
+              },
+              {
+                "label": "6637: 网络借贷服务",
+                "value": "6637"
+              },
+              {
+                "label": "6639: 其他非货币银行服务",
+                "value": "6639"
+              }
+            ]
+          },
+          {
+            "label": "6640: 银行理财服务",
+            "value": "6640"
+          },
+          {
+            "label": "6650: 银行监管服务",
+            "value": "6650"
+          }
+        ]
+      },
+      {
+        "label": "67: 资本市场服务",
+        "value": "67",
+        "children": [
+          {
+            "label": "671: 证券市场服务",
+            "value": "671",
+            "children": [
+              {
+                "label": "6711: 证券市场管理服务",
+                "value": "6711"
+              },
+              {
+                "label": "6712: 证券经纪交易服务",
+                "value": "6712"
+              }
+            ]
+          },
+          {
+            "label": "6720: 公开募集证券投资基金",
+            "value": "6720"
+          },
+          {
+            "label": "673: 非公开募集证券投资基金",
+            "value": "673",
+            "children": [
+              {
+                "label": "6731: 创业投资基金",
+                "value": "6731"
+              },
+              {
+                "label": "6732: 天使投资",
+                "value": "6732"
+              },
+              {
+                "label": "6739: 其他非公开募集证券投资基金",
+                "value": "6739"
+              }
+            ]
+          },
+          {
+            "label": "674: 期货市场服务",
+            "value": "674",
+            "children": [
+              {
+                "label": "6741: 期货市场管理服务",
+                "value": "6741"
+              },
+              {
+                "label": "6749: 其他期货市场服务",
+                "value": "6749"
+              }
+            ]
+          },
+          {
+            "label": "6750: 证券期货监管服务",
+            "value": "6750"
+          },
+          {
+            "label": "6760: 资本投资服务",
+            "value": "6760"
+          },
+          {
+            "label": "6790: 其他资本市场服务",
+            "value": "6790"
+          }
+        ]
+      },
+      {
+        "label": "68: 保险业",
+        "value": "68",
+        "children": [
+          {
+            "label": "681: 人身保险",
+            "value": "681",
+            "children": [
+              {
+                "label": "6811: 人寿保险",
+                "value": "6811"
+              },
+              {
+                "label": "6812: 年金保险",
+                "value": "6812"
+              },
+              {
+                "label": "6813: 健康保险",
+                "value": "6813"
+              },
+              {
+                "label": "6814: 意外伤害保险",
+                "value": "6814"
+              }
+            ]
+          },
+          {
+            "label": "6820: 财产保险",
+            "value": "6820"
+          },
+          {
+            "label": "6830: 再保险",
+            "value": "6830"
+          },
+          {
+            "label": "6840: 商业养老金",
+            "value": "6840"
+          },
+          {
+            "label": "685: 保险中介服务",
+            "value": "685",
+            "children": [
+              {
+                "label": "6851: 保险经纪服务",
+                "value": "6851"
+              },
+              {
+                "label": "6852: 保险代理服务",
+                "value": "6852"
+              },
+              {
+                "label": "6853: 保险公估服务",
+                "value": "6853"
+              }
+            ]
+          },
+          {
+            "label": "6860: 保险资产管理",
+            "value": "6860"
+          },
+          {
+            "label": "6870: 保险监管服务",
+            "value": "6870"
+          },
+          {
+            "label": "6890: 其他保险活动",
+            "value": "6890"
+          }
+        ]
+      },
+      {
+        "label": "69: 其他金融业",
+        "value": "69",
+        "children": [
+          {
+            "label": "691: 金融信托与管理服务",
+            "value": "691",
+            "children": [
+              {
+                "label": "6911: 信托公司",
+                "value": "6911"
+              },
+              {
+                "label": "6919: 其他金融信托与管理服务",
+                "value": "6919"
+              }
+            ]
+          },
+          {
+            "label": "6920: 控股公司服务",
+            "value": "6920"
+          },
+          {
+            "label": "6930: 非金融机构支付服务",
+            "value": "6930"
+          },
+          {
+            "label": "6940: 金融信息服务",
+            "value": "6940"
+          },
+          {
+            "label": "6950: 金融资产管理公司",
+            "value": "6950"
+          },
+          {
+            "label": "699: 其他未列明金融业",
+            "value": "699",
+            "children": [
+              {
+                "label": "6991: 货币经纪公司服务",
+                "value": "6991"
+              },
+              {
+                "label": "6999: 其他未包括金融业",
+                "value": "6999"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "K: 房地产业",
+    "value": "K",
+    "children": [
+      {
+        "label": "70: 房地产业",
+        "value": "70",
+        "children": [
+          {
+            "label": "7010: 房地产开发经营",
+            "value": "7010"
+          },
+          {
+            "label": "7020: 物业管理",
+            "value": "7020"
+          },
+          {
+            "label": "7030: 房地产中介服务",
+            "value": "7030"
+          },
+          {
+            "label": "7040: 房地产租赁经营",
+            "value": "7040"
+          },
+          {
+            "label": "7090: 其他房地产业",
+            "value": "7090"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "L: 租赁和商务服务业",
+    "value": "L",
+    "children": [
+      {
+        "label": "71: 租赁业",
+        "value": "71",
+        "children": [
+          {
+            "label": "711: 机械设备经营租赁",
+            "value": "711",
+            "children": [
+              {
+                "label": "7111: 汽车租赁",
+                "value": "7111"
+              },
+              {
+                "label": "7112: 农业机械经营租赁",
+                "value": "7112"
+              },
+              {
+                "label": "7113: 建筑工程机械与设备经营租赁",
+                "value": "7113"
+              },
+              {
+                "label": "7114: 计算机及通讯设备经营租赁",
+                "value": "7114"
+              },
+              {
+                "label": "7115: 医疗设备经营租赁",
+                "value": "7115"
+              },
+              {
+                "label": "7119: 其他机械与设备经营租赁",
+                "value": "7119"
+              }
+            ]
+          },
+          {
+            "label": "712: 文体设备和用品出租",
+            "value": "712",
+            "children": [
+              {
+                "label": "7121: 休闲娱乐用品设备出租",
+                "value": "7121"
+              },
+              {
+                "label": "7122: 体育用品设备出租",
+                "value": "7122"
+              },
+              {
+                "label": "7123: 文化用品设备出租",
+                "value": "7123"
+              },
+              {
+                "label": "7124: 图书出租",
+                "value": "7124"
+              },
+              {
+                "label": "7125: 音像制品出租",
+                "value": "7125"
+              },
+              {
+                "label": "7129: 其他文体设备和用品出租",
+                "value": "7129"
+              }
+            ]
+          },
+          {
+            "label": "7130: 日用品出租",
+            "value": "7130"
+          }
+        ]
+      },
+      {
+        "label": "72: 商务服务业",
+        "value": "72",
+        "children": [
+          {
+            "label": "721: 组织管理服务",
+            "value": "721",
+            "children": [
+              {
+                "label": "7211: 企业总部管理",
+                "value": "7211"
+              },
+              {
+                "label": "7212: 投资与资产管理",
+                "value": "7212"
+              },
+              {
+                "label": "7213: 资源与产权交易服务",
+                "value": "7213"
+              },
+              {
+                "label": "7214: 单位后勤管理服务",
+                "value": "7214"
+              },
+              {
+                "label": "7215: 农村集体经济组织管理",
+                "value": "7215"
+              },
+              {
+                "label": "7219: 其他组织管理服务",
+                "value": "7219"
+              }
+            ]
+          },
+          {
+            "label": "722: 综合管理服务",
+            "value": "722",
+            "children": [
+              {
+                "label": "7221: 园区管理服务",
+                "value": "7221"
+              },
+              {
+                "label": "7222: 商业综合体管理服务",
+                "value": "7222"
+              },
+              {
+                "label": "7223: 市场管理服务",
+                "value": "7223"
+              },
+              {
+                "label": "7224: 供应链管理服务",
+                "value": "7224"
+              },
+              {
+                "label": "7229: 其他综合管理服务",
+                "value": "7229"
+              }
+            ]
+          },
+          {
+            "label": "723: 法律服务",
+            "value": "723",
+            "children": [
+              {
+                "label": "7231: 律师及相关法律服务",
+                "value": "7231"
+              },
+              {
+                "label": "7232: 公证服务",
+                "value": "7232"
+              },
+              {
+                "label": "7239: 其他法律服务",
+                "value": "7239"
+              }
+            ]
+          },
+          {
+            "label": "724: 咨询与调查",
+            "value": "724",
+            "children": [
+              {
+                "label": "7241: 会计、审计及税务服务",
+                "value": "7241"
+              },
+              {
+                "label": "7242: 市场调查",
+                "value": "7242"
+              },
+              {
+                "label": "7243: 社会经济咨询",
+                "value": "7243"
+              },
+              {
+                "label": "7244: 健康咨询",
+                "value": "7244"
+              },
+              {
+                "label": "7245: 环保咨询",
+                "value": "7245"
+              },
+              {
+                "label": "7246: 体育咨询",
+                "value": "7246"
+              },
+              {
+                "label": "7249: 其他专业咨询与调查",
+                "value": "7249"
+              }
+            ]
+          },
+          {
+            "label": "725: 广告业",
+            "value": "725",
+            "children": [
+              {
+                "label": "7251: 互联网广告服务",
+                "value": "7251"
+              },
+              {
+                "label": "7259: 其他广告服务",
+                "value": "7259"
+              }
+            ]
+          },
+          {
+            "label": "726: 人力资源服务",
+            "value": "726",
+            "children": [
+              {
+                "label": "7261: 公共就业服务",
+                "value": "7261"
+              },
+              {
+                "label": "7262: 职业中介服务",
+                "value": "7262"
+              },
+              {
+                "label": "7263: 劳务派遣服务",
+                "value": "7263"
+              },
+              {
+                "label": "7264: 创业指导服务",
+                "value": "7264"
+              },
+              {
+                "label": "7269: 其他人力资源服务",
+                "value": "7269"
+              }
+            ]
+          },
+          {
+            "label": "727: 安全保护服务",
+            "value": "727",
+            "children": [
+              {
+                "label": "7271: 安全服务",
+                "value": "7271"
+              },
+              {
+                "label": "7272:  安全系统监控服务",
+                "value": "7272"
+              },
+              {
+                "label": "7279: 其他安全保护服务",
+                "value": "7279"
+              }
+            ]
+          },
+          {
+            "label": "728: 会议、展览及相关服务",
+            "value": "728",
+            "children": [
+              {
+                "label": "7281: 科技会展服务",
+                "value": "7281"
+              },
+              {
+                "label": "7282: 旅游会展服务",
+                "value": "7282"
+              },
+              {
+                "label": "7283: 体育会展服务",
+                "value": "7283"
+              },
+              {
+                "label": "7284: 文化会展服务",
+                "value": "7284"
+              },
+              {
+                "label": "7289: 其他会议、展览及相关服务",
+                "value": "7289"
+              }
+            ]
+          },
+          {
+            "label": "729: 其他商务服务业",
+            "value": "729",
+            "children": [
+              {
+                "label": "7291: 旅行社及相关服务",
+                "value": "7291"
+              },
+              {
+                "label": "7292: 包装服务",
+                "value": "7292"
+              },
+              {
+                "label": "7293: 办公服务",
+                "value": "7293"
+              },
+              {
+                "label": "7294: 翻译服务",
+                "value": "7294"
+              },
+              {
+                "label": "7295: 信用服务",
+                "value": "7295"
+              },
+              {
+                "label": "7296: 非融资担保服务",
+                "value": "7296"
+              },
+              {
+                "label": "7297: 商务代理代办服务",
+                "value": "7297"
+              },
+              {
+                "label": "7298: 票务代理服务",
+                "value": "7298"
+              },
+              {
+                "label": "7299: 其他未列明商务服务业",
+                "value": "7299"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "M: 科学研究和技术服务业",
+    "value": "M",
+    "children": [
+      {
+        "label": "73: 研究和试验发展",
+        "value": "73",
+        "children": [
+          {
+            "label": "7310: 自然科学研究和试验发展",
+            "value": "7310"
+          },
+          {
+            "label": "7320: 工程和技术研究和试验发展",
+            "value": "7320"
+          },
+          {
+            "label": "7330: 农业科学研究和试验发展",
+            "value": "7330"
+          },
+          {
+            "label": "7340: 医学研究和试验发展",
+            "value": "7340"
+          },
+          {
+            "label": "7350: 社会人文科学研究",
+            "value": "7350"
+          }
+        ]
+      },
+      {
+        "label": "74: 专业技术服务业",
+        "value": "74",
+        "children": [
+          {
+            "label": "7410: 气象服务",
+            "value": "7410"
+          },
+          {
+            "label": "7420: 地震服务",
+            "value": "7420"
+          },
+          {
+            "label": "743: 海洋服务",
+            "value": "743",
+            "children": [
+              {
+                "label": "7431: 海洋气象服务",
+                "value": "7431"
+              },
+              {
+                "label": "7432: 海洋环境服务",
+                "value": "7432"
+              },
+              {
+                "label": "7439: 其他海洋服务",
+                "value": "7439"
+              }
+            ]
+          },
+          {
+            "label": "744: 测绘地理信息服务",
+            "value": "744",
+            "children": [
+              {
+                "label": "7441: 遥感测绘服务",
+                "value": "7441"
+              },
+              {
+                "label": "7449: 其他测绘地理信息服务",
+                "value": "7449"
+              }
+            ]
+          },
+          {
+            "label": "745: 质检技术服务",
+            "value": "745",
+            "children": [
+              {
+                "label": "7451: 检验检疫服务",
+                "value": "7451"
+              },
+              {
+                "label": "7452: 检测服务",
+                "value": "7452"
+              },
+              {
+                "label": "7453: 计量服务",
+                "value": "7453"
+              },
+              {
+                "label": "7454: 标准化服务",
+                "value": "7454"
+              },
+              {
+                "label": "7455: 认证认可服务",
+                "value": "7455"
+              },
+              {
+                "label": "7459: 其他质检技术服务",
+                "value": "7459"
+              }
+            ]
+          },
+          {
+            "label": "746: 环境与生态监测",
+            "value": "746",
+            "children": [
+              {
+                "label": "7461: 环境保护监测",
+                "value": "7461"
+              },
+              {
+                "label": "7462: 生态资源监测",
+                "value": "7462"
+              },
+              {
+                "label": "7463: 野生动物疫源疫病防控监测",
+                "value": "7463"
+              }
+            ]
+          },
+          {
+            "label": "747: 地质勘查 ",
+            "value": "747",
+            "children": [
+              {
+                "label": "7471: 能源矿产地质勘查",
+                "value": "7471"
+              },
+              {
+                "label": "7472: 固体矿产地质勘查",
+                "value": "7472"
+              },
+              {
+                "label": "7473: 水、二氧化碳等矿产地质勘查",
+                "value": "7473"
+              },
+              {
+                "label": "7474: 基础地质勘查",
+                "value": "7474"
+              },
+              {
+                "label": "7475: 地质勘查技术服务",
+                "value": "7475"
+              }
+            ]
+          },
+          {
+            "label": "748: 工程技术与设计服务",
+            "value": "748",
+            "children": [
+              {
+                "label": "7481: 工程管理服务",
+                "value": "7481"
+              },
+              {
+                "label": "7482: 工程监理服务",
+                "value": "7482"
+              },
+              {
+                "label": "7483: 工程勘察活动",
+                "value": "7483"
+              },
+              {
+                "label": "7484: 工程设计活动",
+                "value": "7484"
+              },
+              {
+                "label": "7485: 规划设计管理",
+                "value": "7485"
+              },
+              {
+                "label": "7486: 土地规划服务",
+                "value": "7486"
+              }
+            ]
+          },
+          {
+            "label": "749: 工业与专业设计及其他专业技术服务",
+            "value": "749",
+            "children": [
+              {
+                "label": "7491: 工业设计服务",
+                "value": "7491"
+              },
+              {
+                "label": "7492: 专业设计服务",
+                "value": "7492"
+              },
+              {
+                "label": "7493: 兽医服务",
+                "value": "7493"
+              },
+              {
+                "label": "7499: 其他未列明专业技术服务业",
+                "value": "7499"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "75: 科技推广和应用服务",
+        "value": "75",
+        "children": [
+          {
+            "label": "751: 技术推广服务",
+            "value": "751",
+            "children": [
+              {
+                "label": "7511: 农林牧渔技术推广服务",
+                "value": "7511"
+              },
+              {
+                "label": "7512: 生物技术推广服务",
+                "value": "7512"
+              },
+              {
+                "label": "7513: 新材料技术推广服务",
+                "value": "7513"
+              },
+              {
+                "label": "7514: 节能技术推广服务",
+                "value": "7514"
+              },
+              {
+                "label": "7515: 新能源技术推广服务",
+                "value": "7515"
+              },
+              {
+                "label": "7516: 环保技术推广服务",
+                "value": "7516"
+              },
+              {
+                "label": "7517: 三维（3D)打印技术推广服务",
+                "value": "7517"
+              },
+              {
+                "label": "7519: 其他技术推广服务",
+                "value": "7519"
+              }
+            ]
+          },
+          {
+            "label": "7520: 知识产权服务",
+            "value": "7520"
+          },
+          {
+            "label": "7530: 科技中介服务",
+            "value": "7530"
+          },
+          {
+            "label": "7540: 创业空间服务",
+            "value": "7540"
+          },
+          {
+            "label": "7590: 其他科技推广服务业",
+            "value": "7590"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "N: 水利、环境和公共设施管理业",
+    "value": "N",
+    "children": [
+      {
+        "label": "76: 水利管理业",
+        "value": "76",
+        "children": [
+          {
+            "label": "7610: 防洪除涝设施管理",
+            "value": "7610"
+          },
+          {
+            "label": "7620: 水资源管理",
+            "value": "7620"
+          },
+          {
+            "label": "7630: 天然水收集与分配",
+            "value": "7630"
+          },
+          {
+            "label": "7640: 水文服务",
+            "value": "7640"
+          },
+          {
+            "label": "7690: 其他水利管理业",
+            "value": "7690"
+          }
+        ]
+      },
+      {
+        "label": "77: 生态保护和环境治理业",
+        "value": "77",
+        "children": [
+          {
+            "label": "771: 生态保护",
+            "value": "771",
+            "children": [
+              {
+                "label": "7711: 自然生态系统保护管理",
+                "value": "7711"
+              },
+              {
+                "label": "7712: 自然遗迹保护管理",
+                "value": "7712"
+              },
+              {
+                "label": "7713: 野生动物保护",
+                "value": "7713"
+              },
+              {
+                "label": "7714: 野生植物保护",
+                "value": "7714"
+              },
+              {
+                "label": "7715: 动物园、水族馆管理服务",
+                "value": "7715"
+              },
+              {
+                "label": "7716: 植物园管理服务",
+                "value": "7716"
+              },
+              {
+                "label": "7719: 其他自然保护",
+                "value": "7719"
+              }
+            ]
+          },
+          {
+            "label": "772: 环境治理业",
+            "value": "772",
+            "children": [
+              {
+                "label": "7721: 水污染治理",
+                "value": "7721"
+              },
+              {
+                "label": "7722: 大气污染治理",
+                "value": "7722"
+              },
+              {
+                "label": "7723: 固体废物治理",
+                "value": "7723"
+              },
+              {
+                "label": "7724: 危险废物治理",
+                "value": "7724"
+              },
+              {
+                "label": "7725: 放射性废物治理",
+                "value": "7725"
+              },
+              {
+                "label": "7726: 土壤污染治理与修复服务",
+                "value": "7726"
+              },
+              {
+                "label": "7727: 噪声与振动控制服务",
+                "value": "7727"
+              },
+              {
+                "label": "7729: 其他污染治理 ",
+                "value": "7729"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "78: 公共设施管理业",
+        "value": "78",
+        "children": [
+          {
+            "label": "7810: 市政设施管理",
+            "value": "7810"
+          },
+          {
+            "label": "7820: 环境卫生管理",
+            "value": "7820"
+          },
+          {
+            "label": "7830: 城乡市容管理",
+            "value": "7830"
+          },
+          {
+            "label": "7840: 绿化管理",
+            "value": "7840"
+          },
+          {
+            "label": "7850: 城市公园管理",
+            "value": "7850"
+          },
+          {
+            "label": "786: 游览景区管理",
+            "value": "786",
+            "children": [
+              {
+                "label": "7861: 名胜风景区管理",
+                "value": "7861"
+              },
+              {
+                "label": "7862: 森林公园管理",
+                "value": "7862"
+              },
+              {
+                "label": "7869: 其他游览景区管理",
+                "value": "7869"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "79: 土地管理业",
+        "value": "79",
+        "children": [
+          {
+            "label": "7910: 土地整治服务",
+            "value": "7910"
+          },
+          {
+            "label": "7920: 土地调查评估服务",
+            "value": "7920"
+          },
+          {
+            "label": "7930: 土地登记服务",
+            "value": "7930"
+          },
+          {
+            "label": "7940: 土地登记代理服务",
+            "value": "7940"
+          },
+          {
+            "label": "7990: 其他土地管理服务",
+            "value": "7990"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "O: 居民服务、修理和其他服务业",
+    "value": "O",
+    "children": [
+      {
+        "label": "80: 居民服务业",
+        "value": "80",
+        "children": [
+          {
+            "label": "8010: 家庭服务",
+            "value": "8010"
+          },
+          {
+            "label": "8020: 托儿所服务",
+            "value": "8020"
+          },
+          {
+            "label": "8030: 洗染服务",
+            "value": "8030"
+          },
+          {
+            "label": "8040: 理发及美容服务",
+            "value": "8040"
+          },
+          {
+            "label": "805: 洗浴和保健养生服务",
+            "value": "805",
+            "children": [
+              {
+                "label": "8051: 洗浴服务",
+                "value": "8051"
+              },
+              {
+                "label": "8052: 足浴服务",
+                "value": "8052"
+              },
+              {
+                "label": "8053: 养生保健服务",
+                "value": "8053"
+              }
+            ]
+          },
+          {
+            "label": "8060: 摄影扩印服务",
+            "value": "8060"
+          },
+          {
+            "label": "8070: 婚姻服务",
+            "value": "8070"
+          },
+          {
+            "label": "8080: 殡葬服务",
+            "value": "8080"
+          },
+          {
+            "label": "8090: 其他居民服务业",
+            "value": "8090"
+          }
+        ]
+      },
+      {
+        "label": "81: 机动车、电子产品和日用产品修理业",
+        "value": "81",
+        "children": [
+          {
+            "label": "811: 汽车、摩托车等修理与维护",
+            "value": "811",
+            "children": [
+              {
+                "label": "8111: 汽车修理与维护",
+                "value": "8111"
+              },
+              {
+                "label": "8112: 大型车辆装备修理与维护",
+                "value": "8112"
+              },
+              {
+                "label": "8113: 摩托车修理与维护",
+                "value": "8113"
+              },
+              {
+                "label": "8114: 助动车等修理与维护",
+                "value": "8114"
+              }
+            ]
+          },
+          {
+            "label": "812: 计算机和办公设备维修",
+            "value": "812",
+            "children": [
+              {
+                "label": "8121: 计算机和辅助设备修理",
+                "value": "8121"
+              },
+              {
+                "label": "8122: 通讯设备修理",
+                "value": "8122"
+              },
+              {
+                "label": "8129: 其他办公设备维修",
+                "value": "8129"
+              }
+            ]
+          },
+          {
+            "label": "813: 家用电器修理",
+            "value": "813",
+            "children": [
+              {
+                "label": "8131: 家用电子产品修理",
+                "value": "8131"
+              },
+              {
+                "label": "8132: 日用电器修理",
+                "value": "8132"
+              }
+            ]
+          },
+          {
+            "label": "819: 其他日用产品修理业",
+            "value": "819",
+            "children": [
+              {
+                "label": "8191: 自行车修理",
+                "value": "8191"
+              },
+              {
+                "label": "8192: 鞋和皮革修理",
+                "value": "8192"
+              },
+              {
+                "label": "8193: 家具和相关物品修理",
+                "value": "8193"
+              },
+              {
+                "label": "8199: 其他未列明日用产品修理业",
+                "value": "8199"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "82: 其他服务业",
+        "value": "82",
+        "children": [
+          {
+            "label": "821: 清洁服务",
+            "value": "821",
+            "children": [
+              {
+                "label": "8211: 建筑物清洁服务",
+                "value": "8211"
+              },
+              {
+                "label": "8219: 其他清洁服务",
+                "value": "8219"
+              }
+            ]
+          },
+          {
+            "label": "822: 宠物服务",
+            "value": "822",
+            "children": [
+              {
+                "label": "8221: 宠物饲养",
+                "value": "8221"
+              },
+              {
+                "label": "8222: 宠物医院服务",
+                "value": "8222"
+              },
+              {
+                "label": "8223: 宠物美容服务",
+                "value": "8223"
+              },
+              {
+                "label": "8224: 宠物寄托收养服务",
+                "value": "8224"
+              },
+              {
+                "label": "8229: 其他宠物服务",
+                "value": "8229"
+              }
+            ]
+          },
+          {
+            "label": "8290: 其他未列明服务业",
+            "value": "8290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "P: 教育",
+    "value": "P",
+    "children": [
+      {
+        "label": "83: 教育",
+        "value": "83",
+        "children": [
+          {
+            "label": "8310: 学前教育",
+            "value": "8310"
+          },
+          {
+            "label": "832: 初等教育",
+            "value": "832",
+            "children": [
+              {
+                "label": "8321: 普通小学教育",
+                "value": "8321"
+              },
+              {
+                "label": "8322: 成人小学教育",
+                "value": "8322"
+              }
+            ]
+          },
+          {
+            "label": "833: 中等教育",
+            "value": "833",
+            "children": [
+              {
+                "label": "8331: 普通初中教育",
+                "value": "8331"
+              },
+              {
+                "label": "8332: 职业初中教育",
+                "value": "8332"
+              },
+              {
+                "label": "8333: 成人初中教育",
+                "value": "8333"
+              },
+              {
+                "label": "8334: 普通高中教育",
+                "value": "8334"
+              },
+              {
+                "label": "8335: 成人高中教育",
+                "value": "8335"
+              },
+              {
+                "label": "8336: 中等职业学校教育",
+                "value": "8336"
+              }
+            ]
+          },
+          {
+            "label": "834: 高等教育",
+            "value": "834",
+            "children": [
+              {
+                "label": "8341: 普通高等教育",
+                "value": "8341"
+              },
+              {
+                "label": "8342: 成人高等教育",
+                "value": "8342"
+              }
+            ]
+          },
+          {
+            "label": "8350: 特殊教育",
+            "value": "8350"
+          },
+          {
+            "label": "839: 技能培训、教育辅助及其他教育",
+            "value": "839",
+            "children": [
+              {
+                "label": "8391: 职业技能培训",
+                "value": "8391"
+              },
+              {
+                "label": "8392: 体校及体育培训",
+                "value": "8392"
+              },
+              {
+                "label": "8393: 文化艺术培训",
+                "value": "8393"
+              },
+              {
+                "label": "8394: 教育辅助服务",
+                "value": "8394"
+              },
+              {
+                "label": "8399: 其他未列明教育",
+                "value": "8399"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Q: 卫生和社会工作",
+    "value": "Q",
+    "children": [
+      {
+        "label": "84: 卫生",
+        "value": "84",
+        "children": [
+          {
+            "label": "841: 医院",
+            "value": "841",
+            "children": [
+              {
+                "label": "8411: 综合医院",
+                "value": "8411"
+              },
+              {
+                "label": "8412: 中医医院",
+                "value": "8412"
+              },
+              {
+                "label": "8413: 中西医结合医院",
+                "value": "8413"
+              },
+              {
+                "label": "8414: 民族医院",
+                "value": "8414"
+              },
+              {
+                "label": "8415: 专科医院",
+                "value": "8415"
+              },
+              {
+                "label": "8416: 疗养院",
+                "value": "8416"
+              }
+            ]
+          },
+          {
+            "label": "842: 基层医疗卫生服务",
+            "value": "842",
+            "children": [
+              {
+                "label": "8421: 社区卫生服务中心（站）",
+                "value": "8421"
+              },
+              {
+                "label": "8422: 街道卫生院",
+                "value": "8422"
+              },
+              {
+                "label": "8423: 乡镇卫生院",
+                "value": "8423"
+              },
+              {
+                "label": "8424: 村卫生室 ",
+                "value": "8424"
+              },
+              {
+                "label": "8425: 门诊部（所）",
+                "value": "8425"
+              }
+            ]
+          },
+          {
+            "label": "843: 专业公共卫生服务",
+            "value": "843",
+            "children": [
+              {
+                "label": "8431: 疾病预防控制中心",
+                "value": "8431"
+              },
+              {
+                "label": "8432: 专科疾病防治院（所、站)",
+                "value": "8432"
+              },
+              {
+                "label": "8433: 妇幼保健院（所、站）",
+                "value": "8433"
+              },
+              {
+                "label": "8434: 急救中心（站）服务",
+                "value": "8434"
+              },
+              {
+                "label": "8435: 采供血机构服务",
+                "value": "8435"
+              },
+              {
+                "label": "8436: 计划生育技术服务活动",
+                "value": "8436"
+              }
+            ]
+          },
+          {
+            "label": "849: 其他卫生活动",
+            "value": "849",
+            "children": [
+              {
+                "label": "8491: 健康体检服务",
+                "value": "8491"
+              },
+              {
+                "label": "8492: 临床检验服务",
+                "value": "8492"
+              },
+              {
+                "label": "8499: 其他未列明卫生服务",
+                "value": "8499"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "85: 社会工作",
+        "value": "85",
+        "children": [
+          {
+            "label": "851: 提供住宿社会工作",
+            "value": "851",
+            "children": [
+              {
+                "label": "8511: 干部休养所",
+                "value": "8511"
+              },
+              {
+                "label": "8512: 护理机构服务",
+                "value": "8512"
+              },
+              {
+                "label": "8513: 精神康复服务",
+                "value": "8513"
+              },
+              {
+                "label": "8514: 老年人、残疾人养护服务",
+                "value": "8514"
+              },
+              {
+                "label": "8515: 临终关怀服务",
+                "value": "8515"
+              },
+              {
+                "label": "8516: 孤残儿童收养和庇护服务",
+                "value": "8516"
+              },
+              {
+                "label": "8519: 其他提供住宿社会救助",
+                "value": "8519"
+              }
+            ]
+          },
+          {
+            "label": "852: 不提供住宿社会工作",
+            "value": "852",
+            "children": [
+              {
+                "label": "8521: 社会看护与帮助服务",
+                "value": "8521"
+              },
+              {
+                "label": "8522: 康复辅具适配服务",
+                "value": "8522"
+              },
+              {
+                "label": "8529: 其他不提供住宿社会工作",
+                "value": "8529"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R: 文化、体育和娱乐业",
+    "value": "R",
+    "children": [
+      {
+        "label": "86: 新闻和出版业",
+        "value": "86",
+        "children": [
+          {
+            "label": "8610: 新闻业",
+            "value": "8610"
+          },
+          {
+            "label": "862: 出版业",
+            "value": "862",
+            "children": [
+              {
+                "label": "8621: 图书出版",
+                "value": "8621"
+              },
+              {
+                "label": "8622: 报纸出版",
+                "value": "8622"
+              },
+              {
+                "label": "8623: 期刊出版",
+                "value": "8623"
+              },
+              {
+                "label": "8624: 音像制品出版",
+                "value": "8624"
+              },
+              {
+                "label": "8625: 电子出版物出版",
+                "value": "8625"
+              },
+              {
+                "label": "8626: 数字出版",
+                "value": "8626"
+              },
+              {
+                "label": "8629: 其他出版业",
+                "value": "8629"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "87: 广播、电视、电影和影视录音制作业",
+        "value": "87",
+        "children": [
+          {
+            "label": "8710: 广播",
+            "value": "8710"
+          },
+          {
+            "label": "8720: 电视",
+            "value": "8720"
+          },
+          {
+            "label": "8730: 影视节目制作",
+            "value": "8730"
+          },
+          {
+            "label": "8740: 广播电视集成播控",
+            "value": "8740"
+          },
+          {
+            "label": "8750: 电影和广播电视节目发行",
+            "value": "8750"
+          },
+          {
+            "label": "8760: 电影放映",
+            "value": "8760"
+          },
+          {
+            "label": "8770: 录音制作",
+            "value": "8770"
+          }
+        ]
+      },
+      {
+        "label": "88: 文化艺术业",
+        "value": "88",
+        "children": [
+          {
+            "label": "8810: 文艺创作与表演",
+            "value": "8810"
+          },
+          {
+            "label": "8820: 艺术表演场馆",
+            "value": "8820"
+          },
+          {
+            "label": "883: 图书馆与档案馆",
+            "value": "883",
+            "children": [
+              {
+                "label": "8831: 图书馆",
+                "value": "8831"
+              },
+              {
+                "label": "8832: 档案馆",
+                "value": "8832"
+              }
+            ]
+          },
+          {
+            "label": "8840: 文物及非物质文化遗产保护",
+            "value": "8840"
+          },
+          {
+            "label": "8850: 博物馆",
+            "value": "8850"
+          },
+          {
+            "label": "8860: 烈士陵园、纪念馆",
+            "value": "8860"
+          },
+          {
+            "label": "8870: 群众文体活动",
+            "value": "8870"
+          },
+          {
+            "label": "8890: 其他文化艺术业",
+            "value": "8890"
+          }
+        ]
+      },
+      {
+        "label": "89: 体育",
+        "value": "89",
+        "children": [
+          {
+            "label": "891: 体育组织",
+            "value": "891",
+            "children": [
+              {
+                "label": "8911: 体育竞赛组织",
+                "value": "8911"
+              },
+              {
+                "label": "8912: 体育保障组织",
+                "value": "8912"
+              },
+              {
+                "label": "8919: 其他体育组织",
+                "value": "8919"
+              }
+            ]
+          },
+          {
+            "label": "892: 体育场地设施管理",
+            "value": "892",
+            "children": [
+              {
+                "label": "8921: 体育场馆管理",
+                "value": "8921"
+              },
+              {
+                "label": "8929: 其他体育场地设施管理 ",
+                "value": "8929"
+              }
+            ]
+          },
+          {
+            "label": "8930: 健身休闲活动",
+            "value": "8930"
+          },
+          {
+            "label": "899: 其他体育",
+            "value": "899",
+            "children": [
+              {
+                "label": "8991: 体育中介代理服务",
+                "value": "8991"
+              },
+              {
+                "label": "8992: 体育健康服务",
+                "value": "8992"
+              },
+              {
+                "label": "8999: 其他未列明体育",
+                "value": "8999"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "90: 娱乐业",
+        "value": "90",
+        "children": [
+          {
+            "label": "901: 室内娱乐活动",
+            "value": "901",
+            "children": [
+              {
+                "label": "9011: 歌舞厅娱乐活动",
+                "value": "9011"
+              },
+              {
+                "label": "9012: 电子游艺厅娱乐活动",
+                "value": "9012"
+              },
+              {
+                "label": "9013: 网吧活动",
+                "value": "9013"
+              },
+              {
+                "label": "9019: 其他室内娱乐活动",
+                "value": "9019"
+              }
+            ]
+          },
+          {
+            "label": "9020: 游乐园",
+            "value": "9020"
+          },
+          {
+            "label": "9030: 休闲观光活动",
+            "value": "9030"
+          },
+          {
+            "label": "904: 彩票活动",
+            "value": "904",
+            "children": [
+              {
+                "label": "9041: 体育彩票服务",
+                "value": "9041"
+              },
+              {
+                "label": "9042: 福利彩票服务",
+                "value": "9042"
+              },
+              {
+                "label": "9049: 其他彩票服务",
+                "value": "9049"
+              }
+            ]
+          },
+          {
+            "label": "905: 文化娱乐体育活动和经纪代理服务",
+            "value": "905",
+            "children": [
+              {
+                "label": "9051: 文化活动服务",
+                "value": "9051"
+              },
+              {
+                "label": "9052: 体育表演服务",
+                "value": "9052"
+              },
+              {
+                "label": "9053: 文化娱乐经纪人",
+                "value": "9053"
+              },
+              {
+                "label": "9054: 体育经纪人",
+                "value": "9054"
+              },
+              {
+                "label": "9059: 其他文化艺术经纪代理",
+                "value": "9059"
+              }
+            ]
+          },
+          {
+            "label": "9090: 其他娱乐业",
+            "value": "9090"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "S: 公共管理、社会保障和社会组织",
+    "value": "S",
+    "children": [
+      {
+        "label": "91: 中国共产党机关",
+        "value": "91",
+        "children": [
+          {
+            "label": "9100: 中国共产党机关",
+            "value": "9100"
+          }
+        ]
+      },
+      {
+        "label": "92: 国家机构",
+        "value": "92",
+        "children": [
+          {
+            "label": "9210: 国家权力机构",
+            "value": "9210"
+          },
+          {
+            "label": "922: 国家行政机构",
+            "value": "922",
+            "children": [
+              {
+                "label": "9221: 综合事务管理机构",
+                "value": "9221"
+              },
+              {
+                "label": "9222: 对外事务管理机构",
+                "value": "9222"
+              },
+              {
+                "label": "9223: 公共安全管理机构",
+                "value": "9223"
+              },
+              {
+                "label": "9224: 社会事务管理机构",
+                "value": "9224"
+              },
+              {
+                "label": "9225: 经济事务管理机构",
+                "value": "9225"
+              },
+              {
+                "label": "9226: 行政监督检查机构",
+                "value": "9226"
+              }
+            ]
+          },
+          {
+            "label": "923: 人民法院和人民检察院",
+            "value": "923",
+            "children": [
+              {
+                "label": "9231: 人民法院",
+                "value": "9231"
+              },
+              {
+                "label": "9232: 人民检察院",
+                "value": "9232"
+              }
+            ]
+          },
+          {
+            "label": "929: 其他国家机构",
+            "value": "929",
+            "children": [
+              {
+                "label": "9291: 消防管理机构",
+                "value": "9291"
+              },
+              {
+                "label": "9299: 其他未列明国家机构",
+                "value": "9299"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "93: 人民政协、民主党派",
+        "value": "93",
+        "children": [
+          {
+            "label": "9310: 人民政协",
+            "value": "9310"
+          },
+          {
+            "label": "9320: 民主党派",
+            "value": "9320"
+          }
+        ]
+      },
+      {
+        "label": "94: 社会保障",
+        "value": "94",
+        "children": [
+          {
+            "label": "941: 基本保险",
+            "value": "941",
+            "children": [
+              {
+                "label": "9411: 基本养老保险",
+                "value": "9411"
+              },
+              {
+                "label": "9412: 基本医疗保险",
+                "value": "9412"
+              },
+              {
+                "label": "9413: 失业保险",
+                "value": "9413"
+              },
+              {
+                "label": "9414: 工伤保险",
+                "value": "9414"
+              },
+              {
+                "label": "9415: 生育保险",
+                "value": "9415"
+              },
+              {
+                "label": "9419: 其他基本保险",
+                "value": "9419"
+              }
+            ]
+          },
+          {
+            "label": "9420: 补充保险",
+            "value": "9420"
+          },
+          {
+            "label": "9490: 其他社会保障",
+            "value": "9490"
+          }
+        ]
+      },
+      {
+        "label": "95: 群众团体、社会团体和其他成员组织",
+        "value": "95",
+        "children": [
+          {
+            "label": "951: 群众团体",
+            "value": "951",
+            "children": [
+              {
+                "label": "9511: 工会",
+                "value": "9511"
+              },
+              {
+                "label": "9512: 妇联",
+                "value": "9512"
+              },
+              {
+                "label": "9513: 共青团",
+                "value": "9513"
+              },
+              {
+                "label": "9519: 其他群众团体",
+                "value": "9519"
+              }
+            ]
+          },
+          {
+            "label": "952: 社会团体",
+            "value": "952",
+            "children": [
+              {
+                "label": "9521: 专业性团体",
+                "value": "9521"
+              },
+              {
+                "label": "9522: 行业性团体",
+                "value": "9522"
+              },
+              {
+                "label": "9529: 其他社会团体",
+                "value": "9529"
+              }
+            ]
+          },
+          {
+            "label": "9530: 基金会",
+            "value": "9530"
+          },
+          {
+            "label": "954: 宗教组织",
+            "value": "954",
+            "children": [
+              {
+                "label": "9541: 宗教团体服务",
+                "value": "9541"
+              },
+              {
+                "label": "9542: 宗教活动场所服务",
+                "value": "9542"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "96: 基层群众自治组织及其他组织",
+        "value": "96",
+        "children": [
+          {
+            "label": "9610: 社区居民自治组织",
+            "value": "9610"
+          },
+          {
+            "label": "9620: 村民自治组织",
+            "value": "9620"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "T: 国际组织",
+    "value": "T",
+    "children": [
+      {
+        "label": "97: 国际组织",
+        "value": "97",
+        "children": [
+          {
+            "label": "9700: 国际组织",
+            "value": "9700"
+          }
+        ]
+      }
+    ]
+  }
+]
+}
     },
     methods: {
       handleChange(value) {
